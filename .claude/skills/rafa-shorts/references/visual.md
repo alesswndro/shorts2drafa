@@ -3,10 +3,19 @@
 ## Render
 - Remotion 4.0.543 · 1080x1920 · 30 fps · H.264 + AAC 48 kHz estéreo.
 - Capa extra 1080x1440 (3:4) pro feed.
-- **O código Remotion dos EP01–EP04 não está neste repo.** Se aparecer, colocar em `remotion/` e
-  documentar aqui como renderizar (`npx remotion render ...`). Enquanto não existir, o entregável é
-  roteiro + storyboard + narração.
-- Mix: voz na frente; trilha e SFX bem abaixo (média final ≈ -19 dB, pico ≈ -3.5 dB).
+- O código original dos EP01–EP04 se perdeu. **A partir do EP05 o projeto está em `remotion/`** (recriado):
+  - `src/components/Person.tsx` — personagens em SVG (Rafa, Mãe, Kauã, Biel, Duda, Bike). Corpo genérico `Person`
+    com chapéu/cabelo/roupa/expressão/olhar/piscar; cada personagem é um preset.
+  - `src/components/ui.tsx` — HUD, legenda, balão, capa (TitleCard), enquete (Poll), Sunburst, ClockPill.
+  - `src/components/sets.tsx` — cenários (cozinha à noite, cozinha do trabalho, porta do despejo, caderno, rua).
+  - `src/epNN/EpNN.tsx` — o episódio: cenas por tempo absoluto, legendas por blocos de palavras (`CHUNKS`).
+  - `tools/align.py` — alinha roteiro ao áudio (sem ASR): `python3 tools/align.py voz.mp3 roteiro.txt align.json`.
+  - `tools/sound.py` — trilha + SFX sintetizados e mix: `python3 tools/sound.py voz.mp3 cues.json mix.wav`.
+  - Render: `npx remotion render EPNN out/rafa-epNN.mp4 --codec=h264 --crf=18 --audio-codec=aac --audio-bitrate=192k`
+    (navegador: `/opt/pw-browsers/chromium_headless_shell`, em `remotion.config.ts`).
+  - Conferir antes: `npx remotion still EPNN out/stills/x.jpg --frame=N` em cada cena.
+- Mix: voz intocada na frente; trilha -9 dB e SFX -8 dB abaixo da voz (RMS com gate); ganho global pra média ≈ -19 dB,
+  limitador em -1.5 dB (igual EP01–04).
 - Checar a capa antes de publicar (a capa 9:16 do EP4 saiu com faixa cinza de ~60 px no topo).
 
 ## Estilo

@@ -29,7 +29,10 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 6. **Narração** (só se o usuário pedir — gasta créditos): ElevenLabs `creative_generate_speech`,
    config de `references/voz.md`, 1 take (`generations_count: 1`). Nunca re-chamar pra "tentar de novo"
    sem o usuário pedir. Salve o flow_id no `estado.md`.
-7. **Render** (só se existir o projeto Remotion no repo — ver `references/visual.md`).
+7. **Vídeo** (sempre que o usuário mandar o áudio — ver `references/visual.md`):
+   escolher o take (mais pausas = alinhamento melhor; justificar) → copiar pra `remotion/public/epNN/voz.mp3` →
+   `align.py` → conferir se as pausas caem na pontuação → escrever `src/epNN/EpNN.tsx` seguindo o storyboard →
+   `cues.json` + `sound.py` → stills de cada cena e corrigir → render → conferir duração ≤ 70 s → enviar MP4 no chat.
 8. **Atualize a continuidade** (obrigatório ao final):
    - `estado.md`: novo dia/dinheiro/prazo/meta, enquete nova pendente, fios soltos.
    - `BIBLE.md`: linha na tabela da linha do tempo + roteiro final + personagens novos.
@@ -38,6 +41,8 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 9. Commit + push no branch de trabalho.
 
 ## Regras que não se negociam
+- **Recebeu o áudio do usuário → gere o vídeo (sempre).** Não perguntar; escolher o take (justificar),
+  alinhar legendas, renderizar e enviar o MP4 no chat.
 - **Duração MÁXIMA 1min10s (70 s), sempre**, contando capa e enquete. Narração ≤ 900 caracteres
   (Sandro ≈ 14,7 caracteres/s → ~61 s + ~6 s de enquete). Ritmo sem enrolação: corte frase que repete
   informação, frase que só descreve o que a imagem já mostra, e transição "e aí, então".
@@ -62,3 +67,4 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   passaram do limite. Narração ≤ 900 caracteres. EP05 cortado de 1.259 → 879.
 - 2026-11-24 — Regra do usuário: a escolha do final é OBRIGATÓRIA no roteiro (narrada, não só visual).
   Esquecida no EP05 v2; corrigido na v3 (867 caracteres).
+- 2026-11-24 — Voz: stability 0.40 / similarity 0.75 (do nome do arquivo). Regra: áudio recebido → gerar vídeo.

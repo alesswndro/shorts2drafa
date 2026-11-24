@@ -6,7 +6,9 @@
 | voice_id | `qPfM2laM0pRL4rrZtBGl` |
 | Modelo | `eleven_v4` |
 | output_format | `mp3_44100_128` |
-| stability / similarity / style / speed | padrão (não alterar) |
+| stability | **0.40** (s40) |
+| similarity_boost | **0.75** (sim75) |
+| style / speed | padrão |
 | pronunciation dictionary | nenhum |
 | Flow de referência | "Rafa EP1 narração" — `eU2Cyd4ERiMzj7afDQ6E` |
 
@@ -16,6 +18,9 @@ creative_generate_speech(voice_id="qPfM2laM0pRL4rrZtBGl", model_id="eleven_v4", 
 ```
 Depois: `creative_get_flow_run_status` até `all_completed`. Crie/reaproveite um flow chamado
 "Rafa EPNN narração" (`creative_create_flow`) pra manter organizado.
+
+Recuperado do nome do arquivo que o usuário exporta: `..._Sandro_Dutra_-_Articulated_and_Clear_pvc_s40_sim75_v4.mp3`.
+O usuário costuma gerar 2 takes e mandar os dois.
 
 ## Formato do texto
 - Uma frase (ou meia frase) por linha — a quebra de linha vira respiro.
