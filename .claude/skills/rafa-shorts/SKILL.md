@@ -38,6 +38,10 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 9. Commit + push no branch de trabalho.
 
 ## Regras que não se negociam
+- **SEMPRE entregar no chat** (pedido do usuário): toda vez que escrever ou revisar o texto com audio tags,
+  colar o roteiro completo num bloco de código na resposta, pronto pra copiar no ElevenLabs,
+  E enviar o arquivo `roteiro.md` com `SendUserFile`. Toda vez que renderizar vídeo, áudio ou capa,
+  enviar o arquivo com `SendUserFile` (MP4/MP3/PNG). Não basta salvar no repo e citar o caminho.
 - Voz: Sandro Dutra `qPfM2laM0pRL4rrZtBGl`, modelo `eleven_v4`. Nunca outra voz sem o usuário pedir.
 - Números batem com episódios anteriores (dinheiro, dias, preços por entrega, horários).
 - Todo episódio termina com cliffhanger + "PARTE N+1: VOCÊ DECIDE" com 2 opções **igualmente tentadoras
@@ -49,3 +53,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-24 — Skill recriada a partir dos MP4 finais EP01–EP04 e do flow "Rafa EP1 narração".
   Roteiros EP03/EP04 reconstruídos pelas legendas (tags perdidas). Regra nova: meta diária recalculada
   na tela (antes ficava fixa em R$ 60, escondendo o atraso). Resultado da enquete EP04: **A — contar pra mãe**.
+- 2026-11-24 — Regra do usuário: roteiro com tags e qualquer vídeo/áudio gerado SEMPRE enviados no chat
+  (bloco de código + SendUserFile), nunca só salvos no repo.
