@@ -1,0 +1,51 @@
+---
+name: rafa-shorts
+description: Produz o próximo episódio da série de shorts animados "Rafa" (menino de 16 anos em Belém juntando R$ 1.800 pra evitar o despejo) — roteiro no formato da voz Sandro Dutra no ElevenLabs, storyboard cena a cena, narração, enquete "você decide" e atualização da continuidade. Use quando o usuário falar em Rafa, próxima parte, parte N, episódio, storyboard ou roteiro da série, resultado de enquete, ou pedir pra gerar a narração do Sandro.
+---
+
+# Série Rafa — produção de episódio
+
+Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
+- `serie-rafa/estado.md` — onde a história parou: dia, dinheiro, prazo, enquete pendente, fios soltos.
+- `serie-rafa/BIBLE.md` — personagens, roteiros anteriores, linguagem visual.
+- `references/voz.md` — configuração exata do ElevenLabs e formato do texto.
+- `references/roteiro.md` — estrutura e regras de roteiro.
+- `references/visual.md` — sistema visual / Remotion.
+- `templates/storyboard.md` — formato do storyboard.
+
+## Fluxo
+
+1. **Estado.** Leia `estado.md`. Se houver enquete pendente e o usuário não disse o resultado, pergunte. Não invente o vencedor.
+2. **Conta.** Recalcule a meta: `meta = ceil((1800 - guardado) / dias_restantes)` e o atraso:
+   `atraso = (dia_atual × 60) - guardado`. Use esses números no episódio — a pressão financeira é o motor da série.
+3. **Ideia.** Proponha o episódio em 3–5 linhas (gancho, obstáculo, virada, cliffhanger, enquete A/B).
+   Seja crítico: se a ideia for fraca, diga. Espere o OK do usuário só se ele pediu pra aprovar antes;
+   caso contrário, siga e marque o que é decisão sua.
+4. **Roteiro** em `serie-rafa/episodios/epNN/roteiro.md`, no formato de `references/voz.md`
+   (1.000–1.300 caracteres, uma frase por linha, audio tags em inglês). Confira com `wc -m`.
+5. **Storyboard** em `serie-rafa/episodios/epNN/storyboard.md` seguindo o template:
+   cena a cena com tempo estimado, narração, chunks de legenda com cor, visual, HUD, SFX.
+   Também título da capa e texto da enquete.
+6. **Narração** (só se o usuário pedir — gasta créditos): ElevenLabs `creative_generate_speech`,
+   config de `references/voz.md`, 1 take (`generations_count: 1`). Nunca re-chamar pra "tentar de novo"
+   sem o usuário pedir. Salve o flow_id no `estado.md`.
+7. **Render** (só se existir o projeto Remotion no repo — ver `references/visual.md`).
+8. **Atualize a continuidade** (obrigatório ao final):
+   - `estado.md`: novo dia/dinheiro/prazo/meta, enquete nova pendente, fios soltos.
+   - `BIBLE.md`: linha na tabela da linha do tempo + roteiro final + personagens novos.
+   - Se aprendeu algo sobre o processo (feedback do usuário, erro, preferência), registre em
+     `references/` e no **Changelog** abaixo. Esta skill evolui a cada episódio.
+9. Commit + push no branch de trabalho.
+
+## Regras que não se negociam
+- Voz: Sandro Dutra `qPfM2laM0pRL4rrZtBGl`, modelo `eleven_v4`. Nunca outra voz sem o usuário pedir.
+- Números batem com episódios anteriores (dinheiro, dias, preços por entrega, horários).
+- Todo episódio termina com cliffhanger + "PARTE N+1: VOCÊ DECIDE" com 2 opções **igualmente tentadoras
+  e com custo real**. Se uma opção é obviamente a "certa", a enquete é fraca — reescreva.
+- Rafa é menor de idade: o perigo é real mas nunca glamourizado (sem fuga da polícia, sem risco de vida gratuito).
+- Linguagem paraense leve e natural ("tu", "menino", "lá do outro lado do canal") — sem caricatura.
+
+## Changelog
+- 2026-11-24 — Skill recriada a partir dos MP4 finais EP01–EP04 e do flow "Rafa EP1 narração".
+  Roteiros EP03/EP04 reconstruídos pelas legendas (tags perdidas). Regra nova: meta diária recalculada
+  na tela (antes ficava fixa em R$ 60, escondendo o atraso). Resultado da enquete EP04: **A — contar pra mãe**.

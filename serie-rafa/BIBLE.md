@@ -1,6 +1,7 @@
 # Série "Rafa" — Bible recuperada (EP01–EP04)
 
 Recuperado em 2026-11-24 a partir dos MP4 finais + flows do ElevenLabs.
+Processo de produção: skill `.claude/skills/rafa-shorts`. Estado atual: `serie-rafa/estado.md`.
 
 ## Voz (ElevenLabs)
 - Voz: **Sandro Dutra** — `voice_id: qPfM2laM0pRL4rrZtBGl` (professional, pt-BR, jovem, narrative_story)
@@ -50,7 +51,7 @@ Recuperado em 2026-11-24 a partir dos MP4 finais + flows do ElevenLabs.
 | 1 "R$ 12 pra salvar a casa" | 1 | R$ 12 | 30 | Dona Socorro: "remédio em 15 min!" |
 | 2 "15 minutos pra entregar a insulina" | 2 | R$ 25 (+8 +5 gorjeta) | 29 | Corrente estourou no meio da ladeira |
 | 3 "R$ 35 que ele não tinha" | 3→4 | R$ 43 (+18, 3 entregas) | 27 | Enquete: A) caixa pro Ver-o-Peso às 5h / B) só farmácia |
-| 4 "6 entregas antes da escola" | 5 | R$ 85 (+42, 6×R$7) | 26 | Chegou 40 min atrasado; diretora: "Vou ligar pra tua mãe, Rafael." Enquete: A) contar tudo pra mãe / B) esconder da mãe |
+| 4 "6 entregas antes da escola" | 5 | R$ 85 (+42, 6×R$7) | 26 | Chegou 40 min atrasado; diretora: "Vou ligar pra tua mãe, Rafael." Enquete: A) contar tudo pra mãe / B) esconder da mãe → **venceu A** |
 
 ## Roteiros
 ### EP01 (do flow ElevenLabs)
