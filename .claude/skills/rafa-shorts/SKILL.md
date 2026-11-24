@@ -47,7 +47,7 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   enviar o arquivo com `SendUserFile` (MP4/MP3/PNG). Não basta salvar no repo e citar o caminho.
 - Voz: Sandro Dutra `qPfM2laM0pRL4rrZtBGl`, modelo `eleven_v4`. Nunca outra voz sem o usuário pedir.
 - Números batem com episódios anteriores (dinheiro, dias, preços por entrega, horários).
-- Todo episódio termina com cliffhanger + "PARTE N+1: VOCÊ DECIDE" com 2 opções **igualmente tentadoras
+- Todo episódio termina com cliffhanger + **enquete narrada pelo Sandro** (última fala do roteiro) + "PARTE N+1: VOCÊ DECIDE" com 2 opções **igualmente tentadoras
   e com custo real**. Se uma opção é obviamente a "certa", a enquete é fraca — reescreva.
 - Rafa é menor de idade: o perigo é real mas nunca glamourizado (sem fuga da polícia, sem risco de vida gratuito).
 - Linguagem paraense leve e natural ("tu", "menino", "lá do outro lado do canal") — sem caricatura.
@@ -60,3 +60,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   (bloco de código + SendUserFile), nunca só salvos no repo.
 - 2026-11-24 — Regra do usuário: vídeo no MÁXIMO 70 s, sem ficar maçante. EP01 (72 s) e EP02 (86 s)
   passaram do limite. Narração ≤ 900 caracteres. EP05 cortado de 1.259 → 879.
+- 2026-11-24 — Regra do usuário: a escolha do final é OBRIGATÓRIA no roteiro (narrada, não só visual).
+  Esquecida no EP05 v2; corrigido na v3 (867 caracteres).

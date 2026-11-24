@@ -10,7 +10,10 @@
    Adultos ajudam como *recompensa* pelo esforço dele, nunca como resgate.
 5. **Dinheiro na tela** — todo ganho vira chip "+ R$ X" e o contador verde "R$ total".
 6. **Cliffhanger** na última frase, cortando no pico.
-7. **Enquete** — "PARTE N+1: VOCÊ DECIDE / O QUE O RAFA DEVE FAZER?" A vs B, máx. 4 palavras cada linha.
+7. **Enquete — OBRIGATÓRIA e NARRADA** — a última fala do roteiro é sempre a escolha, ex.:
+   `[curious] E agora, você decide:` / `o Rafa <opção A>... ou <opção B>?` / `Vota na enquete.`
+   Na tela: "PARTE N+1: VOCÊ DECIDE / O QUE O RAFA DEVE FAZER?" + cartões A/B (máx. 4 palavras por linha)
+   entrando sincronizados com a fala de cada opção; segurar ~4 s no final. Conta dentro dos 900 caracteres.
 
 ## Capa / título
 Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA SALVAR / A CASA",

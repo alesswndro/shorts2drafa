@@ -1,10 +1,10 @@
-# EP05 — R$ 215 de atraso (v2 — ≤ 70 s)
+# EP05 — R$ 215 de atraso (v3 — enquete narrada, ≤ 70 s)
 
 **Capa:** pill "PARTE 5" · **R$ 215** (vermelho) · DE ATRASO · **E ELE NEM SABIA** (amarelo)
 — fundo: cozinha à noite, mãe e Rafa frente a frente, caderno aberto na mesa.
 **HUD inicial:** Dia 5 · R$ 85 · 26 dias · Meta R$ 60/dia
 **HUD final:** Dia 5 · R$ 85 · 26 dias · Meta **R$ 66/dia** (vermelho)
-**Duração estimada:** ~66 s (879 caracteres ≈ 60 s de narração + ~6 s de enquete)
+**Duração estimada:** ~63 s (867 caracteres ≈ 59 s de narração + ~4 s segurando as opções)
 
 | # | Tempo | Narração | Legenda (chunks · cor) | Visual / animação | HUD | SFX |
 |---|---|---|---|---|---|---|
@@ -12,16 +12,15 @@
 | 2 | 4–9 s | Recap: 26 dias / R$ 1.800 | SE VOCÊ · CHEGOU AGORA: · **26 DIAS** (vermelho) · **R$ 1.800** (amarelo) | Porta azul com AVISO DE DESPEJO, carimbo R$ 1.800. | Despejo pisca vermelho | carimbo |
 | 3 | 9–15 s | Naquela noite, o Rafa contou tudo. A farmácia. A oficina. O Ver-o-Peso. | CONTOU **TUDO**. · **FARMÁCIA** · **OFICINA** · **VER-O-PESO** (amarelo, um por vez) | Cozinha à noite, lâmpada pendurada. 3 cartões polaroid caem na mesa, um por palavra. | — | "whoosh" ×3 |
 | 4 | 15–17 s | A mãe ficou calada. | A MÃE · FICOU **CALADA**. | Close na mãe, sem expressão. ~1 s sem legenda. | — | tique-taque, trilha some |
-| 5 | 17–23 s | Abriu a bolsa... papel dobrado. A conta do primeiro dia. | ABRIU A BOLSA... · UM **PAPEL** · A CONTA · DO **DIA 1** | Mão tira o papel; desdobra: "1.800 ÷ 30 = R$ 60/DIA" (página do EP1). | — | papel |
-| 6 | 23–26 s | "Tu achou que eu não tinha visto?" | (balão) | Balão branco. Rafa de olhos arregalados. | — | — |
-| 7 | 26–32 s | Embaixo, com a letra dela: Dia 5. Devia ter R$ 300. Tem R$ 85. | DIA 5. · DEVIA TER **R$ 300** (verde) · TEM **R$ 85** (vermelho) | Conta escrita a lápis (animação de traço), letra diferente da do Rafa. | — | lápis |
-| 8 | 32–35 s | R$ 215 de atraso. | **R$ 215** (vermelho gigante) · DE ATRASO. | Tela vermelha com sunburst (inverso da tela verde). Rafa assustado. | Guardado treme | impacto grave |
-| 9 | 35–39 s | Tava comemorando... enquanto perdia a corrida. | COMEMORANDO... · ENQUANTO **PERDIA** (vermelho) · A CORRIDA. | O "R$ 85 / 2x" do EP4 racha como vidro. | — | vidro rachando |
-| 10 | 39–42 s | Agora é R$ 66 por dia. Sem falhar nenhum. | **R$ 66** POR DIA. · SEM FALHAR. | **Pill META vem pro centro**, 60 riscado → 66 vermelho, volta pro lugar. | Meta → R$ 66 | "ding" seco |
-| 11 | 42–49 s | "Tu pode trabalhar. Mas às 7 em ponto na escola." "Atrasou de novo... acabou." | (balões) | Mãe fecha o caderno. Último balão com "ACABOU." em vermelho. | — | caderno fechando |
-| 12 | 49–55 s | Das 5 às 7. Dez entregas. Uma a cada 12 minutos. Sozinho, não dá. | DAS 5 ÀS 7. · **10 ENTREGAS** · 1 A CADA **12 MIN** (vermelho) · SOZINHO, **NÃO DÁ**. | Relógio 5:00 → 7:00 correndo; 10 ícones de entrega em grade; metade fica cinza. | — | relógio acelerado |
-| 13 | 55–60 s | Mas na rua tinha mais três meninos com bicicleta... e nenhum com trabalho. | MAIS **3 MENINOS** (amarelo) · COM BICICLETA... · E NENHUM · COM **TRABALHO**. | Rua de manhã: 3 crianças novas com bikes velhas, paradas. "!" amarelo sobre o Rafa. | — | "pling", trilha volta |
-| 14 | 60–66 s | — | — | Escurece → enquete → "VOTA NA ENQUETE ↓". | — | — |
+| 5 | 17–22 s | Tirou da bolsa a página do caderno. A do primeiro dia. | DA BOLSA... · A PÁGINA · DO **DIA 1** | Mão tira papel dobrado; desdobra: "1.800 ÷ 30 = R$ 60/DIA" (página do EP1). | — | papel |
+| 6 | 22–25 s | "Tu achou que eu não tinha visto?" | (balão) | Balão branco. Rafa de olhos arregalados. | — | — |
+| 7 | 25–31 s | Embaixo, com a letra dela: Dia 5. Devia ter R$ 300. Tem R$ 85. | DIA 5. · DEVIA TER **R$ 300** (verde) · TEM **R$ 85** (vermelho) | Conta escrita a lápis (animação de traço), letra diferente da do Rafa. | — | lápis |
+| 8 | 31–34 s | R$ 215 de atraso. | **R$ 215** (vermelho gigante) · DE ATRASO. | Tela vermelha com sunburst; o "R$ 85 / 2x" do EP4 racha como vidro por baixo (sem narração). | Guardado treme | impacto + vidro |
+| 9 | 34–37 s | Agora é R$ 66 por dia. Sem falhar nenhum. | **R$ 66** POR DIA. · SEM FALHAR. | **Pill META vem pro centro**, 60 riscado → 66 vermelho, volta pro lugar. | Meta → R$ 66 | "ding" seco |
+| 10 | 37–44 s | "Tu pode trabalhar. Mas às 7 em ponto na escola." "Atrasou de novo... acabou." | (balões) | Mãe fecha o caderno. Último balão com "ACABOU." em vermelho. | — | caderno fechando |
+| 11 | 44–48 s | Das 5 às 7. Dez entregas. Sozinho, não dá. | DAS 5 ÀS 7. · **10 ENTREGAS** · 1 A CADA 12 MIN (vermelho, só legenda) · SOZINHO, **NÃO DÁ**. | Relógio 5:00 → 7:00 correndo; 10 ícones de entrega; metade fica cinza. | — | relógio acelerado |
+| 12 | 48–53 s | Mas na rua tinha mais três meninos com bicicleta... e nenhum com trabalho. | MAIS **3 MENINOS** (amarelo) · COM BICICLETA... · E NENHUM · COM **TRABALHO**. | Rua de manhã: 3 crianças com bikes velhas, paradas. "!" amarelo sobre o Rafa. | — | "pling" |
+| 13 | 53–63 s | E agora, você decide: o Rafa chama os três meninos... ou faz tudo sozinho? Vota na enquete. | (sem legenda — os cartões são o texto) | Escurece → "PARTE 6: VOCÊ DECIDE" no "você decide" → cartão **A** entra em "chama os três meninos" → cartão **B** em "faz tudo sozinho" → "VOTA NA ENQUETE ↓" em "vota". Segura ~4 s. | — | "whoosh" em cada cartão |
 
 ## Enquete
 PARTE 6: VOCÊ DECIDE — O QUE O RAFA DEVE FAZER?
