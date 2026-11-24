@@ -22,7 +22,7 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
    Seja crítico: se a ideia for fraca, diga. Espere o OK do usuário só se ele pediu pra aprovar antes;
    caso contrário, siga e marque o que é decisão sua.
 4. **Roteiro** em `serie-rafa/episodios/epNN/roteiro.md`, no formato de `references/voz.md`
-   (1.000–1.300 caracteres, uma frase por linha, audio tags em inglês). Confira com `wc -m`.
+   (**máx. 900 caracteres**, uma frase por linha, audio tags em inglês). Confira com `wc -m`.
 5. **Storyboard** em `serie-rafa/episodios/epNN/storyboard.md` seguindo o template:
    cena a cena com tempo estimado, narração, chunks de legenda com cor, visual, HUD, SFX.
    Também título da capa e texto da enquete.
@@ -38,6 +38,9 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 9. Commit + push no branch de trabalho.
 
 ## Regras que não se negociam
+- **Duração MÁXIMA 1min10s (70 s), sempre**, contando capa e enquete. Narração ≤ 900 caracteres
+  (Sandro ≈ 14,7 caracteres/s → ~61 s + ~6 s de enquete). Ritmo sem enrolação: corte frase que repete
+  informação, frase que só descreve o que a imagem já mostra, e transição "e aí, então".
 - **SEMPRE entregar no chat** (pedido do usuário): toda vez que escrever ou revisar o texto com audio tags,
   colar o roteiro completo num bloco de código na resposta, pronto pra copiar no ElevenLabs,
   E enviar o arquivo `roteiro.md` com `SendUserFile`. Toda vez que renderizar vídeo, áudio ou capa,
@@ -55,3 +58,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   na tela (antes ficava fixa em R$ 60, escondendo o atraso). Resultado da enquete EP04: **A — contar pra mãe**.
 - 2026-11-24 — Regra do usuário: roteiro com tags e qualquer vídeo/áudio gerado SEMPRE enviados no chat
   (bloco de código + SendUserFile), nunca só salvos no repo.
+- 2026-11-24 — Regra do usuário: vídeo no MÁXIMO 70 s, sem ficar maçante. EP01 (72 s) e EP02 (86 s)
+  passaram do limite. Narração ≤ 900 caracteres. EP05 cortado de 1.259 → 879.

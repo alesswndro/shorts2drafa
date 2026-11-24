@@ -1,6 +1,6 @@
 # Regras de roteiro
 
-## Estrutura (55–85 s)
+## Estrutura (≤ 70 s — limite duro, incluindo enquete)
 1. **Gancho (0–3 s)** — a primeira frase repete o número da capa ("15 minutos. Esse era o tempo...").
 2. **Recap (3–8 s)** — "Se você chegou agora: o Rafa tem N dias pra juntar R$ 1.800... ou a família perde a casa."
    Obrigatório: cada parte é a primeira de alguém no feed.
@@ -26,3 +26,10 @@ Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA S
   `ceil((1800 - guardado) / dias_restantes)`.
 - Preços estabelecidos: farmácia R$ 6/entrega (Seu Raimundo pagou R$ 8 + R$ 5 gorjeta, única vez);
   Ver-o-Peso R$ 7/entrega; corrente R$ 35 (paga com trabalho, não com dinheiro).
+
+## Anti-maçante
+- Cada linha tem que trazer informação nova OU emoção nova. Se só repete, sai.
+- Não narrar o que a imagem já mostra ("ele olhou pra bicicleta" → mostra, não fala).
+- Recap em UMA linha.
+- Cenas de 2–5 s; nenhuma imagem parada mais de 5 s sem movimento/zoom/novo elemento.
+- Montagens (entregas, trabalho repetitivo) em no máximo 6 s, com contador subindo.

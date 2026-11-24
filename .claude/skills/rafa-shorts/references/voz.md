@@ -27,7 +27,8 @@ Depois: `creative_get_flow_run_status` até `all_completed`. Crie/reaproveite um
 - Suspense: reticências ("Bateu na porta...").
 - Valores sempre como "R$ 1.800", "R$ 6" — o v4 lê certo.
 - Horas por extenso quando faladas ("às 5 da manhã", "7 e 40").
-- Tamanho: 1.000–1.300 caracteres ≈ 55–85 s. Medir com `wc -m`.
+- Tamanho: **máx. 900 caracteres** (≈ 14,7 caracteres/s → ~61 s + enquete ≈ 67 s). Limite duro do vídeo: 70 s.
+  Medir com `wc -m` só no texto (dentro do bloco de código).
 
 ## Não usar
 - `VtMklhKDP2Y2mBvBbLwL` — voz de outro projeto (El Niño).

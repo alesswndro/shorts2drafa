@@ -34,3 +34,9 @@ cartões numerados 1/2/3 com fundo colorido · placa/aviso com valor em carimbo 
 ## Encerramento
 Cena escurece → pill vermelha "PARTE N+1: VOCÊ DECIDE" → "O QUE O RAFA DEVE FAZER?" →
 cartão A (círculo laranja) entra → cartão B (círculo azul-petróleo) entra → "VOTA NA ENQUETE ↓" amarelo.
+
+## Ficha de personagens
+`serie-rafa/personagens.png` — recortes reais dos EP01–EP04. Usar como referência de modelo.
+Gerada por script a partir dos MP4 (frames: EP1 20s mãe/Rafa · EP2 20s Socorro · EP2 66s Raimundo+filha ·
+EP3 54s Bené · EP4 16s açaí · 22s peixeiro · 43s diretora · 1s figurantes). Atualizar a cada personagem novo.
+Atenção: Dona Socorro e Diretora são parecidas (senhora, cabelo grisalho, óculos) — diferenciar por cenário/roupa.
