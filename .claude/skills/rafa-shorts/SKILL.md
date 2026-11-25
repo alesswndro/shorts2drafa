@@ -25,6 +25,7 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - Roteiro com tags: colar COMPLETO num bloco de código na resposta (pronto pra colar no ElevenLabs)
   + enviar `roteiro.md` com `SendUserFile`. Informar a duração estimada.
 - Vídeo: enviar o MP4 + **capa 9:16 E capa 3:4**, sempre as duas, com `SendUserFile`.
+- Descrição do post: padrão de `references/roteiro.md` (gancho + emoji + "Parte N 👇 No final, comenta A ou B!" + hashtags fixas).
   Nunca só salvar no repo e citar o caminho.
 - **Recebeu o áudio → gera o vídeo direto**, sem perguntar. O usuário gera a voz ele mesmo no ElevenLabs
   e costuma mandar 2 takes (`..._v4.mp3` e `..._v4_1.mp3`). Só gerar narração pelo MCP se ele pedir.
@@ -100,3 +101,4 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   EP05 final entregue: 90 s, voz take sem sufixo (87,3 s).
 - 2026-11-25 — Esclarecido pelo usuário: ~900 caracteres/~70 s é ALVO, não limite. Aproximar-se dele; passar
   só a favor da história, nunca com futilidades.
+- 2026-11-25 — Padrão de descrição do post definido a partir dos prints do EP01–04 (EP03/04 = modelo).

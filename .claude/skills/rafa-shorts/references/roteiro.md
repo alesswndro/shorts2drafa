@@ -53,3 +53,15 @@ Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA S
 - O Rafa é o motor: ele decide ajudar, refaz a conta, promete, insiste. Ninguém obriga.
 - A mãe: culpa + amor + proteção. Nunca cobra dinheiro nem dá ordem de trabalho; a regra dela é sobre
   o futuro dele (escola às 7h). Revisar cada fala de adulto: soou como chefe/castigo/cobrança → reescrever.
+
+## Descrição do post (padrão — a partir do EP03)
+`<gancho: fato com número + virada com "mas"/reticências> <1 emoji de reação> Parte N 👇 No final, comenta A ou B! #foradoroteiro #animação #rafa #superação #fy`
+- Gancho curto (≤ 70 caracteres), conta o conflito do episódio sem entregar o final. Número concreto sempre que der.
+- Emoji de reação: 😬 (tensão), 😳 (choque), ⏰🚲 (corrida contra o tempo).
+- Hashtags fixas, nessa ordem: `#foradoroteiro #animação #rafa #superação #fy`.
+- Entregar 1 principal + 2 alternativas, salvar em `serie-rafa/episodios/epNN/descricao.md`.
+- Histórico:
+  - EP01: "O Rafa tem 16 anos e 30 dias pra salvar a casa da mãe dele. Parte 1. O que ele deve fazer?" (32,9 mil views)
+  - EP02: "15 minutos. Uma entrega que não pode atrasar ⏰🚲 Parte 2" (3,4 mil)
+  - EP03: "A corrente estourou. E ele não tinha R$ 35 🚲 Parte 3 👇 No final, comenta A ou B!" (2,9 mil)
+  - EP04: "Ganhou R$ 42 antes das 7h... mas a diretora vai ligar pra mãe dele 😬 Parte 4 👇 No final, comenta A ou B!" (2,8 mil)
