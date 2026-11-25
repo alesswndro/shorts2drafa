@@ -45,9 +45,9 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - **HUD idêntico ao original** — usar o componente `Hud` sem alterar medidas (ver `references/visual.md`).
 - **Recebeu o áudio do usuário → gere o vídeo (sempre).** Não perguntar; escolher o take (justificar),
   alinhar legendas, renderizar e enviar o MP4 no chat.
-- **Duração: alvo 60–80 s.** Pode passar de 70 s quando o roteiro pedir, mas cada linha a mais tem que
-  aumentar a tensão. Sandro fala ≈ 12,7 caracteres falados/s (sem contar as tags): estimar antes de entregar
-  e dizer a duração prevista. Acima de ~85 s, cortar.
+- **Duração: ~70 s é referência, não teto.** Serve pra não prolongar à toa. Passar quando a história pedir
+  é normal (regra do usuário). O que nunca pode: linha que só enche. Sandro fala ≈ 12,7 caracteres
+  falados/s (sem as tags): estimar e informar a duração prevista ao entregar o roteiro.
 - **Roteiro BEM envolvente** (regra do usuário): gancho na 1ª linha, ciclo aberto a cada ~10–15 s
   ("ela não gritou... só abriu a bolsa"), viradas com "só que"/"mas", revelação emocional, cliffhanger.
 - **Abertura com o voto** (a partir do EP05): linha 1 = gancho visual/sonoro; linha 2 = "Vocês escolheram: ..."
@@ -78,5 +78,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-25 — HUD refeito idêntico ao original (medido pixel a pixel). Regra: sempre enviar capa 9:16 + 3:4.
 - 2026-11-25 — Regra do usuário: opções da enquete menos óbvias, cada uma com seu custo explícito
   (ex.: "sozinho, com muito esforço" vs "com os meninos, dividindo o lucro").
-- 2026-11-25 — Regras do usuário: roteiro BEM envolvente; limite de 70 s deixa de ser rígido (alvo 60–80 s);
+- 2026-11-25 — Regras do usuário: roteiro BEM envolvente; 70 s é referência pra não prolongar, não teto;
   abrir citando a opção vencedora ("Vocês escolheram...") sem perder o recap pros novos. EP05 v5 ≈ 79 s.

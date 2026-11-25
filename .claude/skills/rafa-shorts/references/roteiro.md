@@ -1,6 +1,6 @@
 # Regras de roteiro
 
-## Estrutura (alvo 60–80 s; passar de 70 só se cada linha a mais prender)
+## Estrutura (~70 s de referência; pode passar quando a história pedir, nunca enchendo linguiça)
 1. **Gancho (0–3 s)** — a primeira frase repete o número da capa ("15 minutos. Esse era o tempo...").
 2. **Voto + virada (3–7 s)** — "Vocês escolheram: <opção vencedora>." + "Só que..." (a escolha tem consequência).
 3. **Recap (7–11 s)** — "Se você chegou agora: o Rafa tem N dias pra juntar R$ 1.800... ou a família perde a casa."

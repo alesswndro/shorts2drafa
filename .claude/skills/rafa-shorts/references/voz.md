@@ -33,7 +33,7 @@ O usuário costuma gerar 2 takes e mandar os dois.
 - Valores sempre como "R$ 1.800", "R$ 6" — o v4 lê certo.
 - Horas por extenso quando faladas ("às 5 da manhã", "7 e 40").
 - Ritmo do Sandro (take medido no EP05): ≈ 12,7 caracteres falados/s (tags não contam).
-  Duração ≈ `sed -E 's/\[[^]]*\] ?//g' roteiro.txt | wc -m` ÷ 12,7. Alvo 60–80 s de vídeo.
+  Duração ≈ `sed -E 's/\[[^]]*\] ?//g' roteiro.txt | wc -m` ÷ 12,7. ~70 s é referência, não teto.
 
 ## Não usar
 - `VtMklhKDP2Y2mBvBbLwL` — voz de outro projeto (El Niño).
