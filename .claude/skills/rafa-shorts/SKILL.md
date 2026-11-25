@@ -22,7 +22,7 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
    Seja crítico: se a ideia for fraca, diga. Espere o OK do usuário só se ele pediu pra aprovar antes;
    caso contrário, siga e marque o que é decisão sua.
 4. **Roteiro** em `serie-rafa/episodios/epNN/roteiro.md`, no formato de `references/voz.md`
-   (**máx. 900 caracteres**, uma frase por linha, audio tags em inglês). Confira com `wc -m`.
+   (uma frase por linha, audio tags em inglês). Estime a duração: caracteres falados ÷ 12,7.
 5. **Storyboard** em `serie-rafa/episodios/epNN/storyboard.md` seguindo o template:
    cena a cena com tempo estimado, narração, chunks de legenda com cor, visual, HUD, SFX.
    Também título da capa e texto da enquete.
@@ -45,9 +45,14 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - **HUD idêntico ao original** — usar o componente `Hud` sem alterar medidas (ver `references/visual.md`).
 - **Recebeu o áudio do usuário → gere o vídeo (sempre).** Não perguntar; escolher o take (justificar),
   alinhar legendas, renderizar e enviar o MP4 no chat.
-- **Duração MÁXIMA 1min10s (70 s), sempre**, contando capa e enquete. Narração ≤ 900 caracteres
-  (Sandro ≈ 14,7 caracteres/s → ~61 s + ~6 s de enquete). Ritmo sem enrolação: corte frase que repete
-  informação, frase que só descreve o que a imagem já mostra, e transição "e aí, então".
+- **Duração: alvo 60–80 s.** Pode passar de 70 s quando o roteiro pedir, mas cada linha a mais tem que
+  aumentar a tensão. Sandro fala ≈ 12,7 caracteres falados/s (sem contar as tags): estimar antes de entregar
+  e dizer a duração prevista. Acima de ~85 s, cortar.
+- **Roteiro BEM envolvente** (regra do usuário): gancho na 1ª linha, ciclo aberto a cada ~10–15 s
+  ("ela não gritou... só abriu a bolsa"), viradas com "só que"/"mas", revelação emocional, cliffhanger.
+- **Abertura com o voto** (a partir do EP05): linha 1 = gancho visual/sonoro; linha 2 = "Vocês escolheram: ..."
+  + virada imediata ("Só que..."); linha 3 = recap pros novos ("Se você chegou agora: ..."). Nunca abrir
+  com "vocês escolheram" na linha 1.
 - **SEMPRE entregar no chat** (pedido do usuário): toda vez que escrever ou revisar o texto com audio tags,
   colar o roteiro completo num bloco de código na resposta, pronto pra copiar no ElevenLabs,
   E enviar o arquivo `roteiro.md` com `SendUserFile`. Toda vez que renderizar vídeo, áudio ou capa,
@@ -73,3 +78,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-25 — HUD refeito idêntico ao original (medido pixel a pixel). Regra: sempre enviar capa 9:16 + 3:4.
 - 2026-11-25 — Regra do usuário: opções da enquete menos óbvias, cada uma com seu custo explícito
   (ex.: "sozinho, com muito esforço" vs "com os meninos, dividindo o lucro").
+- 2026-11-25 — Regras do usuário: roteiro BEM envolvente; limite de 70 s deixa de ser rígido (alvo 60–80 s);
+  abrir citando a opção vencedora ("Vocês escolheram...") sem perder o recap pros novos. EP05 v5 ≈ 79 s.

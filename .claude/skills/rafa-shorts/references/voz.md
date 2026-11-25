@@ -32,8 +32,8 @@ O usuário costuma gerar 2 takes e mandar os dois.
 - Suspense: reticências ("Bateu na porta...").
 - Valores sempre como "R$ 1.800", "R$ 6" — o v4 lê certo.
 - Horas por extenso quando faladas ("às 5 da manhã", "7 e 40").
-- Tamanho: **máx. 900 caracteres** (≈ 14,7 caracteres/s → ~61 s + enquete ≈ 67 s). Limite duro do vídeo: 70 s.
-  Medir com `wc -m` só no texto (dentro do bloco de código).
+- Ritmo do Sandro (take medido no EP05): ≈ 12,7 caracteres falados/s (tags não contam).
+  Duração ≈ `sed -E 's/\[[^]]*\] ?//g' roteiro.txt | wc -m` ÷ 12,7. Alvo 60–80 s de vídeo.
 
 ## Não usar
 - `VtMklhKDP2Y2mBvBbLwL` — voz de outro projeto (El Niño).
