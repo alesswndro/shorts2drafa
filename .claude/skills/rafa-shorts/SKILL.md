@@ -61,6 +61,9 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - Números batem com episódios anteriores (dinheiro, dias, preços por entrega, horários).
 - Todo episódio termina com cliffhanger + **enquete narrada pelo Sandro** (última fala do roteiro) + "PARTE N+1: VOCÊ DECIDE" com 2 opções **igualmente tentadoras
   e com custo real**. Se uma opção é obviamente a "certa", a enquete é fraca — reescreva.
+- **O Rafa ajuda porque quer** (regra do usuário): ele é quem decide, se cobra e insiste. A mãe e os
+  adultos nunca impõem a meta nem cobram dinheiro dele; ela sente culpa, protege (escola, futuro) e apoia.
+  Revisar toda fala de adulto: se soar como cobrança, chefe ou castigo, reescrever.
 - Rafa é menor de idade: o perigo é real mas nunca glamourizado (sem fuga da polícia, sem risco de vida gratuito).
 - Linguagem paraense leve e natural ("tu", "menino", "lá do outro lado do canal") — sem caricatura.
 
@@ -80,3 +83,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   (ex.: "sozinho, com muito esforço" vs "com os meninos, dividindo o lucro").
 - 2026-11-25 — Regras do usuário: roteiro BEM envolvente; 70 s é referência pra não prolongar, não teto;
   abrir citando a opção vencedora ("Vocês escolheram...") sem perder o recap pros novos. EP05 v5 ≈ 79 s.
+- 2026-11-25 — Feedback: no EP05 a mãe parecia obrigar o Rafa. Regra: ele ajuda por vontade própria; adultos
+  protegem, não cobram. EP05 v6 reescrito (conta refeita por ele; "teu futuro não entra nessa conta").

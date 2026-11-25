@@ -39,6 +39,8 @@ Processo de produção: skill `.claude/skills/rafa-shorts`. Estado atual: `serie
 ## Personagens
 - **Rafa (Rafael)**, 16 — boné vermelho virado, mochila de entrega laranja, camiseta azul-petróleo, suspensório, bermuda azul, bicicleta azul velha.
 - **Mãe** — lenço roxo na cabeça, blusa rosa/salmão. Chega do trabalho às 22h. "Fingiu que não viu" o caderno (EP1).
+  Sente culpa pela dívida; nunca cobra o Rafa. No EP05: "Essa conta nunca foi pra ser tua" / "Então a gente faz junto" /
+  regra: às 7h na escola ("teu futuro não entra nessa conta").
 - **Dona Socorro** — Farmácia Socorro, cabelo branco, óculos, jaleco. Paga R$ 6/entrega.
 - **Seu Raimundo** (casa azul nº 40, outro lado do canal) + filha (deu R$ 5 de gorjeta).
 - **Seu Bené** — Oficina do Bené, boné laranja, barba branca, macacão azul. Deu a corrente e a caixa térmica.
