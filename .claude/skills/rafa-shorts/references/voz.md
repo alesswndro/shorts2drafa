@@ -32,8 +32,11 @@ O usuário costuma gerar 2 takes e mandar os dois.
 - Suspense: reticências ("Bateu na porta...").
 - Valores sempre como "R$ 1.800", "R$ 6" — o v4 lê certo.
 - Horas por extenso quando faladas ("às 5 da manhã", "7 e 40").
-- Ritmo do Sandro (take medido no EP05): ≈ 12,7 caracteres falados/s (tags não contam).
-  Duração ≈ `sed -E 's/\[[^]]*\] ?//g' roteiro.txt | wc -m` ÷ 12,7. ~70 s é referência, não teto.
+- Ritmo do Sandro: 12,6–13,2 caracteres falados/s (tags não contam; varia por take — o EP05 v7 saiu mais lento:
+  1.097 caracteres → 87 s). Duração ≈ `sed -E 's/\[[^]]*\] ?//g' roteiro.txt | wc -m` ÷ 12,6 (estimativa
+  conservadora). Alvo: ~900 caracteres falados ≈ ~70 s — aproximar-se; passar só a favor da história.
+- Letras das opções do voto ("A:", "B:") no começo da linha: o v4 lê bem. Se soletrar estranho, usar "Opção A:".
+- Escolha do take: rodar `align.py` nos dois e ficar com o que tem pausas nas pontuações do começo ao fim.
 
 ## Não usar
 - `VtMklhKDP2Y2mBvBbLwL` — voz de outro projeto (El Niño).

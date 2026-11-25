@@ -15,8 +15,7 @@
   - Render: `npx remotion render EPNN out/rafa-epNN.mp4 --codec=h264 --crf=18 --audio-codec=aac --audio-bitrate=192k`
     (navegador: `/opt/pw-browsers/chromium_headless_shell`, em `remotion.config.ts`).
   - Conferir antes: `npx remotion still EPNN out/stills/x.jpg --frame=N` em cada cena.
-- Mix: voz intocada na frente; trilha -9 dB e SFX -8 dB abaixo da voz (RMS com gate); ganho global pra média ≈ -19 dB,
-  limitador em -1.5 dB (igual EP01–04).
+- Som e mix: ver `references/som.md` (drone tenso só nos picos dramáticos).
 - Checar a capa antes de publicar (a capa 9:16 do EP4 saiu com faixa cinza de ~60 px no topo).
 
 ## Estilo
@@ -60,3 +59,12 @@ cartão A (círculo laranja) entra → cartão B (círculo azul-petróleo) entra
 Gerada por script a partir dos MP4 (frames: EP1 20s mãe/Rafa · EP2 20s Socorro · EP2 66s Raimundo+filha ·
 EP3 54s Bené · EP4 16s açaí · 22s peixeiro · 43s diretora · 1s figurantes). Atualizar a cada personagem novo.
 Atenção: Dona Socorro e Diretora são parecidas (senhora, cabelo grisalho, óculos) — diferenciar por cenário/roupa.
+
+## Recursos criados no EP05 (reutilizáveis em `src/ep05/Ep05.tsx`)
+- `VoteRecap` — "VOCÊS ESCOLHERAM" + cartão da opção vencedora com ✓; virada com celular/elemento entrando
+  e cartão ficando cinza ("só que...").
+- `CelebrationCrack` — tela verde de dinheiro que racha como vidro e perde a cor (comemoração que vira derrota).
+- `MetaSwap` — pílula da meta vem pro centro, número riscado → novo valor, volta pra posição exata do HUD.
+- `PaperUnfold`, `Write` (escrita à mão revelada), polaroids caindo, mãos dadas na mesa, grade de entregas
+  que fica cinza, relógio correndo (`clock`).
+- Caderno do Rafa: caneta azul, fonte Caveat. Letra de outra pessoa: cor/rotação diferentes.

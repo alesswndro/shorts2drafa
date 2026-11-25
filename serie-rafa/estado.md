@@ -1,7 +1,7 @@
 # Estado atual da série
 
 **Último episódio publicado:** EP04 — "6 entregas antes da escola"
-**Em produção:** EP05 — "R$ 215 de atraso": roteiro v7, voz do usuário (take sem sufixo, 87,3 s), vídeo ≈ 90 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
+**Pronto pra publicar:** EP05 — "R$ 215 de atraso": roteiro v7, voz do usuário (take sem sufixo, 87,3 s), vídeo ≈ 90 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
 
 ## Números (fim do EP04)
 - Dia: 5 de 30 (novembro)

@@ -1,89 +1,102 @@
 ---
 name: rafa-shorts
-description: Produz o próximo episódio da série de shorts animados "Rafa" (menino de 16 anos em Belém juntando R$ 1.800 pra evitar o despejo) — roteiro no formato da voz Sandro Dutra no ElevenLabs, storyboard cena a cena, narração, enquete "você decide" e atualização da continuidade. Use quando o usuário falar em Rafa, próxima parte, parte N, episódio, storyboard ou roteiro da série, resultado de enquete, ou pedir pra gerar a narração do Sandro.
+description: Produz o próximo episódio da série de shorts animados "Rafa" (menino de 16 anos em Belém juntando R$ 1.800 pra evitar o despejo) — roteiro no formato da voz Sandro Dutra no ElevenLabs, storyboard cena a cena, vídeo em Remotion a partir do áudio do usuário, capas 9:16 e 3:4, voto "você decide" nos comentários e atualização da continuidade. Use quando o usuário falar em Rafa, próxima parte, parte N, episódio, storyboard ou roteiro da série, resultado do voto/enquete, mandar um áudio do Sandro, ou pedir pra gerar a narração.
 ---
 
 # Série Rafa — produção de episódio
 
 Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
-- `serie-rafa/estado.md` — onde a história parou: dia, dinheiro, prazo, enquete pendente, fios soltos.
-- `serie-rafa/BIBLE.md` — personagens, roteiros anteriores, linguagem visual.
-- `references/voz.md` — configuração exata do ElevenLabs e formato do texto.
-- `references/roteiro.md` — estrutura e regras de roteiro.
-- `references/visual.md` — sistema visual / Remotion.
+- `serie-rafa/estado.md` — onde a história parou: dia, dinheiro, prazo, meta, voto pendente, fios soltos.
+- `serie-rafa/BIBLE.md` — personagens, linha do tempo, roteiros de todos os episódios.
+- `serie-rafa/personagens.png` — ficha visual dos personagens (frames reais).
+- `references/voz.md` — configuração exata do ElevenLabs e formato do texto com tags.
+- `references/roteiro.md` — estrutura, retenção, voto, continuidade financeira, intenção dos personagens.
+- `references/visual.md` — sistema visual, HUD (medidas exatas), capas, projeto Remotion, recursos prontos.
+- `references/som.md` — trilha, efeitos e mixagem.
 - `templates/storyboard.md` — formato do storyboard.
 
+## Preferências do usuário (todas — valem sempre)
+**Jeito de trabalhar**
+- Responder em português. Ser sincero: não concordar com tudo; se uma ideia for fraca, dizer por quê e propor melhor.
+- Quando o usuário pede uma mudança específica ("não mude nada além disso"), mudar SÓ aquilo.
+- Toda preferência nova ou correção vira regra aqui (seção certa + Changelog). Salvar e dar push sempre.
+
+**Entregas (sempre no chat)**
+- Roteiro com tags: colar COMPLETO num bloco de código na resposta (pronto pra colar no ElevenLabs)
+  + enviar `roteiro.md` com `SendUserFile`. Informar a duração estimada.
+- Vídeo: enviar o MP4 + **capa 9:16 E capa 3:4**, sempre as duas, com `SendUserFile`.
+  Nunca só salvar no repo e citar o caminho.
+- **Recebeu o áudio → gera o vídeo direto**, sem perguntar. O usuário gera a voz ele mesmo no ElevenLabs
+  e costuma mandar 2 takes (`..._v4.mp3` e `..._v4_1.mp3`). Só gerar narração pelo MCP se ele pedir.
+
+**Roteiro**
+- **BEM envolvente**: gancho na 1ª linha, ciclo aberto a cada ~10–15 s, viradas ("só que", "mas"),
+  revelação emocional, cliffhanger. Nada de linha que só enche.
+- **Duração-alvo: ~900 caracteres falados ≈ ~70 s. Não é limite — é alvo.** Tentar se aproximar dele;
+  pode passar quando for a favor da história (EP05 final: 90 s). O que não pode é tempo tomado por
+  futilidade: cada linha a mais tem que trazer tensão, emoção ou informação nova. Ao passar do alvo,
+  dizer quanto passou e por quê. Estimar: caracteres falados (sem tags) ÷ ~12,6 por segundo.
+- **Abertura com o voto**: linha 1 = gancho; linha 2 = "Vocês escolheram: <opção>." + virada ("Só que...");
+  linha 3 = recap pros novos ("Se você chegou agora: ..."). Nunca abrir com "vocês escolheram".
+- **Voto obrigatório e narrado no final, nos COMENTÁRIOS** (não enquete):
+  `E agora, você decide:` / `A: ...` / `B: ...` / `Comenta aí: A ou B.` — na tela "COMENTA AÍ: A OU B? ↓".
+- **Opções nada óbvias, cada uma com o próprio custo explícito** (modelo do usuário:
+  "faz tudo sozinho com muito esforço" vs "faz com os meninos e divide o lucro").
+- **O Rafa ajuda porque quer.** Ele decide, se cobra e insiste. A mãe/adultos nunca impõem meta nem cobram;
+  a mãe sente culpa, protege (escola, futuro) e apoia ("então a gente faz junto"). Fala de adulto que soe
+  como chefe, cobrança ou castigo → reescrever.
+
+**Visual e som**
+- **HUD idêntico ao original** — componente `Hud` com as medidas de `references/visual.md`. Não mexer.
+- Efeito/drone tenso **só onde a cena pede** (picos dramáticos curtos); no resto, trilha normal (`references/som.md`).
+- Voz do Sandro nunca é editada nem re-cronometrada; a imagem se ajusta à voz.
+
 ## Fluxo
+1. **Estado.** Leia `estado.md`. Voto pendente sem resultado informado → pergunte. Nunca invente o vencedor.
+2. **Conta.** `meta = ceil((1800 - guardado) / dias_restantes)`; `atraso = dia × 60 - guardado`.
+3. **Ideia** em 3–5 linhas (gancho, obstáculo, virada, cliffhanger, voto A/B com custos). Crítica sincera.
+4. **Roteiro** em `serie-rafa/episodios/epNN/roteiro.md` (formato de `references/voz.md`). Entregar no chat.
+5. **Storyboard** em `serie-rafa/episodios/epNN/storyboard.md` (template).
+6. **Áudio chegou → vídeo** (ver `references/visual.md` e `references/som.md`):
+   1. Rodar `tools/align.py` nos dois takes. **Escolher o take cujas pausas caem na pontuação do começo ao fim**
+      (segmentos com duração coerente com o texto). Explicar a escolha em 1 linha.
+   2. Copiar pra `remotion/public/epNN/voz.mp3`, gerar `align.json`, copiar pra `src/epNN/align.json`.
+      Se um trecho de fala contínua ficou mal dividido, redistribuir as palavras dele por sílabas.
+   3. Escrever/atualizar `src/epNN/EpNN.tsx` (cenas por tempo; legendas `CHUNKS` por índice de palavra;
+      balões nas falas entre aspas; voto com cartões entrando na fala de cada opção).
+   4. `cues.json` + `tools/sound.py` → `mix.wav`.
+   5. Stills de todas as cenas (`npx remotion still`) → olhar → corrigir (nada vazio, nada sob o HUD).
+   6. Render completo + capas (`EPNN-capa-9x16`, `EPNN-capa-3x4`, frame 40).
+   7. QA: duração, `freezedetect` (nenhum trecho parado ≥ 0,6 s), volume (média ≈ -19 dB, pico ≤ -1,5 dB).
+   8. Enviar MP4 + 2 capas no chat.
+   - **Mudança só de áudio**: regenerar `mix.wav` e renderizar de novo pelo Remotion (frames idênticos).
+     Não remuxar com `ffmpeg -shortest` (corta frames do fim) nem recodificar AAC sem limitador.
+7. **Continuidade** (obrigatório): `estado.md` (números, voto pendente, fios soltos) e `BIBLE.md`
+   (linha do tempo + roteiro final + personagens novos). Personagem novo → atualizar `personagens.png`.
+8. Commit + push no branch de trabalho.
 
-1. **Estado.** Leia `estado.md`. Se houver enquete pendente e o usuário não disse o resultado, pergunte. Não invente o vencedor.
-2. **Conta.** Recalcule a meta: `meta = ceil((1800 - guardado) / dias_restantes)` e o atraso:
-   `atraso = (dia_atual × 60) - guardado`. Use esses números no episódio — a pressão financeira é o motor da série.
-3. **Ideia.** Proponha o episódio em 3–5 linhas (gancho, obstáculo, virada, cliffhanger, enquete A/B).
-   Seja crítico: se a ideia for fraca, diga. Espere o OK do usuário só se ele pediu pra aprovar antes;
-   caso contrário, siga e marque o que é decisão sua.
-4. **Roteiro** em `serie-rafa/episodios/epNN/roteiro.md`, no formato de `references/voz.md`
-   (uma frase por linha, audio tags em inglês). Estime a duração: caracteres falados ÷ 12,7.
-5. **Storyboard** em `serie-rafa/episodios/epNN/storyboard.md` seguindo o template:
-   cena a cena com tempo estimado, narração, chunks de legenda com cor, visual, HUD, SFX.
-   Também título da capa e texto da enquete.
-6. **Narração** (só se o usuário pedir — gasta créditos): ElevenLabs `creative_generate_speech`,
-   config de `references/voz.md`, 1 take (`generations_count: 1`). Nunca re-chamar pra "tentar de novo"
-   sem o usuário pedir. Salve o flow_id no `estado.md`.
-7. **Vídeo** (sempre que o usuário mandar o áudio — ver `references/visual.md`):
-   escolher o take (mais pausas = alinhamento melhor; justificar) → copiar pra `remotion/public/epNN/voz.mp3` →
-   `align.py` → conferir se as pausas caem na pontuação → escrever `src/epNN/EpNN.tsx` seguindo o storyboard →
-   `cues.json` + `sound.py` → stills de cada cena e corrigir → render → conferir duração ≤ 70 s → enviar MP4 no chat.
-8. **Atualize a continuidade** (obrigatório ao final):
-   - `estado.md`: novo dia/dinheiro/prazo/meta, enquete nova pendente, fios soltos.
-   - `BIBLE.md`: linha na tabela da linha do tempo + roteiro final + personagens novos.
-   - Se aprendeu algo sobre o processo (feedback do usuário, erro, preferência), registre em
-     `references/` e no **Changelog** abaixo. Esta skill evolui a cada episódio.
-9. Commit + push no branch de trabalho.
-
-## Regras que não se negociam
-- **Capas: sempre mandar a 9:16 E a 3:4** junto com o vídeo (SendUserFile).
-- **HUD idêntico ao original** — usar o componente `Hud` sem alterar medidas (ver `references/visual.md`).
-- **Recebeu o áudio do usuário → gere o vídeo (sempre).** Não perguntar; escolher o take (justificar),
-  alinhar legendas, renderizar e enviar o MP4 no chat.
-- **Duração: ~70 s é referência, não teto.** Serve pra não prolongar à toa. Passar quando a história pedir
-  é normal (regra do usuário). O que nunca pode: linha que só enche. Sandro fala ≈ 12,7 caracteres
-  falados/s (sem as tags): estimar e informar a duração prevista ao entregar o roteiro.
-- **Roteiro BEM envolvente** (regra do usuário): gancho na 1ª linha, ciclo aberto a cada ~10–15 s
-  ("ela não gritou... só abriu a bolsa"), viradas com "só que"/"mas", revelação emocional, cliffhanger.
-- **Abertura com o voto** (a partir do EP05): linha 1 = gancho visual/sonoro; linha 2 = "Vocês escolheram: ..."
-  + virada imediata ("Só que..."); linha 3 = recap pros novos ("Se você chegou agora: ..."). Nunca abrir
-  com "vocês escolheram" na linha 1.
-- **SEMPRE entregar no chat** (pedido do usuário): toda vez que escrever ou revisar o texto com audio tags,
-  colar o roteiro completo num bloco de código na resposta, pronto pra copiar no ElevenLabs,
-  E enviar o arquivo `roteiro.md` com `SendUserFile`. Toda vez que renderizar vídeo, áudio ou capa,
-  enviar o arquivo com `SendUserFile` (MP4/MP3/PNG). Não basta salvar no repo e citar o caminho.
-- Voz: Sandro Dutra `qPfM2laM0pRL4rrZtBGl`, modelo `eleven_v4`. Nunca outra voz sem o usuário pedir.
-- Números batem com episódios anteriores (dinheiro, dias, preços por entrega, horários).
-- Todo episódio termina com cliffhanger + **enquete narrada pelo Sandro** (última fala do roteiro) + "PARTE N+1: VOCÊ DECIDE" com 2 opções **igualmente tentadoras
-  e com custo real**. Se uma opção é obviamente a "certa", a enquete é fraca — reescreva.
-- **O Rafa ajuda porque quer** (regra do usuário): ele é quem decide, se cobra e insiste. A mãe e os
-  adultos nunca impõem a meta nem cobram dinheiro dele; ela sente culpa, protege (escola, futuro) e apoia.
-  Revisar toda fala de adulto: se soar como cobrança, chefe ou castigo, reescrever.
-- Rafa é menor de idade: o perigo é real mas nunca glamourizado (sem fuga da polícia, sem risco de vida gratuito).
+## Regras de série
+- Voz: Sandro Dutra `qPfM2laM0pRL4rrZtBGl`, `eleven_v4`, stability 0.40, similarity 0.75. Nunca outra voz.
+- Números batem com os episódios anteriores (dinheiro, dias, preços por entrega, horários).
+- Rafa é menor de idade: perigo real mas nunca glamourizado (sem fuga da polícia, sem risco de vida gratuito).
 - Linguagem paraense leve e natural ("tu", "menino", "lá do outro lado do canal") — sem caricatura.
 
 ## Changelog
 - 2026-11-24 — Skill recriada a partir dos MP4 finais EP01–EP04 e do flow "Rafa EP1 narração".
-  Roteiros EP03/EP04 reconstruídos pelas legendas (tags perdidas). Regra nova: meta diária recalculada
-  na tela (antes ficava fixa em R$ 60, escondendo o atraso). Resultado da enquete EP04: **A — contar pra mãe**.
-- 2026-11-24 — Regra do usuário: roteiro com tags e qualquer vídeo/áudio gerado SEMPRE enviados no chat
-  (bloco de código + SendUserFile), nunca só salvos no repo.
-- 2026-11-24 — Regra do usuário: vídeo no MÁXIMO 70 s, sem ficar maçante. EP01 (72 s) e EP02 (86 s)
-  passaram do limite. Narração ≤ 900 caracteres. EP05 cortado de 1.259 → 879.
-- 2026-11-24 — Regra do usuário: a escolha do final é OBRIGATÓRIA no roteiro (narrada, não só visual).
-  Esquecida no EP05 v2; corrigido na v3 (867 caracteres).
-- 2026-11-24 — Voz: stability 0.40 / similarity 0.75 (do nome do arquivo). Regra: áudio recebido → gerar vídeo.
-- 2026-11-25 — HUD refeito idêntico ao original (medido pixel a pixel). Regra: sempre enviar capa 9:16 + 3:4.
-- 2026-11-25 — Regra do usuário: opções da enquete menos óbvias, cada uma com seu custo explícito
-  (ex.: "sozinho, com muito esforço" vs "com os meninos, dividindo o lucro").
-- 2026-11-25 — Regras do usuário: roteiro BEM envolvente; 70 s é referência pra não prolongar, não teto;
-  abrir citando a opção vencedora ("Vocês escolheram...") sem perder o recap pros novos. EP05 v5 ≈ 79 s.
-- 2026-11-25 — Feedback: no EP05 a mãe parecia obrigar o Rafa. Regra: ele ajuda por vontade própria; adultos
-  protegem, não cobram. EP05 v6 reescrito (conta refeita por ele; "teu futuro não entra nessa conta").
-- 2026-11-25 — Regra do usuário: o voto é nos comentários — final falado "Comenta aí: A ou B." e na tela
-  "COMENTA AÍ: A OU B? ↓". Opções faladas com a letra ("A: ...", "B: ...").
+  Roteiros EP03/EP04 reconstruídos pelas legendas (tags perdidas). Meta diária passa a ser recalculada na tela.
+  Voto EP04: **A — contar pra mãe**.
+- 2026-11-24 — Roteiro com tags e mídias sempre entregues no chat (bloco de código + SendUserFile).
+- 2026-11-24 — ~~Vídeo no máximo 70 s / narração ≤ 900 caracteres~~ (substituído em 2026-11-25).
+- 2026-11-24 — Escolha do final obrigatória e narrada. Voz: stability 0.40 / similarity 0.75 (do nome do arquivo).
+  Áudio recebido → gerar vídeo.
+- 2026-11-24 — Projeto Remotion recriado em `remotion/` (código original perdido): personagens SVG, HUD,
+  legendas, balões, voto, cenários; `tools/align.py` (alinhamento sem ASR) e `tools/sound.py` (trilha/SFX/mix).
+- 2026-11-25 — HUD refeito idêntico ao original (medido pixel a pixel). Sempre enviar capa 9:16 + 3:4.
+- 2026-11-25 — Opções do voto menos óbvias, cada uma com custo explícito.
+- 2026-11-25 — Roteiro BEM envolvente; 70 s é referência, não teto; abrir citando a opção vencedora + recap.
+- 2026-11-25 — O Rafa ajuda por vontade própria; adultos protegem, não cobram (EP05 v6).
+- 2026-11-25 — Voto nos comentários: "Comenta aí: A ou B." / "COMENTA AÍ: A OU B? ↓".
+- 2026-11-25 — Drone tenso só nos picos dramáticos; resto com trilha normal (EP05: 24,8–30,3 s e 48,3–55,3 s).
+  EP05 final entregue: 90 s, voz take sem sufixo (87,3 s).
+- 2026-11-25 — Esclarecido pelo usuário: ~900 caracteres/~70 s é ALVO, não limite. Aproximar-se dele; passar
+  só a favor da história, nunca com futilidades.

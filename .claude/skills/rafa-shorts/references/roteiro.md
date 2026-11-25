@@ -1,7 +1,8 @@
 # Regras de roteiro
 
-## Estrutura (~70 s de referência; pode passar quando a história pedir, nunca enchendo linguiça)
-1. **Gancho (0–3 s)** — a primeira frase repete o número da capa ("15 minutos. Esse era o tempo...").
+## Estrutura (alvo ~900 caracteres ≈ ~70 s; aproximar-se; passar só a favor da história, nunca com futilidade)
+1. **Gancho (0–3 s)** — imagem/som forte na 1ª frase ("7 e 40. O telefone da mãe do Rafa tocou.") ou o número da capa
+   ("15 minutos. Esse era o tempo..."). O número da capa tem que aparecer cedo na narração.
 2. **Voto + virada (3–7 s)** — "Vocês escolheram: <opção vencedora>." + "Só que..." (a escolha tem consequência).
 3. **Recap (7–11 s)** — "Se você chegou agora: o Rafa tem N dias pra juntar R$ 1.800... ou a família perde a casa."
    Obrigatório: cada parte é a primeira de alguém no feed.
@@ -14,7 +15,7 @@
 8. **Enquete — OBRIGATÓRIA e NARRADA** — a última fala do roteiro é sempre a escolha, ex.:
    `[curious] E agora, você decide:` / `A: o Rafa <opção A>...` / `B: ou <opção B>?` / `Comenta aí: A ou B.`
    Na tela: "PARTE N+1: VOCÊ DECIDE / O QUE O RAFA DEVE FAZER?" + cartões A/B (máx. 4 palavras por linha)
-   entrando sincronizados com a fala de cada opção; segurar ~4 s no final. Conta dentro dos 900 caracteres.
+   entrando sincronizados com a fala de cada opção ("A:", "B:"); segurar ~3 s no final. Voto nos comentários.
 
 ## Capa / título
 Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA SALVAR / A CASA",
@@ -37,7 +38,8 @@ Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA S
 ## Envolvente (prender até o fim)
 - Ciclo aberto: prometa uma revelação e segure 2–3 linhas antes de entregar ("Ela não gritou. Não chorou. Só abriu a bolsa...").
 - Uma virada a cada 10–15 s ("Só que...", "Mas...").
-- Pelo menos uma revelação emocional por episódio (a mãe sabia; "fiz a conta todo dia").
+- Pelo menos uma revelação emocional por episódio (EP05: a mãe sabia; "essa conta nunca foi pra ser tua";
+  "teu futuro não entra nessa conta").
 - Frases curtas, números concretos, verbos no passado narrativo.
 
 ## Anti-maçante
@@ -46,3 +48,8 @@ Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA S
 - Recap em UMA linha.
 - Cenas de 2–5 s; nenhuma imagem parada mais de 5 s sem movimento/zoom/novo elemento.
 - Montagens (entregas, trabalho repetitivo) em no máximo 6 s, com contador subindo.
+
+## Personagens e intenção
+- O Rafa é o motor: ele decide ajudar, refaz a conta, promete, insiste. Ninguém obriga.
+- A mãe: culpa + amor + proteção. Nunca cobra dinheiro nem dá ordem de trabalho; a regra dela é sobre
+  o futuro dele (escola às 7h). Revisar cada fala de adulto: soou como chefe/castigo/cobrança → reescrever.
