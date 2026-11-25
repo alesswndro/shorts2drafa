@@ -52,6 +52,7 @@ Processo de produção: skill `.claude/skills/rafa-shorts`. Estado atual: `serie
 | 2 "15 minutos pra entregar a insulina" | 2 | R$ 25 (+8 +5 gorjeta) | 29 | Corrente estourou no meio da ladeira |
 | 3 "R$ 35 que ele não tinha" | 3→4 | R$ 43 (+18, 3 entregas) | 27 | Enquete: A) caixa pro Ver-o-Peso às 5h / B) só farmácia |
 | 4 "6 entregas antes da escola" | 5 | R$ 85 (+42, 6×R$7) | 26 | Chegou 40 min atrasado; diretora: "Vou ligar pra tua mãe, Rafael." Enquete: A) contar tudo pra mãe / B) esconder da mãe → **venceu A** |
+| 5 "R$ 215 de atraso" | 5 | R$ 85 | 26 (meta → R$ 66) | Mãe já sabia; regra: escola às 7h. Enquete: A) sozinho, com muito esforço / B) com os meninos, dividindo o lucro |
 
 ## Roteiros
 ### EP01 (do flow ElevenLabs)
@@ -131,3 +132,32 @@ Uma entrega. Duas. Três. Ele riscava o caminho no caderno: feira, restaurante, 
 Ele pedalou pra escola rindo, sozinho... e chegou 40 minutos atrasado.
 A diretora já tava com o telefone na mão. "Vou ligar pra tua mãe, Rafael."
 → PARTE 5: VOCÊ DECIDE — A) Contar tudo pra mãe  B) Esconder da mãe — VOTA NA ENQUETE ↓
+
+### EP05 (final — take sem sufixo, 76,3 s de voz, vídeo ≈ 79 s)
+```
+[softly] 7 e 40. O telefone da mãe do Rafa tocou.
+[warmly] Vocês escolheram: o Rafa ia contar tudo pra mãe.
+[short pause] Só que a escola contou primeiro.
+Se você chegou agora: o Rafa tem 26 dias pra juntar R$ 1.800... ou a família perde a casa.
+Naquela noite, ele contou tudo.
+A farmácia. A oficina. O Ver-o-Peso de madrugada.
+[pause] Ela não gritou. Não chorou.
+Só abriu a bolsa... e tirou uma folha dobrada.
+A página do caderno dele. Do primeiro dia.
+[softly] "Tu achou que eu não tinha visto, Rafael?"
+"Eu vi. E fiz a conta todo dia."
+Embaixo, com a letra dela:
+Dia 5. Devia ter R$ 300. Tem R$ 85.
+[dramatically] R$ 215 de atraso.
+[sighs] Ele tava comemorando... enquanto perdia a corrida.
+Agora é R$ 66 por dia. Sem falhar nenhum.
+[warmly] "Tu pode trabalhar. Mas às 7 em ponto, tu tá na escola."
+"Atrasou de novo... acabou."
+Das 5 às 7. Dez entregas. Sozinho, não dá.
+[excited] Mas na rua dele tinha três meninos com bicicleta... e nenhum com trabalho.
+[curious] E agora, você decide:
+o Rafa faz tudo sozinho, no limite...
+ou chama os meninos e divide o lucro?
+Vota na enquete.
+```
+Novos personagens: Kauã (camiseta verde), Duda (puffs, camiseta rosa), Biel (boné amarelo) — crianças da rua com bicicleta.

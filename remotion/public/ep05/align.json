@@ -1,117 +1,165 @@
 {
- "duration": 62.275875,
+ "duration": 76.2775,
  "segments": [
   [
    0.0,
-   1.24136
+   1.23982
   ],
   [
-   1.66147,
-   4.77676
+   1.66213,
+   3.38048
   ],
   [
-   5.06299,
-   6.32986
+   3.73651,
+   4.8115
   ],
   [
-   6.54884,
-   9.92723
+   5.06751,
+   7.16485
   ],
   [
-   10.2554,
-   11.776
+   7.58431,
+   9.3468
   ],
   [
-   12.1733,
-   14.6623
+   9.62621,
+   10.7829
   ],
   [
-   14.9495,
-   16.831
+   11.0712,
+   15.1119
   ],
   [
-   17.1925,
-   18.8809
+   15.4934,
+   16.9696
   ],
   [
-   19.3448,
-   20.5824
+   17.2976,
+   19.4454
   ],
   [
-   21.0247,
-   23.6706
+   19.7499,
+   20.6275
   ],
   [
-   24.0605,
-   25.0741
+   20.8802,
+   21.7109
   ],
   [
-   25.4845,
-   26.907
+   22.0653,
+   23.5814
   ],
   [
-   27.2231,
-   28.8577
+   23.9322,
+   24.7216
   ],
   [
-   29.1343,
-   30.0224
+   25.1284,
+   25.6794
   ],
   [
-   30.3494,
-   32.218
+   26.0196,
+   27.178
   ],
   [
-   32.5337,
-   34.2387
+   27.4237,
+   28.8076
   ],
   [
-   34.453,
-   36.8738
+   29.1066,
+   30.7346
   ],
   [
-   37.1456,
-   41.2732
+   31.0422,
+   32.0477
   ],
   [
-   41.5759,
-   42.4999
+   32.3957,
+   34.1764
   ],
   [
-   42.7145,
-   44.9602
+   34.5898,
+   35.0113
   ],
   [
-   45.2139,
-   46.2501
+   35.3706,
+   36.8706
   ],
   [
-   46.5692,
-   47.0573
+   37.1779,
+   38.8291
   ],
   [
-   47.3471,
-   48.8596
+   39.0994,
+   39.9279
   ],
   [
-   49.1098,
-   50.2387
+   40.1653,
+   41.9391
   ],
   [
-   50.4717,
-   51.7071
+   42.2047,
+   46.6263
   ],
   [
-   51.9312,
-   56.7522
+   46.9348,
+   50.4294
   ],
   [
-   56.977,
-   58.5105
+   50.6999,
+   53.5588
   ],
   [
-   58.7271,
-   62.053
+   53.7798,
+   54.9368
+  ],
+  [
+   55.1624,
+   56.0769
+  ],
+  [
+   56.3176,
+   58.5398
+  ],
+  [
+   58.7863,
+   59.7602
+  ],
+  [
+   60.0479,
+   60.5003
+  ],
+  [
+   60.7551,
+   61.8951
+  ],
+  [
+   62.1037,
+   63.139
+  ],
+  [
+   63.3552,
+   64.5542
+  ],
+  [
+   64.7545,
+   67.5651
+  ],
+  [
+   67.775,
+   69.1498
+  ],
+  [
+   69.38,
+   70.9576
+  ],
+  [
+   71.2141,
+   73.6664
+  ],
+  [
+   73.9291,
+   76.2775
   ]
  ],
  "words": [
@@ -121,14 +169,14 @@
    "quote": false,
    "s": 2,
    "start": 0.0,
-   "end": 0.414
+   "end": 0.413
   },
   {
    "w": "e",
    "line": 0,
    "quote": false,
    "s": 1,
-   "start": 0.414,
+   "start": 0.413,
    "end": 0.668
   },
   {
@@ -137,1207 +185,1495 @@
    "quote": false,
    "s": 3,
    "start": 0.668,
-   "end": 1.241
+   "end": 1.24
   },
   {
    "w": "O",
    "line": 0,
    "quote": false,
    "s": 1,
-   "start": 1.661,
-   "end": 1.864
+   "start": 1.662,
+   "end": 1.832
   },
   {
    "w": "telefone",
    "line": 0,
    "quote": false,
    "s": 4,
-   "start": 1.864,
-   "end": 2.447
+   "start": 1.832,
+   "end": 2.32
   },
   {
    "w": "da",
    "line": 0,
    "quote": false,
    "s": 1,
-   "start": 2.447,
-   "end": 2.649
+   "start": 2.32,
+   "end": 2.489
   },
   {
    "w": "mãe",
    "line": 0,
    "quote": false,
    "s": 1,
-   "start": 2.649,
-   "end": 2.852
+   "start": 2.489,
+   "end": 2.659
   },
   {
    "w": "do",
    "line": 0,
    "quote": false,
    "s": 1,
-   "start": 2.852,
-   "end": 3.054
+   "start": 2.659,
+   "end": 2.829
   },
   {
    "w": "Rafa",
    "line": 0,
    "quote": false,
    "s": 2,
-   "start": 3.054,
-   "end": 3.384
+   "start": 2.829,
+   "end": 3.105
   },
   {
-   "w": "tocou",
+   "w": "tocou.",
    "line": 0,
    "quote": false,
    "s": 2,
-   "start": 3.384,
-   "end": 3.713
+   "start": 3.105,
+   "end": 3.38
   },
   {
-   "w": "no",
-   "line": 0,
-   "quote": false,
-   "s": 1,
-   "start": 3.713,
-   "end": 3.916
-  },
-  {
-   "w": "meio",
-   "line": 0,
-   "quote": false,
-   "s": 1,
-   "start": 3.916,
-   "end": 4.118
-  },
-  {
-   "w": "do",
-   "line": 0,
-   "quote": false,
-   "s": 1,
-   "start": 4.118,
-   "end": 4.321
-  },
-  {
-   "w": "serviço.",
-   "line": 0,
-   "quote": false,
-   "s": 3,
-   "start": 4.321,
-   "end": 4.777
-  },
-  {
-   "w": "Se",
-   "line": 1,
-   "quote": false,
-   "s": 1,
-   "start": 5.063,
-   "end": 5.258
-  },
-  {
-   "w": "você",
+   "w": "Vocês",
    "line": 1,
    "quote": false,
    "s": 2,
-   "start": 5.258,
-   "end": 5.575
+   "start": 3.737,
+   "end": 4.125
   },
   {
-   "w": "chegou",
-   "line": 1,
-   "quote": false,
-   "s": 2,
-   "start": 5.575,
-   "end": 5.891
-  },
-  {
-   "w": "agora:",
-   "line": 1,
-   "quote": false,
-   "s": 3,
-   "start": 5.891,
-   "end": 6.33
-  },
-  {
-   "w": "26",
+   "w": "escolheram:",
    "line": 1,
    "quote": false,
    "s": 4,
-   "start": 6.549,
-   "end": 7.432
+   "start": 4.125,
+   "end": 4.812
   },
   {
-   "w": "dias",
+   "w": "o",
    "line": 1,
    "quote": false,
    "s": 1,
-   "start": 7.432,
-   "end": 7.739
+   "start": 5.068,
+   "end": 5.304
+  },
+  {
+   "w": "Rafa",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 5.304,
+   "end": 5.688
+  },
+  {
+   "w": "ia",
+   "line": 1,
+   "quote": false,
+   "s": 1,
+   "start": 5.688,
+   "end": 5.924
+  },
+  {
+   "w": "contar",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 5.924,
+   "end": 6.308
+  },
+  {
+   "w": "tudo",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 6.308,
+   "end": 6.692
   },
   {
    "w": "pra",
    "line": 1,
    "quote": false,
    "s": 1,
-   "start": 7.739,
-   "end": 8.046
+   "start": 6.692,
+   "end": 6.929
   },
   {
-   "w": "juntar",
-   "line": 1,
-   "quote": false,
-   "s": 2,
-   "start": 8.046,
-   "end": 8.545
-  },
-  {
-   "w": "R$",
-   "line": 1,
-   "quote": false,
-   "s": 2,
-   "start": 8.545,
-   "end": 9.044
-  },
-  {
-   "w": "1.800...",
-   "line": 1,
-   "quote": false,
-   "s": 4,
-   "start": 9.044,
-   "end": 9.927
-  },
-  {
-   "w": "ou",
+   "w": "mãe.",
    "line": 1,
    "quote": false,
    "s": 1,
-   "start": 10.255,
-   "end": 10.434
+   "start": 6.929,
+   "end": 7.165
+  },
+  {
+   "w": "Só",
+   "line": 2,
+   "quote": false,
+   "s": 1,
+   "start": 7.584,
+   "end": 7.777
+  },
+  {
+   "w": "que",
+   "line": 2,
+   "quote": false,
+   "s": 1,
+   "start": 7.777,
+   "end": 7.971
   },
   {
    "w": "a",
-   "line": 1,
+   "line": 2,
    "quote": false,
    "s": 1,
-   "start": 10.434,
-   "end": 10.613
+   "start": 7.971,
+   "end": 8.164
   },
   {
-   "w": "família",
-   "line": 1,
-   "quote": false,
-   "s": 3,
-   "start": 10.613,
-   "end": 11.016
-  },
-  {
-   "w": "perde",
-   "line": 1,
-   "quote": false,
-   "s": 2,
-   "start": 11.016,
-   "end": 11.306
-  },
-  {
-   "w": "a",
-   "line": 1,
-   "quote": false,
-   "s": 1,
-   "start": 11.306,
-   "end": 11.485
-  },
-  {
-   "w": "casa.",
-   "line": 1,
-   "quote": false,
-   "s": 2,
-   "start": 11.485,
-   "end": 11.776
-  },
-  {
-   "w": "Naquela",
+   "w": "escola",
    "line": 2,
    "quote": false,
    "s": 3,
-   "start": 12.173,
-   "end": 12.748
-  },
-  {
-   "w": "noite,",
-   "line": 2,
-   "quote": false,
-   "s": 2,
-   "start": 12.748,
-   "end": 13.163
-  },
-  {
-   "w": "o",
-   "line": 2,
-   "quote": false,
-   "s": 1,
-   "start": 13.163,
-   "end": 13.418
-  },
-  {
-   "w": "Rafa",
-   "line": 2,
-   "quote": false,
-   "s": 2,
-   "start": 13.418,
-   "end": 13.833
+   "start": 8.164,
+   "end": 8.598
   },
   {
    "w": "contou",
    "line": 2,
    "quote": false,
    "s": 2,
-   "start": 13.833,
-   "end": 14.247
+   "start": 8.598,
+   "end": 8.912
   },
   {
-   "w": "tudo.",
+   "w": "primeiro.",
    "line": 2,
    "quote": false,
-   "s": 2,
-   "start": 14.247,
-   "end": 14.662
+   "s": 3,
+   "start": 8.912,
+   "end": 9.347
   },
   {
-   "w": "A",
+   "w": "Se",
    "line": 3,
    "quote": false,
    "s": 1,
-   "start": 14.95,
-   "end": 15.214
-  },
-  {
-   "w": "farmácia.",
-   "line": 3,
-   "quote": false,
-   "s": 3,
-   "start": 15.214,
-   "end": 15.808
-  },
-  {
-   "w": "A",
-   "line": 3,
-   "quote": false,
-   "s": 1,
-   "start": 15.808,
-   "end": 16.072
-  },
-  {
-   "w": "oficina.",
-   "line": 3,
-   "quote": false,
-   "s": 4,
-   "start": 16.072,
-   "end": 16.831
-  },
-  {
-   "w": "O",
-   "line": 3,
-   "quote": false,
-   "s": 1,
-   "start": 17.192,
-   "end": 17.378
-  },
-  {
-   "w": "Ver-o-Peso",
-   "line": 3,
-   "quote": false,
-   "s": 4,
-   "start": 17.378,
-   "end": 17.909
-  },
-  {
-   "w": "às",
-   "line": 3,
-   "quote": false,
-   "s": 1,
-   "start": 17.909,
-   "end": 18.095
-  },
-  {
-   "w": "5",
-   "line": 3,
-   "quote": false,
-   "s": 2,
-   "start": 18.095,
-   "end": 18.395
-  },
-  {
-   "w": "da",
-   "line": 3,
-   "quote": false,
-   "s": 1,
-   "start": 18.395,
-   "end": 18.58
-  },
-  {
-   "w": "manhã.",
-   "line": 3,
-   "quote": false,
-   "s": 2,
-   "start": 18.58,
-   "end": 18.881
-  },
-  {
-   "w": "A",
-   "line": 4,
-   "quote": false,
-   "s": 1,
-   "start": 19.345,
-   "end": 19.555
-  },
-  {
-   "w": "mãe",
-   "line": 4,
-   "quote": false,
-   "s": 1,
-   "start": 19.555,
-   "end": 19.766
-  },
-  {
-   "w": "ficou",
-   "line": 4,
-   "quote": false,
-   "s": 2,
-   "start": 19.766,
-   "end": 20.108
-  },
-  {
-   "w": "calada.",
-   "line": 4,
-   "quote": false,
-   "s": 3,
-   "start": 20.108,
-   "end": 20.582
-  },
-  {
-   "w": "Aí",
-   "line": 5,
-   "quote": false,
-   "s": 1,
-   "start": 21.025,
-   "end": 21.223
-  },
-  {
-   "w": "tirou",
-   "line": 5,
-   "quote": false,
-   "s": 2,
-   "start": 21.223,
-   "end": 21.544
-  },
-  {
-   "w": "da",
-   "line": 5,
-   "quote": false,
-   "s": 1,
-   "start": 21.544,
-   "end": 21.742
-  },
-  {
-   "w": "bolsa",
-   "line": 5,
-   "quote": false,
-   "s": 2,
-   "start": 21.742,
-   "end": 22.063
-  },
-  {
-   "w": "a",
-   "line": 5,
-   "quote": false,
-   "s": 1,
-   "start": 22.063,
-   "end": 22.261
-  },
-  {
-   "w": "página",
-   "line": 5,
-   "quote": false,
-   "s": 3,
-   "start": 22.261,
-   "end": 22.706
-  },
-  {
-   "w": "do",
-   "line": 5,
-   "quote": false,
-   "s": 1,
-   "start": 22.706,
-   "end": 22.904
-  },
-  {
-   "w": "caderno",
-   "line": 5,
-   "quote": false,
-   "s": 3,
-   "start": 22.904,
-   "end": 23.349
-  },
-  {
-   "w": "dele.",
-   "line": 5,
-   "quote": false,
-   "s": 2,
-   "start": 23.349,
-   "end": 23.671
-  },
-  {
-   "w": "A",
-   "line": 5,
-   "quote": false,
-   "s": 1,
-   "start": 24.061,
-   "end": 24.254
-  },
-  {
-   "w": "do",
-   "line": 5,
-   "quote": false,
-   "s": 1,
-   "start": 24.254,
-   "end": 24.447
-  },
-  {
-   "w": "primeiro",
-   "line": 5,
-   "quote": false,
-   "s": 3,
-   "start": 24.447,
-   "end": 24.881
-  },
-  {
-   "w": "dia.",
-   "line": 5,
-   "quote": false,
-   "s": 1,
-   "start": 24.881,
-   "end": 25.074
-  },
-  {
-   "w": "\"Tu",
-   "line": 6,
-   "quote": true,
-   "s": 1,
-   "start": 25.485,
-   "end": 25.645
-  },
-  {
-   "w": "achou",
-   "line": 6,
-   "quote": true,
-   "s": 2,
-   "start": 25.645,
-   "end": 25.905
-  },
-  {
-   "w": "que",
-   "line": 6,
-   "quote": true,
-   "s": 1,
-   "start": 25.905,
-   "end": 26.066
-  },
-  {
-   "w": "eu",
-   "line": 6,
-   "quote": true,
-   "s": 1,
-   "start": 26.066,
-   "end": 26.226
-  },
-  {
-   "w": "não",
-   "line": 6,
-   "quote": true,
-   "s": 1,
-   "start": 26.226,
-   "end": 26.386
-  },
-  {
-   "w": "tinha",
-   "line": 6,
-   "quote": true,
-   "s": 2,
-   "start": 26.386,
-   "end": 26.647
-  },
-  {
-   "w": "visto?\"",
-   "line": 6,
-   "quote": true,
-   "s": 2,
-   "start": 26.647,
-   "end": 26.907
-  },
-  {
-   "w": "Embaixo,",
-   "line": 7,
-   "quote": false,
-   "s": 3,
-   "start": 27.223,
-   "end": 27.713
-  },
-  {
-   "w": "com",
-   "line": 7,
-   "quote": false,
-   "s": 1,
-   "start": 27.713,
-   "end": 27.931
-  },
-  {
-   "w": "a",
-   "line": 7,
-   "quote": false,
-   "s": 1,
-   "start": 27.931,
-   "end": 28.149
-  },
-  {
-   "w": "letra",
-   "line": 7,
-   "quote": false,
-   "s": 2,
-   "start": 28.149,
-   "end": 28.504
-  },
-  {
-   "w": "dela:",
-   "line": 7,
-   "quote": false,
-   "s": 2,
-   "start": 28.504,
-   "end": 28.858
-  },
-  {
-   "w": "Dia",
-   "line": 8,
-   "quote": false,
-   "s": 1,
-   "start": 29.134,
-   "end": 29.473
-  },
-  {
-   "w": "5.",
-   "line": 8,
-   "quote": false,
-   "s": 2,
-   "start": 29.473,
-   "end": 30.022
-  },
-  {
-   "w": "Devia",
-   "line": 8,
-   "quote": false,
-   "s": 2,
-   "start": 30.349,
-   "end": 30.817
-  },
-  {
-   "w": "ter",
-   "line": 8,
-   "quote": false,
-   "s": 1,
-   "start": 30.817,
-   "end": 31.104
-  },
-  {
-   "w": "R$",
-   "line": 8,
-   "quote": false,
-   "s": 2,
-   "start": 31.104,
-   "end": 31.571
-  },
-  {
-   "w": "300.",
-   "line": 8,
-   "quote": false,
-   "s": 3,
-   "start": 31.571,
-   "end": 32.218
-  },
-  {
-   "w": "Tem",
-   "line": 8,
-   "quote": false,
-   "s": 1,
-   "start": 32.534,
-   "end": 32.812
-  },
-  {
-   "w": "R$",
-   "line": 8,
-   "quote": false,
-   "s": 2,
-   "start": 32.812,
-   "end": 33.264
-  },
-  {
-   "w": "85.",
-   "line": 8,
-   "quote": false,
-   "s": 5,
-   "start": 33.264,
-   "end": 34.239
-  },
-  {
-   "w": "R$",
-   "line": 9,
-   "quote": false,
-   "s": 2,
-   "start": 34.453,
-   "end": 34.89
-  },
-  {
-   "w": "215",
-   "line": 9,
-   "quote": false,
-   "s": 6,
-   "start": 34.89,
-   "end": 36.0
-  },
-  {
-   "w": "de",
-   "line": 9,
-   "quote": false,
-   "s": 1,
-   "start": 36.0,
-   "end": 36.269
-  },
-  {
-   "w": "atraso.",
-   "line": 9,
-   "quote": false,
-   "s": 3,
-   "start": 36.269,
-   "end": 36.874
-  },
-  {
-   "w": "Agora",
-   "line": 10,
-   "quote": false,
-   "s": 3,
-   "start": 37.146,
-   "end": 37.781
-  },
-  {
-   "w": "é",
-   "line": 10,
-   "quote": false,
-   "s": 1,
-   "start": 37.781,
-   "end": 38.063
-  },
-  {
-   "w": "R$",
-   "line": 10,
-   "quote": false,
-   "s": 2,
-   "start": 38.063,
-   "end": 38.521
-  },
-  {
-   "w": "66",
-   "line": 10,
-   "quote": false,
-   "s": 5,
-   "start": 38.521,
-   "end": 39.509
-  },
-  {
-   "w": "por",
-   "line": 10,
-   "quote": false,
-   "s": 1,
-   "start": 39.509,
-   "end": 39.791
-  },
-  {
-   "w": "dia.",
-   "line": 10,
-   "quote": false,
-   "s": 1,
-   "start": 39.791,
-   "end": 40.074
-  },
-  {
-   "w": "Sem",
-   "line": 10,
-   "quote": false,
-   "s": 1,
-   "start": 40.074,
-   "end": 40.356
-  },
-  {
-   "w": "falhar",
-   "line": 10,
-   "quote": false,
-   "s": 2,
-   "start": 40.356,
-   "end": 40.815
-  },
-  {
-   "w": "nenhum.",
-   "line": 10,
-   "quote": false,
-   "s": 2,
-   "start": 40.815,
-   "end": 41.273
-  },
-  {
-   "w": "\"Tu",
-   "line": 11,
-   "quote": true,
-   "s": 1,
-   "start": 41.576,
-   "end": 41.765
-  },
-  {
-   "w": "pode",
-   "line": 11,
-   "quote": true,
-   "s": 2,
-   "start": 41.765,
-   "end": 42.073
-  },
-  {
-   "w": "trabalhar.",
-   "line": 11,
-   "quote": true,
-   "s": 3,
-   "start": 42.073,
-   "end": 42.5
-  },
-  {
-   "w": "Mas",
-   "line": 11,
-   "quote": true,
-   "s": 1,
-   "start": 42.715,
-   "end": 42.91
-  },
-  {
-   "w": "às",
-   "line": 11,
-   "quote": true,
-   "s": 1,
-   "start": 42.91,
-   "end": 43.105
-  },
-  {
-   "w": "7",
-   "line": 11,
-   "quote": true,
-   "s": 2,
-   "start": 43.105,
-   "end": 43.422
-  },
-  {
-   "w": "em",
-   "line": 11,
-   "quote": true,
-   "s": 1,
-   "start": 43.422,
-   "end": 43.618
-  },
-  {
-   "w": "ponto,",
-   "line": 11,
-   "quote": true,
-   "s": 2,
-   "start": 43.618,
-   "end": 43.935
-  },
-  {
-   "w": "tu",
-   "line": 11,
-   "quote": true,
-   "s": 1,
-   "start": 43.935,
-   "end": 44.13
-  },
-  {
-   "w": "tá",
-   "line": 11,
-   "quote": true,
-   "s": 1,
-   "start": 44.13,
-   "end": 44.326
-  },
-  {
-   "w": "na",
-   "line": 11,
-   "quote": true,
-   "s": 1,
-   "start": 44.326,
-   "end": 44.521
-  },
-  {
-   "w": "escola.\"",
-   "line": 11,
-   "quote": true,
-   "s": 3,
-   "start": 44.521,
-   "end": 44.96
-  },
-  {
-   "w": "\"Atrasou",
-   "line": 12,
-   "quote": true,
-   "s": 3,
-   "start": 45.214,
-   "end": 45.692
-  },
-  {
-   "w": "de",
-   "line": 12,
-   "quote": true,
-   "s": 1,
-   "start": 45.692,
-   "end": 45.905
-  },
-  {
-   "w": "novo...",
-   "line": 12,
-   "quote": true,
-   "s": 2,
-   "start": 45.905,
-   "end": 46.25
-  },
-  {
-   "w": "acabou.\"",
-   "line": 12,
-   "quote": true,
-   "s": 3,
-   "start": 46.569,
-   "end": 47.057
-  },
-  {
-   "w": "Das",
-   "line": 13,
-   "quote": false,
-   "s": 1,
-   "start": 47.347,
-   "end": 47.635
-  },
-  {
-   "w": "5",
-   "line": 13,
-   "quote": false,
-   "s": 2,
-   "start": 47.635,
-   "end": 48.103
-  },
-  {
-   "w": "às",
-   "line": 13,
-   "quote": false,
-   "s": 1,
-   "start": 48.103,
-   "end": 48.391
-  },
-  {
-   "w": "7.",
-   "line": 13,
-   "quote": false,
-   "s": 2,
-   "start": 48.391,
-   "end": 48.86
-  },
-  {
-   "w": "Dez",
-   "line": 13,
-   "quote": false,
-   "s": 1,
-   "start": 49.11,
-   "end": 49.457
-  },
-  {
-   "w": "entregas.",
-   "line": 13,
-   "quote": false,
-   "s": 3,
-   "start": 49.457,
-   "end": 50.239
-  },
-  {
-   "w": "Sozinho,",
-   "line": 13,
-   "quote": false,
-   "s": 3,
-   "start": 50.472,
-   "end": 51.126
-  },
-  {
-   "w": "não",
-   "line": 13,
-   "quote": false,
-   "s": 1,
-   "start": 51.126,
-   "end": 51.416
-  },
-  {
-   "w": "dá.",
-   "line": 13,
-   "quote": false,
-   "s": 1,
-   "start": 51.416,
-   "end": 51.707
-  },
-  {
-   "w": "Mas",
-   "line": 14,
-   "quote": false,
-   "s": 1,
-   "start": 51.931,
-   "end": 52.169
-  },
-  {
-   "w": "na",
-   "line": 14,
-   "quote": false,
-   "s": 1,
-   "start": 52.169,
-   "end": 52.407
-  },
-  {
-   "w": "rua",
-   "line": 14,
-   "quote": false,
-   "s": 1,
-   "start": 52.407,
-   "end": 52.645
-  },
-  {
-   "w": "dele",
-   "line": 14,
-   "quote": false,
-   "s": 2,
-   "start": 52.645,
-   "end": 53.032
-  },
-  {
-   "w": "tinha",
-   "line": 14,
-   "quote": false,
-   "s": 2,
-   "start": 53.032,
-   "end": 53.419
-  },
-  {
-   "w": "mais",
-   "line": 14,
-   "quote": false,
-   "s": 1,
-   "start": 53.419,
-   "end": 53.657
-  },
-  {
-   "w": "três",
-   "line": 14,
-   "quote": false,
-   "s": 1,
-   "start": 53.657,
-   "end": 53.895
-  },
-  {
-   "w": "meninos",
-   "line": 14,
-   "quote": false,
-   "s": 3,
-   "start": 53.895,
-   "end": 54.431
-  },
-  {
-   "w": "com",
-   "line": 14,
-   "quote": false,
-   "s": 1,
-   "start": 54.431,
-   "end": 54.669
-  },
-  {
-   "w": "bicicleta...",
-   "line": 14,
-   "quote": false,
-   "s": 4,
-   "start": 54.669,
-   "end": 55.354
-  },
-  {
-   "w": "e",
-   "line": 14,
-   "quote": false,
-   "s": 1,
-   "start": 55.354,
-   "end": 55.592
-  },
-  {
-   "w": "nenhum",
-   "line": 14,
-   "quote": false,
-   "s": 2,
-   "start": 55.592,
-   "end": 55.978
-  },
-  {
-   "w": "com",
-   "line": 14,
-   "quote": false,
-   "s": 1,
-   "start": 55.978,
-   "end": 56.217
-  },
-  {
-   "w": "trabalho.",
-   "line": 14,
-   "quote": false,
-   "s": 3,
-   "start": 56.217,
-   "end": 56.752
-  },
-  {
-   "w": "E",
-   "line": 15,
-   "quote": false,
-   "s": 1,
-   "start": 56.977,
-   "end": 57.192
-  },
-  {
-   "w": "agora,",
-   "line": 15,
-   "quote": false,
-   "s": 3,
-   "start": 57.192,
-   "end": 57.676
+   "start": 9.626,
+   "end": 9.804
   },
   {
    "w": "você",
-   "line": 15,
+   "line": 3,
    "quote": false,
    "s": 2,
-   "start": 57.676,
-   "end": 58.026
+   "start": 9.804,
+   "end": 10.093
   },
   {
-   "w": "decide:",
-   "line": 15,
+   "w": "chegou",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 10.093,
+   "end": 10.383
+  },
+  {
+   "w": "agora:",
+   "line": 3,
    "quote": false,
    "s": 3,
-   "start": 58.026,
-   "end": 58.511
+   "start": 10.383,
+   "end": 10.783
   },
   {
    "w": "o",
-   "line": 16,
+   "line": 3,
    "quote": false,
    "s": 1,
-   "start": 58.727,
-   "end": 58.9
+   "start": 11.071,
+   "end": 11.347
   },
   {
    "w": "Rafa",
-   "line": 16,
+   "line": 3,
    "quote": false,
    "s": 2,
-   "start": 58.9,
-   "end": 59.181
+   "start": 11.347,
+   "end": 11.796
   },
   {
-   "w": "chama",
-   "line": 16,
+   "w": "tem",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 11.796,
+   "end": 12.073
+  },
+  {
+   "w": "26",
+   "line": 3,
+   "quote": false,
+   "s": 4,
+   "start": 12.073,
+   "end": 12.867
+  },
+  {
+   "w": "dias",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 12.867,
+   "end": 13.143
+  },
+  {
+   "w": "pra",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 13.143,
+   "end": 13.42
+  },
+  {
+   "w": "juntar",
+   "line": 3,
    "quote": false,
    "s": 2,
-   "start": 59.181,
-   "end": 59.461
+   "start": 13.42,
+   "end": 13.869
   },
   {
-   "w": "os",
-   "line": 16,
+   "w": "R$",
+   "line": 3,
    "quote": false,
-   "s": 1,
-   "start": 59.461,
-   "end": 59.634
+   "s": 2,
+   "start": 13.869,
+   "end": 14.318
   },
   {
-   "w": "três",
-   "line": 16,
+   "w": "1.800...",
+   "line": 3,
    "quote": false,
-   "s": 1,
-   "start": 59.634,
-   "end": 59.807
-  },
-  {
-   "w": "meninos...",
-   "line": 16,
-   "quote": false,
-   "s": 3,
-   "start": 59.807,
-   "end": 60.196
+   "s": 4,
+   "start": 14.318,
+   "end": 15.112
   },
   {
    "w": "ou",
-   "line": 16,
+   "line": 3,
    "quote": false,
    "s": 1,
-   "start": 60.196,
-   "end": 60.368
+   "start": 15.493,
+   "end": 15.667
   },
   {
-   "w": "faz",
-   "line": 16,
+   "w": "a",
+   "line": 3,
    "quote": false,
    "s": 1,
-   "start": 60.368,
-   "end": 60.541
+   "start": 15.667,
+   "end": 15.841
   },
   {
-   "w": "tudo",
-   "line": 16,
-   "quote": false,
-   "s": 2,
-   "start": 60.541,
-   "end": 60.822
-  },
-  {
-   "w": "sozinho?",
-   "line": 16,
+   "w": "família",
+   "line": 3,
    "quote": false,
    "s": 3,
-   "start": 60.822,
-   "end": 61.211
+   "start": 15.841,
+   "end": 16.232
   },
   {
-   "w": "Vota",
-   "line": 17,
+   "w": "perde",
+   "line": 3,
    "quote": false,
    "s": 2,
-   "start": 61.211,
-   "end": 61.491
+   "start": 16.232,
+   "end": 16.514
+  },
+  {
+   "w": "a",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 16.514,
+   "end": 16.687
+  },
+  {
+   "w": "casa.",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 16.687,
+   "end": 16.97
+  },
+  {
+   "w": "Naquela",
+   "line": 4,
+   "quote": false,
+   "s": 3,
+   "start": 17.298,
+   "end": 17.85
+  },
+  {
+   "w": "noite,",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 17.85,
+   "end": 18.249
+  },
+  {
+   "w": "ele",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 18.249,
+   "end": 18.648
+  },
+  {
+   "w": "contou",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 18.648,
+   "end": 19.047
+  },
+  {
+   "w": "tudo.",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 19.047,
+   "end": 19.445
+  },
+  {
+   "w": "A",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 19.75,
+   "end": 20.02
+  },
+  {
+   "w": "farmácia.",
+   "line": 5,
+   "quote": false,
+   "s": 3,
+   "start": 20.02,
+   "end": 20.628
+  },
+  {
+   "w": "A",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 20.88,
+   "end": 21.095
+  },
+  {
+   "w": "oficina.",
+   "line": 5,
+   "quote": false,
+   "s": 4,
+   "start": 21.095,
+   "end": 21.711
+  },
+  {
+   "w": "O",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 22.065,
+   "end": 22.261
+  },
+  {
+   "w": "Ver-o-Peso",
+   "line": 5,
+   "quote": false,
+   "s": 4,
+   "start": 22.261,
+   "end": 22.823
+  },
+  {
+   "w": "de",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 22.823,
+   "end": 23.019
+  },
+  {
+   "w": "madrugada.",
+   "line": 5,
+   "quote": false,
+   "s": 4,
+   "start": 23.019,
+   "end": 23.581
+  },
+  {
+   "w": "Ela",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 23.932,
+   "end": 24.234
+  },
+  {
+   "w": "não",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 24.234,
+   "end": 24.42
+  },
+  {
+   "w": "gritou.",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 24.42,
+   "end": 24.722
+  },
+  {
+   "w": "Não",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 25.128,
+   "end": 25.338
+  },
+  {
+   "w": "chorou.",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 25.338,
+   "end": 25.679
+  },
+  {
+   "w": "Só",
+   "line": 7,
+   "quote": false,
+   "s": 1,
+   "start": 26.02,
+   "end": 26.24
+  },
+  {
+   "w": "abriu",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 26.24,
+   "end": 26.599
+  },
+  {
+   "w": "a",
+   "line": 7,
+   "quote": false,
+   "s": 1,
+   "start": 26.599,
+   "end": 26.819
+  },
+  {
+   "w": "bolsa...",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 26.819,
+   "end": 27.178
+  },
+  {
+   "w": "e",
+   "line": 7,
+   "quote": false,
+   "s": 1,
+   "start": 27.424,
+   "end": 27.594
+  },
+  {
+   "w": "tirou",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 27.594,
+   "end": 27.871
+  },
+  {
+   "w": "uma",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 27.871,
+   "end": 28.148
+  },
+  {
+   "w": "folha",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 28.148,
+   "end": 28.424
+  },
+  {
+   "w": "dobrada.",
+   "line": 7,
+   "quote": false,
+   "s": 3,
+   "start": 28.424,
+   "end": 28.808
+  },
+  {
+   "w": "A",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 29.107,
+   "end": 29.307
+  },
+  {
+   "w": "página",
+   "line": 8,
+   "quote": false,
+   "s": 3,
+   "start": 29.307,
+   "end": 29.758
+  },
+  {
+   "w": "do",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 29.758,
+   "end": 29.958
+  },
+  {
+   "w": "caderno",
+   "line": 8,
+   "quote": false,
+   "s": 3,
+   "start": 29.958,
+   "end": 30.409
+  },
+  {
+   "w": "dele.",
+   "line": 8,
+   "quote": false,
+   "s": 2,
+   "start": 30.409,
+   "end": 30.735
+  },
+  {
+   "w": "Do",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 31.042,
+   "end": 31.279
+  },
+  {
+   "w": "primeiro",
+   "line": 8,
+   "quote": false,
+   "s": 3,
+   "start": 31.279,
+   "end": 31.811
+  },
+  {
+   "w": "dia.",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 31.811,
+   "end": 32.048
+  },
+  {
+   "w": "\"Tu",
+   "line": 9,
+   "quote": true,
+   "s": 1,
+   "start": 32.396,
+   "end": 32.596
+  },
+  {
+   "w": "achou",
+   "line": 9,
+   "quote": true,
+   "s": 2,
+   "start": 32.596,
+   "end": 32.922
+  },
+  {
+   "w": "que",
+   "line": 9,
+   "quote": true,
+   "s": 1,
+   "start": 32.922,
+   "end": 33.123
+  },
+  {
+   "w": "eu",
+   "line": 9,
+   "quote": true,
+   "s": 1,
+   "start": 33.123,
+   "end": 33.324
+  },
+  {
+   "w": "não",
+   "line": 9,
+   "quote": true,
+   "s": 1,
+   "start": 33.324,
+   "end": 33.524
+  },
+  {
+   "w": "tinha",
+   "line": 9,
+   "quote": true,
+   "s": 2,
+   "start": 33.524,
+   "end": 33.85
+  },
+  {
+   "w": "visto,",
+   "line": 9,
+   "quote": true,
+   "s": 2,
+   "start": 33.85,
+   "end": 34.176
+  },
+  {
+   "w": "Rafael?\"",
+   "line": 9,
+   "quote": true,
+   "s": 2,
+   "start": 34.59,
+   "end": 35.011
+  },
+  {
+   "w": "\"Eu",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 35.371,
+   "end": 35.533
+  },
+  {
+   "w": "vi.",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 35.533,
+   "end": 35.695
+  },
+  {
+   "w": "E",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 35.695,
+   "end": 35.857
+  },
+  {
+   "w": "fiz",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 35.857,
+   "end": 36.019
+  },
+  {
+   "w": "a",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 36.019,
+   "end": 36.181
+  },
+  {
+   "w": "conta",
+   "line": 10,
+   "quote": true,
+   "s": 2,
+   "start": 36.181,
+   "end": 36.445
+  },
+  {
+   "w": "todo",
+   "line": 10,
+   "quote": true,
+   "s": 2,
+   "start": 36.445,
+   "end": 36.708
+  },
+  {
+   "w": "dia.\"",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 36.708,
+   "end": 36.871
+  },
+  {
+   "w": "Embaixo,",
+   "line": 11,
+   "quote": false,
+   "s": 3,
+   "start": 37.178,
+   "end": 37.673
+  },
+  {
+   "w": "com",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 37.673,
+   "end": 37.893
+  },
+  {
+   "w": "a",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 37.893,
+   "end": 38.114
+  },
+  {
+   "w": "letra",
+   "line": 11,
+   "quote": false,
+   "s": 2,
+   "start": 38.114,
+   "end": 38.471
+  },
+  {
+   "w": "dela:",
+   "line": 11,
+   "quote": false,
+   "s": 2,
+   "start": 38.471,
+   "end": 38.829
+  },
+  {
+   "w": "Dia",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 39.099,
+   "end": 39.415
+  },
+  {
+   "w": "5.",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 39.415,
+   "end": 39.928
+  },
+  {
+   "w": "Devia",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 40.165,
+   "end": 40.609
+  },
+  {
+   "w": "ter",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 40.609,
+   "end": 40.882
+  },
+  {
+   "w": "R$",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 40.882,
+   "end": 41.325
+  },
+  {
+   "w": "300.",
+   "line": 12,
+   "quote": false,
+   "s": 3,
+   "start": 41.325,
+   "end": 41.939
+  },
+  {
+   "w": "Tem",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 42.205,
+   "end": 42.497
+  },
+  {
+   "w": "R$",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 42.497,
+   "end": 42.972
+  },
+  {
+   "w": "85.",
+   "line": 12,
+   "quote": false,
+   "s": 5,
+   "start": 42.972,
+   "end": 43.995
+  },
+  {
+   "w": "R$",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 43.995,
+   "end": 44.47
+  },
+  {
+   "w": "215",
+   "line": 13,
+   "quote": false,
+   "s": 6,
+   "start": 44.47,
+   "end": 45.676
+  },
+  {
+   "w": "de",
+   "line": 13,
+   "quote": false,
+   "s": 1,
+   "start": 45.676,
+   "end": 45.969
+  },
+  {
+   "w": "atraso.",
+   "line": 13,
+   "quote": false,
+   "s": 3,
+   "start": 45.969,
+   "end": 46.626
+  },
+  {
+   "w": "Ele",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 46.935,
+   "end": 47.344
+  },
+  {
+   "w": "tava",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 47.344,
+   "end": 47.753
+  },
+  {
+   "w": "comemorando...",
+   "line": 14,
+   "quote": false,
+   "s": 5,
+   "start": 47.753,
+   "end": 48.635
+  },
+  {
+   "w": "enquanto",
+   "line": 14,
+   "quote": false,
+   "s": 3,
+   "start": 48.635,
+   "end": 49.202
+  },
+  {
+   "w": "perdia",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 49.202,
+   "end": 49.611
+  },
+  {
+   "w": "a",
+   "line": 14,
+   "quote": false,
+   "s": 1,
+   "start": 49.611,
+   "end": 49.863
+  },
+  {
+   "w": "corrida.",
+   "line": 14,
+   "quote": false,
+   "s": 3,
+   "start": 49.863,
+   "end": 50.429
+  },
+  {
+   "w": "Agora",
+   "line": 15,
+   "quote": false,
+   "s": 3,
+   "start": 50.7,
+   "end": 51.32
+  },
+  {
+   "w": "é",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 51.32,
+   "end": 51.595
+  },
+  {
+   "w": "R$",
+   "line": 15,
+   "quote": false,
+   "s": 2,
+   "start": 51.595,
+   "end": 52.043
+  },
+  {
+   "w": "66",
+   "line": 15,
+   "quote": false,
+   "s": 5,
+   "start": 52.043,
+   "end": 53.008
+  },
+  {
+   "w": "por",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 53.008,
+   "end": 53.283
+  },
+  {
+   "w": "dia.",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 53.283,
+   "end": 53.559
+  },
+  {
+   "w": "Sem",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 53.78,
+   "end": 54.052
+  },
+  {
+   "w": "falhar",
+   "line": 15,
+   "quote": false,
+   "s": 2,
+   "start": 54.052,
+   "end": 54.494
+  },
+  {
+   "w": "nenhum.",
+   "line": 15,
+   "quote": false,
+   "s": 2,
+   "start": 54.494,
+   "end": 54.937
+  },
+  {
+   "w": "\"Tu",
+   "line": 16,
+   "quote": true,
+   "s": 1,
+   "start": 55.162,
+   "end": 55.35
+  },
+  {
+   "w": "pode",
+   "line": 16,
+   "quote": true,
+   "s": 2,
+   "start": 55.35,
+   "end": 55.655
+  },
+  {
+   "w": "trabalhar.",
+   "line": 16,
+   "quote": true,
+   "s": 3,
+   "start": 55.655,
+   "end": 56.077
+  },
+  {
+   "w": "Mas",
+   "line": 16,
+   "quote": true,
+   "s": 1,
+   "start": 56.318,
+   "end": 56.511
+  },
+  {
+   "w": "às",
+   "line": 16,
+   "quote": true,
+   "s": 1,
+   "start": 56.511,
+   "end": 56.704
+  },
+  {
+   "w": "7",
+   "line": 16,
+   "quote": true,
+   "s": 2,
+   "start": 56.704,
+   "end": 57.018
+  },
+  {
+   "w": "em",
+   "line": 16,
+   "quote": true,
+   "s": 1,
+   "start": 57.018,
+   "end": 57.211
+  },
+  {
+   "w": "ponto,",
+   "line": 16,
+   "quote": true,
+   "s": 2,
+   "start": 57.211,
+   "end": 57.525
+  },
+  {
+   "w": "tu",
+   "line": 16,
+   "quote": true,
+   "s": 1,
+   "start": 57.525,
+   "end": 57.719
+  },
+  {
+   "w": "tá",
+   "line": 16,
+   "quote": true,
+   "s": 1,
+   "start": 57.719,
+   "end": 57.912
   },
   {
    "w": "na",
+   "line": 16,
+   "quote": true,
+   "s": 1,
+   "start": 57.912,
+   "end": 58.105
+  },
+  {
+   "w": "escola.\"",
+   "line": 16,
+   "quote": true,
+   "s": 3,
+   "start": 58.105,
+   "end": 58.54
+  },
+  {
+   "w": "\"Atrasou",
    "line": 17,
+   "quote": true,
+   "s": 3,
+   "start": 58.786,
+   "end": 59.236
+  },
+  {
+   "w": "de",
+   "line": 17,
+   "quote": true,
+   "s": 1,
+   "start": 59.236,
+   "end": 59.436
+  },
+  {
+   "w": "novo...",
+   "line": 17,
+   "quote": true,
+   "s": 2,
+   "start": 59.436,
+   "end": 59.76
+  },
+  {
+   "w": "acabou.\"",
+   "line": 17,
+   "quote": true,
+   "s": 3,
+   "start": 60.048,
+   "end": 60.5
+  },
+  {
+   "w": "Das",
+   "line": 18,
    "quote": false,
    "s": 1,
-   "start": 61.491,
-   "end": 61.664
+   "start": 60.755,
+   "end": 60.972
+  },
+  {
+   "w": "5",
+   "line": 18,
+   "quote": false,
+   "s": 2,
+   "start": 60.972,
+   "end": 61.325
+  },
+  {
+   "w": "às",
+   "line": 18,
+   "quote": false,
+   "s": 1,
+   "start": 61.325,
+   "end": 61.542
+  },
+  {
+   "w": "7.",
+   "line": 18,
+   "quote": false,
+   "s": 2,
+   "start": 61.542,
+   "end": 61.895
+  },
+  {
+   "w": "Dez",
+   "line": 18,
+   "quote": false,
+   "s": 1,
+   "start": 62.104,
+   "end": 62.422
+  },
+  {
+   "w": "entregas.",
+   "line": 18,
+   "quote": false,
+   "s": 3,
+   "start": 62.422,
+   "end": 63.139
+  },
+  {
+   "w": "Sozinho,",
+   "line": 18,
+   "quote": false,
+   "s": 3,
+   "start": 63.355,
+   "end": 63.99
+  },
+  {
+   "w": "não",
+   "line": 18,
+   "quote": false,
+   "s": 1,
+   "start": 63.99,
+   "end": 64.272
+  },
+  {
+   "w": "dá.",
+   "line": 18,
+   "quote": false,
+   "s": 1,
+   "start": 64.272,
+   "end": 64.554
+  },
+  {
+   "w": "Mas",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 64.754,
+   "end": 64.965
+  },
+  {
+   "w": "na",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 64.965,
+   "end": 65.175
+  },
+  {
+   "w": "rua",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 65.175,
+   "end": 65.385
+  },
+  {
+   "w": "dele",
+   "line": 19,
+   "quote": false,
+   "s": 2,
+   "start": 65.385,
+   "end": 65.726
+  },
+  {
+   "w": "tinha",
+   "line": 19,
+   "quote": false,
+   "s": 2,
+   "start": 65.726,
+   "end": 66.068
+  },
+  {
+   "w": "três",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 66.068,
+   "end": 66.278
+  },
+  {
+   "w": "meninos",
+   "line": 19,
+   "quote": false,
+   "s": 3,
+   "start": 66.278,
+   "end": 66.751
+  },
+  {
+   "w": "com",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 66.751,
+   "end": 66.961
+  },
+  {
+   "w": "bicicleta...",
+   "line": 19,
+   "quote": false,
+   "s": 4,
+   "start": 66.961,
+   "end": 67.565
+  },
+  {
+   "w": "e",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 67.775,
+   "end": 68.009
+  },
+  {
+   "w": "nenhum",
+   "line": 19,
+   "quote": false,
+   "s": 2,
+   "start": 68.009,
+   "end": 68.389
+  },
+  {
+   "w": "com",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 68.389,
+   "end": 68.623
+  },
+  {
+   "w": "trabalho.",
+   "line": 19,
+   "quote": false,
+   "s": 3,
+   "start": 68.623,
+   "end": 69.15
+  },
+  {
+   "w": "E",
+   "line": 20,
+   "quote": false,
+   "s": 1,
+   "start": 69.38,
+   "end": 69.601
+  },
+  {
+   "w": "agora,",
+   "line": 20,
+   "quote": false,
+   "s": 3,
+   "start": 69.601,
+   "end": 70.1
+  },
+  {
+   "w": "você",
+   "line": 20,
+   "quote": false,
+   "s": 2,
+   "start": 70.1,
+   "end": 70.459
+  },
+  {
+   "w": "decide:",
+   "line": 20,
+   "quote": false,
+   "s": 3,
+   "start": 70.459,
+   "end": 70.958
+  },
+  {
+   "w": "o",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 71.214,
+   "end": 71.442
+  },
+  {
+   "w": "Rafa",
+   "line": 21,
+   "quote": false,
+   "s": 2,
+   "start": 71.442,
+   "end": 71.813
+  },
+  {
+   "w": "faz",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 71.813,
+   "end": 72.041
+  },
+  {
+   "w": "tudo",
+   "line": 21,
+   "quote": false,
+   "s": 2,
+   "start": 72.041,
+   "end": 72.412
+  },
+  {
+   "w": "sozinho,",
+   "line": 21,
+   "quote": false,
+   "s": 3,
+   "start": 72.412,
+   "end": 72.925
+  },
+  {
+   "w": "no",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 72.925,
+   "end": 73.153
+  },
+  {
+   "w": "limite...",
+   "line": 21,
+   "quote": false,
+   "s": 3,
+   "start": 73.153,
+   "end": 73.666
+  },
+  {
+   "w": "ou",
+   "line": 22,
+   "quote": false,
+   "s": 1,
+   "start": 73.929,
+   "end": 74.07
+  },
+  {
+   "w": "chama",
+   "line": 22,
+   "quote": false,
+   "s": 2,
+   "start": 74.07,
+   "end": 74.3
+  },
+  {
+   "w": "os",
+   "line": 22,
+   "quote": false,
+   "s": 1,
+   "start": 74.3,
+   "end": 74.441
+  },
+  {
+   "w": "meninos",
+   "line": 22,
+   "quote": false,
+   "s": 3,
+   "start": 74.441,
+   "end": 74.759
+  },
+  {
+   "w": "e",
+   "line": 22,
+   "quote": false,
+   "s": 1,
+   "start": 74.759,
+   "end": 74.9
+  },
+  {
+   "w": "divide",
+   "line": 22,
+   "quote": false,
+   "s": 3,
+   "start": 74.9,
+   "end": 75.218
+  },
+  {
+   "w": "o",
+   "line": 22,
+   "quote": false,
+   "s": 1,
+   "start": 75.218,
+   "end": 75.359
+  },
+  {
+   "w": "lucro?",
+   "line": 22,
+   "quote": false,
+   "s": 2,
+   "start": 75.359,
+   "end": 75.589
+  },
+  {
+   "w": "Vota",
+   "line": 23,
+   "quote": false,
+   "s": 2,
+   "start": 75.589,
+   "end": 75.818
+  },
+  {
+   "w": "na",
+   "line": 23,
+   "quote": false,
+   "s": 1,
+   "start": 75.818,
+   "end": 75.96
   },
   {
    "w": "enquete.",
-   "line": 17,
+   "line": 23,
    "quote": false,
    "s": 3,
-   "start": 61.664,
-   "end": 62.053
+   "start": 75.96,
+   "end": 76.278
   }
  ]
 }

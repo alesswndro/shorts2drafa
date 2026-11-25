@@ -97,6 +97,7 @@ LIB = {
     "paper": lambda: lp(noise(.35), .4) * (np.abs(np.sin(np.linspace(0, 18, int(.35 * SR))))) * .9,
     "pencil": lambda: lp(noise(.7), .7) * (0.5 + 0.5 * np.sign(np.sin(np.linspace(0, 60, int(.7 * SR))))) * .35,
     "buzz": lambda: (np.sign(np.sin(2 * np.pi * 150 * np.arange(int(.35 * SR)) / SR)) * env(int(.35 * SR), .01, .5)) * .25,
+    "crack": lambda: P(*[np.pad(noise(.03) * env(int(.03 * SR), .0005, .008) * 1.6, (int(k * .035 * SR), 0)) for k in range(5)]),
     "sting": lambda: P(*[note(f, 1.6, .01, .7, (1, .3)) for f in (220, 277.2, 329.6, 440)]) * .35,
 }
 for t, kind in cues["sfx"]:
