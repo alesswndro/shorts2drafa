@@ -20,6 +20,9 @@ Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA S
 "6 ENTREGAS / ANTES DA / ESCOLA". O número tem que aparecer na narração nos primeiros segundos.
 
 ## Enquete boa vs ruim
+- **Cada opção diz o próprio custo**, no texto do cartão e na narração. Modelo do usuário:
+  "faz tudo sozinho com muito esforço" vs "faz com os meninos e divide o lucro total".
+- Na parte seguinte, não fazer a conta que torna uma opção obviamente pior.
 - Ruim: uma opção é moralmente óbvia (ex.: "contar pra mãe" vs "esconder").
 - Boa: as duas resolvem algo e custam algo (ex.: mais dinheiro mas mais risco vs menos dinheiro mas escala).
 - Sempre tenha os DOIS caminhos rascunhados antes de publicar, pra próxima parte sair rápido.

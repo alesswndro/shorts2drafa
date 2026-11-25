@@ -71,3 +71,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   Esquecida no EP05 v2; corrigido na v3 (867 caracteres).
 - 2026-11-24 — Voz: stability 0.40 / similarity 0.75 (do nome do arquivo). Regra: áudio recebido → gerar vídeo.
 - 2026-11-25 — HUD refeito idêntico ao original (medido pixel a pixel). Regra: sempre enviar capa 9:16 + 3:4.
+- 2026-11-25 — Regra do usuário: opções da enquete menos óbvias, cada uma com seu custo explícito
+  (ex.: "sozinho, com muito esforço" vs "com os meninos, dividindo o lucro").

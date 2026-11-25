@@ -1,8 +1,8 @@
-# EP05 — "R$ 215 de atraso" (v3 — com enquete narrada, ≤ 70 s)
+# EP05 — "R$ 215 de atraso" (v4 — enquete com custo nas duas opções, ≤ 70 s)
 
 Enquete EP04 vencedora: **A — contar tudo pra mãe**.
 Voz: Sandro Dutra `qPfM2laM0pRL4rrZtBGl` · `eleven_v4` · `mp3_44100_128`
-867 caracteres ≈ 59 s de voz + ~4 s segurando as opções = ~63 s
+Narração v3 gerada: 62,3 s (take `_1`). v4 muda só as 3 últimas linhas.
 
 ```
 [softly] 7 e 40. O telefone da mãe do Rafa tocou no meio do serviço.
@@ -21,7 +21,8 @@ Agora é R$ 66 por dia. Sem falhar nenhum.
 Das 5 às 7. Dez entregas. Sozinho, não dá.
 [excited] Mas na rua dele tinha mais três meninos com bicicleta... e nenhum com trabalho.
 [curious] E agora, você decide:
-o Rafa chama os três meninos... ou faz tudo sozinho?
+o Rafa faz tudo sozinho, no limite...
+ou chama os meninos e divide o lucro?
 Vota na enquete.
 ```
 
@@ -31,3 +32,5 @@ Vota na enquete.
 - Regra nova da mãe (escola às 7) cria o relógio dos próximos episódios.
 - v2: cortes pra caber em 70 s. v3: enquete narrada no final (obrigatória); saíram "comemorando enquanto
   perdia a corrida" e "uma a cada 12 minutos" da narração — ficam só como imagem/legenda.
+- v4 (pedido do usuário): enquete menos óbvia — cada opção diz o custo: sozinho = muito esforço;
+  com os meninos = divide o lucro.

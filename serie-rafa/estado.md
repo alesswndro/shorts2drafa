@@ -16,7 +16,7 @@
 |---|---|---|---|---|
 | EP03 | O que o Rafa deve fazer? | Levar a caixa pro Ver-o-Peso às 5h | Ficar só nas entregas da farmácia | A |
 | EP04 | O que o Rafa deve fazer? | Contar tudo pra mãe | Esconder da mãe | **A** |
-| EP05 | O que o Rafa deve fazer? | Chamar os 3 meninos | Fazer tudo sozinho | pendente |
+| EP05 | O que o Rafa deve fazer? | Sozinho, no limite (muito esforço) | Com os meninos, dividindo o lucro | pendente |
 
 ## Fios soltos
 - A mãe "fingiu que não viu" o caderno no EP1 → pagar no EP5.

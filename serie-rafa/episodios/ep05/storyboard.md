@@ -24,14 +24,14 @@
 
 ## Enquete
 PARTE 6: VOCÊ DECIDE — O QUE O RAFA DEVE FAZER?
-- **A) CHAMAR OS 3 MENINOS** (mais entregas, mas divide o dinheiro e vira responsável por eles)
-- **B) FAZER TUDO SOZINHO** (fica com tudo, mas 10 entregas em 2 horas é quase impossível)
+- **A) SOZINHO, NO LIMITE** (fica com tudo, mas 10 entregas em 2 horas é quase impossível)
+- **B) COM OS MENINOS, DIVIDINDO O LUCRO** (dá conta das entregas, mas divide tudo por quatro)
 
 ## Rascunho dos dois caminhos
-- **Se A:** Rafa vira "gerente": cada um ganha R$ 5, ele fica com R$ 2 de comissão por entrega.
+- **Se B:** Rafa vira "gerente": cada um ganha R$ 5, ele fica com R$ 2 de comissão por entrega.
   Primeiro dia dá certo; o conflito vem quando um deles some com uma entrega/dinheiro.
-- **Se B:** Rafa otimiza a rota no caderno + usa o que aprendeu na oficina pra deixar a bike mais rápida;
+- **Se A:** Rafa otimiza a rota no caderno + usa o que aprendeu na oficina pra deixar a bike mais rápida;
   chega no limite físico, fura o pneu às 6h50, a 3 km da escola.
 
-## Novos personagens (se A)
+## Novos personagens (se B)
 3 crianças da rua — definir nomes/visual (sugestão: Kauã, Biel e uma menina, Duda).

@@ -219,7 +219,7 @@ export const Ep05: React.FC = () => {
             <StreetMorning />
             <At x={10} y={900}><Rafa width={400} expr="determined" blink={B(14)} look={[0.8, 0]} /></At>
           </AbsoluteFill>
-          <Poll parte={6} a="CHAMAR OS 3 MENINOS" b="FAZER TUDO SOZINHO" at={t(136)} aAt={t(142)} bAt={t(147)} voteAt={t(150)} />
+          <Poll parte={6} a="SOZINHO, COM MUITO ESFORÇO" b="COM OS MENINOS, DIVIDINDO O LUCRO" at={t(136)} aAt={t(142)} bAt={t(147)} voteAt={t(150)} />
         </>
       )}
 
