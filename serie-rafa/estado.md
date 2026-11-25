@@ -1,7 +1,7 @@
 # Estado atual da série
 
 **Último episódio publicado:** EP04 — "6 entregas antes da escola"
-**Em produção:** EP05 — "R$ 215 de atraso": roteiro v5 (abre com o voto), voz do usuário (take sem sufixo, 76,3 s), vídeo ≈ 79 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
+**Em produção:** EP05 — "R$ 215 de atraso": roteiro v7, voz do usuário (take sem sufixo, 87,3 s), vídeo ≈ 90 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
 
 ## Números (fim do EP04)
 - Dia: 5 de 30 (novembro)
@@ -16,7 +16,7 @@
 |---|---|---|---|---|
 | EP03 | O que o Rafa deve fazer? | Levar a caixa pro Ver-o-Peso às 5h | Ficar só nas entregas da farmácia | A |
 | EP04 | O que o Rafa deve fazer? | Contar tudo pra mãe | Esconder da mãe | **A** |
-| EP05 | O que o Rafa deve fazer? | Sozinho, no limite (muito esforço) | Com os meninos, dividindo o lucro | pendente |
+| EP05 | O que o Rafa deve fazer? (voto nos comentários) | Sozinho, no limite (muito esforço) | Com os meninos, dividindo o lucro | pendente |
 
 ## Fios soltos
 - A mãe "fingiu que não viu" o caderno no EP1 → pagar no EP5.
@@ -26,5 +26,5 @@
 - Rafa agora sabe consertar bicicleta (corrente, freio, raio) — habilidade ainda não usada pra ganhar dinheiro.
 - Código Remotion dos EP01–04 se perdeu; recriado em `remotion/` a partir do EP05.
 - Novos (EP05): Kauã, Duda, Biel — 3 crianças da rua com bicicleta, sem trabalho.
-- Regra da mãe (EP05): pode trabalhar, mas às 7h em ponto na escola; atrasou de novo, acabou.
+- Mãe (EP05): "essa conta nunca foi pra ser tua" / "então a gente faz junto"; condição: às 7h em ponto na escola ("teu futuro não entra nessa conta"). O Rafa prometeu.
 - Meta na tela agora R$ 66/dia (vermelha).

@@ -5,7 +5,7 @@ import {C, FONT, HAND, FPS, strokeText} from '../theme';
 import {bob, blinking, pop, ramp, sec} from '../components/anim';
 import {Rafa, Mae, Kaua, Biel, Duda, Bike} from '../components/Person';
 import {Caption, Hud, Balloon, TitleCard, Poll, Sunburst, ClockPill, CapWord, MetaPill} from '../components/ui';
-import {KitchenNight, TableFront, WorkKitchen, EvictionDoor, NotebookPage, StreetMorning, Polaroid, DeliveryIcon} from '../components/sets';
+import {KitchenNight, TableFront, WorkKitchen, EvictionDoor, NotebookPage, StreetMorning, Polaroid, DeliveryIcon, Planks} from '../components/sets';
 
 const W = align.words as {w: string; start: number; end: number}[];
 const t = (i: number) => sec(W[i].start); // frame em que a palavra i começa
@@ -23,18 +23,18 @@ const CHUNKS: Chunk[] = [
   [44, 45], [46, 48, undefined, {2: Y}], [49, 50, undefined, {1: Y}], [51, 52, undefined, {1: Y}], [53, 54, undefined, {1: Y}], [55, 56],
   [57, 59, undefined, {2: R}], [60, 61, undefined, {1: R}], [62, 63], [64, 65], [66, 67], [68, 70, undefined, {1: Y, 2: Y}],
   [71, 72], [73, 75], [76, 78, undefined, {1: Y, 2: Y}],
-  [95, 95], [96, 97], [98, 99, undefined, {1: Y}],
-  [113, 114], [115, 115, undefined, {0: G}], [116, 116], [117, 119, undefined, {0: R}],
-  [126, 128, 'SEM FALHAR NENHUM.', {0: R, 1: R, 2: R}],
-  [145, 148], [149, 150, '10 ENTREGAS.', {0: Y, 1: Y}], [151, 151], [152, 153, undefined, {0: R, 1: R}],
-  [154, 156], [157, 158], [159, 160, '3 MENINOS', {0: Y, 1: Y}], [161, 162], [163, 164], [165, 166, undefined, {1: R}],
+  [96, 98, undefined, {2: Y}], [99, 101], [102, 103], [104, 107, undefined, {1: Y}],
+  [121, 122], [123, 123, undefined, {0: G}], [124, 124], [125, 127, undefined, {0: R}],
+  [134, 135], [136, 138, undefined, {2: Y}], [139, 140], [141, 141], [142, 144],
+  [165, 168], [169, 170, '10 ENTREGAS.', {0: Y, 1: Y}], [171, 171], [172, 173, undefined, {0: R, 1: R}],
+  [174, 176], [177, 178], [179, 180, '3 MENINOS', {0: Y, 1: Y}], [181, 182], [183, 184], [185, 186, undefined, {1: R}],
 ];
 
 // cenas (segundos)
-const T = {S1: 0, VOTE: 3.7, S2: 9.6, S3: 17.2, S4: 23.8, S5: 28.9, S6: 32.3, S7: 37.1, S8: 43.9, S8b: 46.9, S9: 50.6, S10: 55.1, S11: 60.7, S12: 64.7};
+const T = {S1: 0, VOTE: 4.0, S2: 10.0, S3: 18.0, S4: 24.8, S5: 30.3, S6: 33.8, S7: 39.1, S8: 48.3, S8b: 51.4, S9: 55.3, S10: 60.0, S11: 67.9, S12: 72.4};
 // posição vertical da legenda por trecho (s)
 const capY = (s: number) =>
-  s < T.VOTE ? 1560 : s < T.S2 ? 1700 : s < T.S3 ? 1720 : s < T.S4 ? 560 : s < T.S5 ? 1690 : s < T.S6 ? 1740 : s < T.S8b ? 560 : s < T.S9 ? 1620 : s < T.S10 ? 1560 : s < T.S11 ? 560 : s < T.S12 ? 440 : 450;
+  s < T.VOTE ? 1560 : s < T.S2 ? 1700 : s < T.S3 ? 1720 : s < T.S4 ? 560 : s < T.S5 ? 1690 : s < T.S6 ? 1740 : s < T.S7 ? 560 : s < T.S8 ? 1740 : s < T.S8b ? 560 : s < T.S9 ? 1620 : s < T.S10 ? 1560 : s < T.S11 ? 560 : s < T.S12 ? 440 : 450;
 
 const Captions: React.FC = () => {
   const f = useCurrentFrame();
@@ -77,9 +77,9 @@ export const Ep05: React.FC = () => {
   const F = (k: keyof typeof T) => sec(T[k]);
 
   // HUD
-  const metaBack = sec(54.2), metaSwap = metaBack + 14;
+  const metaBack = sec(59.0), metaSwap = metaBack + 14;
   const hud = {dia: 5, guardado: 85, despejo: 26, meta: f >= metaSwap ? 66 : 60, metaAlert: f >= metaSwap,
-    despejoAlert: f >= t(32) && f < t(38), guardadoShakeAt: t(109), hideMeta: f >= F('S9') && f < metaSwap};
+    despejoAlert: f >= t(32) && f < t(38), guardadoShakeAt: t(117), hideMeta: f >= F('S9') && f < metaSwap};
   const END = EP05_DURATION;
 
   return (
@@ -140,82 +140,93 @@ export const Ep05: React.FC = () => {
       <Scene from={F('S6')} to={F('S7')} zoom={0.06}>
         <KitchenNight table={false} />
         <At x={-160} y={700}><Mae width={780} expr="serious" blink={B(6)} look={[0.6, 0]} /></At>
-        <At x={480} y={780}><Rafa width={760} expr={f >= t(87) ? 'sad' : 'surprised'} blink={f >= t(87) && B(6)} look={[-0.7, 0]} /></At>
+        <At x={480} y={780}><Rafa width={760} expr={f >= t(89) ? 'sad' : 'surprised'} blink={f >= t(89) && B(6)} look={[-0.7, 0]} /></At>
         {f < t(87) && <Balloon text={<>TU ACHOU QUE EU NÃO<br />TINHA VISTO, RAFAEL?</>} at={t(79)} x={70} y={450} w={760} tail="left" size={60} />}
-        {f >= t(87) && <Balloon text={<>EU VI. E FIZ A CONTA<br /><span style={{color: C.redPill}}>TODO DIA.</span></>} at={t(87)} x={70} y={450} w={760} tail="left" size={60} />}
+        {f >= t(87) && <Balloon text={<>EU VI. ESSA CONTA<br /><span style={{color: C.redPill}}>NUNCA FOI PRA SER TUA.</span></>} at={t(87)} x={60} y={450} w={800} tail="left" size={58} />}
       </Scene>
 
-      {/* 7 — a conta da mãe embaixo */}
+      {/* 7 — o Rafa pega o caderno de volta e refaz a conta (letra dele) */}
       <Scene from={F('S7')} to={F('S8')} zoom={0.03}>
-        <NotebookPage rot={-1}>
-          <div style={{fontSize: 64, opacity: 0.85, whiteSpace: 'nowrap'}}>1.800 ÷ 30 = R$ 60 / dia</div>
-          <div style={{height: 60}} />
-          <div style={{fontFamily: HAND, color: '#4B4B52', transform: 'rotate(-1.5deg)'}}>
-            <Write at={t(100)}><div style={{fontSize: 110}}>Dia 5.</div></Write>
-            <Write at={t(102)} dur={22}><div style={{fontSize: 104, whiteSpace: 'nowrap'}}>Devia ter <span style={{color: C.greenDark}}>R$ 300</span></div></Write>
-            <Write at={t(106)} dur={18}><div style={{fontSize: 110, display: 'inline-block', position: 'relative', whiteSpace: 'nowrap'}}>Tem <span style={{color: '#C0392B'}}>R$ 85</span>
-              {f >= t(108) + 8 && <svg style={{position: 'absolute', left: 150, top: -10, overflow: 'visible'}} width={300} height={170}><ellipse cx={150} cy={85} rx={170} ry={78} fill="none" stroke="#C0392B" strokeWidth={8} strokeDasharray={1100} strokeDashoffset={1100 * (1 - ramp(f, t(108) + 8, t(108) + 20))} /></svg>}
-            </div></Write>
-          </div>
-        </NotebookPage>
+        <Planks color="#8E5E36" seam="#6E4526" vertical={false} />
+        <AbsoluteFill style={{transform: `translateX(${(1 - pop(f, t(99), 13)) * -1150}px) rotate(${(1 - pop(f, t(99), 13)) * -8}deg)`}}>
+          <NotebookPage rot={-1}>
+            <div style={{fontSize: 64, opacity: 0.85, whiteSpace: 'nowrap'}}>1.800 ÷ 30 = R$ 60 / dia</div>
+            <div style={{height: 60}} />
+            <div style={{transform: 'rotate(-1deg)'}}>
+              <Write at={t(108)}><div style={{fontSize: 110}}>Dia 5.</div></Write>
+              <Write at={t(110)} dur={22}><div style={{fontSize: 104, whiteSpace: 'nowrap'}}>Devia ter <span style={{color: C.greenDark}}>R$ 300</span></div></Write>
+              <Write at={t(114)} dur={18}><div style={{fontSize: 110, display: 'inline-block', position: 'relative', whiteSpace: 'nowrap'}}>Tem <span style={{color: '#C0392B'}}>R$ 85</span>
+                {f >= t(116) + 8 && <svg style={{position: 'absolute', left: 150, top: -10, overflow: 'visible'}} width={300} height={170}><ellipse cx={150} cy={85} rx={170} ry={78} fill="none" stroke="#C0392B" strokeWidth={8} strokeDasharray={1100} strokeDashoffset={1100 * (1 - ramp(f, t(116) + 8, t(116) + 20))} /></svg>}
+              </div></Write>
+            </div>
+          </NotebookPage>
+        </AbsoluteFill>
+        {f < t(108) && <At x={600} y={1250}><Rafa width={520} expr="determined" blink={B(17)} look={[-0.5, -0.6]} /></At>}
       </Scene>
 
       {/* 8 — R$ 215 DE ATRASO */}
       <Scene from={F('S8')} to={F('S8b')} zoom={0.06}>
         <Sunburst color="#C8323A" ray="#D9454C" spin={0.3} />
         <div style={{position: 'absolute', top: 470, left: 0, right: 0, textAlign: 'center', fontWeight: 700}}>
-          <div style={{fontSize: 300, color: '#fff', ...strokeText(26), transform: `scale(${pop(f, t(109), 9)})`}}>R$ 215</div>
-          <div style={{fontSize: 150, color: C.yellow, ...strokeText(22), transform: `scale(${pop(f, t(111), 11)})`}}>DE ATRASO</div>
+          <div style={{fontSize: 300, color: '#fff', ...strokeText(26), transform: `scale(${pop(f, t(117), 9)})`}}>R$ 215</div>
+          <div style={{fontSize: 150, color: C.yellow, ...strokeText(22), transform: `scale(${pop(f, t(119), 11)})`}}>DE ATRASO</div>
         </div>
         <At x={90} y={1120 + (1 - pop(f, F('S8'), 12)) * 400}><Rafa width={900} expr="surprised" blink={false} look={[0, -0.8]} /></At>
       </Scene>
 
       {/* 8b — comemorando... enquanto perdia a corrida (a tela verde do EP04 racha) */}
       <Scene from={F('S8b')} to={F('S9')} zoom={0.05}>
-        <CelebrationCrack crackAt={t(116)} />
+        <CelebrationCrack enter={F('S8b')} crackAt={t(125)} />
       </Scene>
 
       {/* 9 — a meta muda: 60 → 66 */}
       <Scene from={F('S9')} to={F('S10')} zoom={0.02}>
         <KitchenNight dim={0.35} />
         <At x={40} y={830}><Mae width={460} expr="serious" blink={B(15)} look={[0.6, 0]} /></At>
-        <At x={580} y={850}><Rafa width={440} expr="sad" blink={B(16)} look={[0, -0.6]} /></At>
+        <At x={580} y={850}><Rafa width={440} expr={f >= t(134) ? 'determined' : 'sad'} blink={B(16)} look={f >= t(134) ? [-0.4, 0] : [0, -0.6]} /></At>
         <TableFront />
         <AbsoluteFill style={{background: 'rgba(10,8,30,0.35)'}} />
-        <MetaSwap enter={F('S9')} struckAt={t(122)} newAt={t(123)} backAt={metaBack} />
+        <MetaSwap enter={F('S9')} struckAt={t(130)} newAt={t(131)} backAt={metaBack} />
       </Scene>
 
-      {/* 10 — a regra da mãe */}
+      {/* 10 — "Então a gente faz junto" / escola às 7 / "teu futuro não entra nessa conta" */}
       <Scene from={F('S10')} to={F('S11')} zoom={0.04}>
         <KitchenNight />
-        <At x={40} y={830 + bob(f, 1, 4)}><Mae width={460} expr={f >= t(141) ? 'serious' : 'neutral'} blink={B(7)} look={[0.6, 0]} /></At>
-        <At x={580} y={850 + bob(f, 2, 5)}><Rafa width={440} expr={f >= t(141) ? 'worried' : 'neutral'} blink={B(8)} look={[-0.6, 0]} /></At>
+        <At x={40} y={830 + bob(f, 1, 4)}><Mae width={460} expr={f >= t(145) && f < t(150) ? 'happy' : f >= t(159) ? 'determined' : 'neutral'} blink={B(7)} look={[0.6, 0]} /></At>
+        <At x={580} y={850 + bob(f, 2, 5)}><Rafa width={440} expr={f >= t(145) ? 'determined' : 'neutral'} blink={B(8)} look={[-0.6, 0]} /></At>
         <TableFront />
-        <ClosingNotebook at={F('S10') + 3} />
-        {f < t(132) && <Balloon text="TU PODE TRABALHAR." at={t(129)} x={40} y={460} w={640} tail="left" />}
-        {f >= t(132) && f < t(141) && <Balloon text={<>MAS ÀS <span style={{color: C.redPill}}>7 EM PONTO</span>,<br />TU TÁ NA ESCOLA.</>} at={t(132)} x={40} y={450} w={700} tail="left" />}
-        {f >= t(141) && <Balloon text={<>ATRASOU DE NOVO...<br /><span style={{color: f >= t(144) ? C.redPill : 'transparent', fontSize: 90}}>ACABOU.</span></>} at={t(141)} x={40} y={450} w={700} tail="left" />}
+        {f >= t(141) && (
+          <svg width={1080} height={1920} style={{position: 'absolute', left: 0, top: 0}}>
+            <g transform={`translate(${540 - (1 - pop(f, t(141), 12)) * 120}, 1405)`}>
+              <ellipse cx={-36} cy={0} rx={88} ry={52} fill={C.skin} stroke={C.ink} strokeWidth={8} />
+              <ellipse cx={40} cy={-16} rx={92} ry={56} fill={C.skinMae} stroke={C.ink} strokeWidth={8} />
+            </g>
+          </svg>
+        )}
+        {f >= t(145) && f < t(150) && <Balloon text="ENTÃO A GENTE FAZ JUNTO." at={t(145)} x={40} y={460} w={720} tail="left" />}
+        {f >= t(150) && f < t(159) && <Balloon text={<>MAS ÀS <span style={{color: C.redPill}}>7 EM PONTO</span>,<br />TU TÁ NA ESCOLA.</>} at={t(150)} x={40} y={450} w={700} tail="left" />}
+        {f >= t(159) && <Balloon text={<>TEU FUTURO NÃO ENTRA<br /><span style={{color: C.greenDark}}>NESSA CONTA.</span></>} at={t(159)} x={40} y={450} w={760} tail="left" size={56} />}
       </Scene>
 
       {/* 11 — 2 horas, 10 entregas, sozinho não dá */}
       <Scene from={F('S11')} to={F('S12')} zoom={0.03}>
         <Sunburst color="#2E7D87" ray="#3A8F99" spin={0.25} />
-        <ClockPill text={clock(f, t(145), t(148) + 10)} x={300} y={590} size={110} at={F('S11')} red={f >= t(148) + 10} />
+        <ClockPill text={clock(f, t(165), t(168) + 10)} x={300} y={590} size={110} at={F('S11')} red={f >= t(168) + 10} />
         <div style={{position: 'absolute', top: 840, left: 90, width: 900, display: 'flex', flexWrap: 'wrap', gap: 30, justifyContent: 'center'}}>
           {Array.from({length: 10}, (_, i) => (
-            <div key={i} style={{transform: `scale(${pop(f, t(149) + i * 2, 12)})`}}><DeliveryIcon gray={f >= t(151) && i >= 5} /></div>
+            <div key={i} style={{transform: `scale(${pop(f, t(169) + i * 2, 12)})`}}><DeliveryIcon gray={f >= t(171) && i >= 5} /></div>
           ))}
         </div>
-        {f >= t(150) + 6 && <div style={{position: 'absolute', top: 1250, left: 0, right: 0, textAlign: 'center', fontSize: 64, fontWeight: 700, color: C.red, ...strokeText(12), transform: `scale(${pop(f, t(150) + 6)})`}}>1 A CADA 12 MIN</div>}
-        <At x={90} y={1250}><Rafa width={900} expr={f >= t(151) ? 'sad' : 'worried'} blink={B(9)} look={[0, -0.7]} /></At>
+        {f >= t(170) + 6 && <div style={{position: 'absolute', top: 1250, left: 0, right: 0, textAlign: 'center', fontSize: 64, fontWeight: 700, color: C.red, ...strokeText(12), transform: `scale(${pop(f, t(170) + 6)})`}}>1 A CADA 12 MIN</div>}
+        <At x={90} y={1250}><Rafa width={900} expr={f >= t(171) ? 'sad' : 'worried'} blink={B(9)} look={[0, -0.7]} /></At>
       </Scene>
 
       {/* 12 — 3 meninos com bicicleta, sem trabalho */}
       <Scene from={F('S12')} to={END} zoom={0.04}>
         <StreetMorning />
         {[[Kaua, 400, 'sad', 0], [Duda, 620, 'neutral', 1], [Biel, 840, 'sad', 2]].map(([P, x, e, i]: any) => {
-          const s = pop(f, t(159) + i * 4, 12);
-          return f >= t(159) + i * 4 ? (
+          const s = pop(f, t(179) + i * 4, 12);
+          return f >= t(179) + i * 4 ? (
             <At key={i} x={x} y={1040 + i * 30 + (1 - s) * 60} o={s}>
               <div style={{position: 'relative'}}>
                 <Bike width={260} style={{position: 'absolute', left: -50, top: 300}} />
@@ -224,17 +235,17 @@ export const Ep05: React.FC = () => {
             </At>
           ) : null;
         })}
-        <At x={10} y={900 + bob(f, 3, 5)}><Rafa width={400} expr={f >= t(164) ? 'determined' : 'neutral'} blink={B(14)} look={[0.8, 0]} /></At>
-        {f >= t(164) && <div style={{position: 'absolute', left: 160, top: 760, fontSize: 170, fontWeight: 700, color: C.yellow, ...strokeText(16), transform: `scale(${pop(f, t(164), 8)})`}}>!</div>}
+        <At x={10} y={900 + bob(f, 3, 5)}><Rafa width={400} expr={f >= t(184) ? 'determined' : 'neutral'} blink={B(14)} look={[0.8, 0]} /></At>
+        {f >= t(184) && <div style={{position: 'absolute', left: 160, top: 760, fontSize: 170, fontWeight: 700, color: C.yellow, ...strokeText(16), transform: `scale(${pop(f, t(184), 8)})`}}>!</div>}
       </Scene>
 
       {/* 13 — enquete */}
-      {f >= t(167) && <Poll parte={6} a="SOZINHO, COM MUITO ESFORÇO" b="COM OS MENINOS, DIVIDINDO O LUCRO" at={t(167)} aAt={t(173)} bAt={t(179)} voteAt={t(186)} />}
+      {f >= t(187) && <Poll parte={6} a="SOZINHO, COM MUITO ESFORÇO" b="COM OS MENINOS, DIVIDINDO O LUCRO" at={t(187)} aAt={t(191)} bAt={t(199)} voteAt={t(208)} />}
 
       {/* overlays globais */}
-      {f >= F('S2') && f < t(167) && <Hud s={hud} enterAt={F('S2')} />}
+      {f >= F('S2') && f < t(187) && <Hud s={hud} enterAt={F('S2')} />}
       <Captions />
-      <TitleCard parte={5} big="R$ 215" bigColor={C.red} l2="DE ATRASO" l3="E ELE NEM SABIA" l3Color={C.yellow} out={sec(3.6)} />
+      <TitleCard parte={5} big="R$ 215" bigColor={C.red} l2="DE ATRASO" l3="E ELE NEM SABIA" l3Color={C.yellow} out={sec(3.9)} />
     </AbsoluteFill>
   );
 };
@@ -325,7 +336,7 @@ const VoteRecap: React.FC = () => {
 };
 
 /** tela verde do EP04 ("R$ 85 · 2x") que racha e perde a cor em "enquanto perdia a corrida" */
-const CelebrationCrack: React.FC<{crackAt: number}> = ({crackAt}) => {
+const CelebrationCrack: React.FC<{enter: number; crackAt: number}> = ({enter, crackAt}) => {
   const f = useCurrentFrame();
   const c = ramp(f, crackAt, crackAt + 6);
   const g = ramp(f, crackAt + 4, crackAt + 20);
@@ -333,9 +344,9 @@ const CelebrationCrack: React.FC<{crackAt: number}> = ({crackAt}) => {
     <AbsoluteFill style={{filter: `grayscale(${g})`}}>
       <Sunburst color="#1F8A4C" ray="#26A05A" spin={0.3} />
       <div style={{position: 'absolute', top: 480, left: 0, right: 0, textAlign: 'center', fontWeight: 700}}>
-        <span style={{fontSize: 300, color: C.green, ...strokeText(24), position: 'relative', display: 'inline-block', transform: `scale(${pop(f, sec(46.9), 10)})`}}>
+        <span style={{fontSize: 300, color: C.green, ...strokeText(24), position: 'relative', display: 'inline-block', transform: `scale(${pop(f, enter, 10)})`}}>
           R$ 85
-          <span style={{position: 'absolute', right: -120, top: -30, width: 150, height: 150, borderRadius: 75, background: C.yellow, border: `8px solid ${C.ink}`, color: C.ink, fontSize: 80, lineHeight: '134px', WebkitTextStroke: '0px', transform: `rotate(12deg) scale(${pop(f, sec(47.4), 8)})`}}>2x</span>
+          <span style={{position: 'absolute', right: -120, top: -30, width: 150, height: 150, borderRadius: 75, background: C.yellow, border: `8px solid ${C.ink}`, color: C.ink, fontSize: 80, lineHeight: '134px', WebkitTextStroke: '0px', transform: `rotate(12deg) scale(${pop(f, enter + 15, 8)})`}}>2x</span>
         </span>
       </div>
       {c > 0 && (
