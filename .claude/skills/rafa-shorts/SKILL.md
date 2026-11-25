@@ -21,6 +21,10 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - Quando o usuário pede uma mudança específica ("não mude nada além disso"), mudar SÓ aquilo.
 - Toda preferência nova ou correção vira regra aqui (seção certa + Changelog). Salvar e dar push sempre.
 
+**Marca**
+- Perfil: **Fora do Roteiro** (o usuário voltou ao nome em 2026-11-25; antes estava "Só Mais uma História").
+  Hashtag da marca: `#foradoroteiro`. Selo/avatar: "FORA DO ROTEIRO". Manter tudo consistente com esse nome.
+
 **Entregas (sempre no chat)**
 - Roteiro com tags: colar COMPLETO num bloco de código na resposta (pronto pra colar no ElevenLabs)
   + enviar `roteiro.md` com `SendUserFile`. Informar a duração estimada.
@@ -102,3 +106,4 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-25 — Esclarecido pelo usuário: ~900 caracteres/~70 s é ALVO, não limite. Aproximar-se dele; passar
   só a favor da história, nunca com futilidades.
 - 2026-11-25 — Padrão de descrição do post definido a partir dos prints do EP01–04 (EP03/04 = modelo).
+- 2026-11-25 — Marca unificada: perfil volta a se chamar "Fora do Roteiro" (= hashtag #foradoroteiro).
