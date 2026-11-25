@@ -53,7 +53,7 @@ cartões numerados 1/2/3 com fundo colorido · placa/aviso com valor em carimbo 
 
 ## Encerramento
 Cena escurece → pill vermelha "PARTE N+1: VOCÊ DECIDE" → "O QUE O RAFA DEVE FAZER?" →
-cartão A (círculo laranja) entra → cartão B (círculo azul-petróleo) entra → "VOTA NA ENQUETE ↓" amarelo.
+cartão A (círculo laranja) entra → cartão B (círculo azul-petróleo) entra → "COMENTA AÍ: A OU B? ↓" amarelo (voto nos comentários, não enquete).
 
 ## Ficha de personagens
 `serie-rafa/personagens.png` — recortes reais dos EP01–EP04. Usar como referência de modelo.

@@ -1,4 +1,4 @@
-# EP05 — "R$ 215 de atraso" (v6 — o Rafa é quem decide ajudar, ~85 s)
+# EP05 — "R$ 215 de atraso" (v7 — CTA nos comentários; o Rafa é quem decide ajudar, ~85 s)
 
 Enquete EP04 vencedora: **A — contar tudo pra mãe**.
 Voz: Sandro Dutra `qPfM2laM0pRL4rrZtBGl` · `eleven_v4` · stability 0.40 · similarity 0.75 · `mp3_44100_128`
@@ -26,9 +26,9 @@ Agora é R$ 66 por dia. E ele não ia parar.
 Das 5 às 7. Dez entregas. Sozinho, não dá.
 [excited] Mas na rua dele tinha três meninos com bicicleta... e nenhum com trabalho.
 [curious] E agora, você decide:
-o Rafa faz tudo sozinho, no limite...
-ou chama os meninos e divide o lucro?
-Vota na enquete.
+A: o Rafa faz tudo sozinho, no limite...
+B: ou chama os meninos e divide o lucro?
+Comenta aí: A ou B.
 ```
 
 ## v6 — por quê (feedback do usuário: parecia que a mãe obrigava o Rafa)
@@ -37,3 +37,4 @@ Vota na enquete.
 - Saiu "Sem falhar nenhum" (meta imposta) → "E ele não ia parar." (decisão dele).
 - Saiu "Atrasou de novo... acabou." (castigo) → "Então a gente faz junto" + "Teu futuro não entra nessa conta."
   A regra das 7h continua (é o relógio da série), mas como proteção.
+- v7: final pede voto nos comentários ("Comenta aí: A ou B.") em vez de enquete; opções faladas com a letra.

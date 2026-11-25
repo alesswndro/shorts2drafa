@@ -12,7 +12,7 @@
 6. **Dinheiro na tela** — todo ganho vira chip "+ R$ X" e o contador verde "R$ total".
 7. **Cliffhanger** na última frase, cortando no pico.
 8. **Enquete — OBRIGATÓRIA e NARRADA** — a última fala do roteiro é sempre a escolha, ex.:
-   `[curious] E agora, você decide:` / `o Rafa <opção A>... ou <opção B>?` / `Vota na enquete.`
+   `[curious] E agora, você decide:` / `A: o Rafa <opção A>...` / `B: ou <opção B>?` / `Comenta aí: A ou B.`
    Na tela: "PARTE N+1: VOCÊ DECIDE / O QUE O RAFA DEVE FAZER?" + cartões A/B (máx. 4 palavras por linha)
    entrando sincronizados com a fala de cada opção; segurar ~4 s no final. Conta dentro dos 900 caracteres.
 

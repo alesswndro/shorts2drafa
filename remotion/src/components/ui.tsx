@@ -116,7 +116,7 @@ export const TitleCard: React.FC<{parte: number; big: string; bigColor: string; 
 };
 
 // ---------- enquete ----------
-export const Poll: React.FC<{parte: number; a: string; b: string; at: number; aAt: number; bAt: number; voteAt: number}> = ({parte, a, b, at, aAt, bAt, voteAt}) => {
+export const Poll: React.FC<{parte: number; a: string; b: string; at: number; aAt: number; bAt: number; voteAt: number; cta?: string}> = ({parte, a, b, at, aAt, bAt, voteAt, cta = 'COMENTA AÍ: A OU B? ↓'}) => {
   const f = useCurrentFrame();
   const dim = ramp(f, at, at + 10, 0, 0.62);
   const card = (letter: string, text: string, color: string, t: number) => {
@@ -137,7 +137,7 @@ export const Poll: React.FC<{parte: number; a: string; b: string; at: number; aA
         <div style={{height: 20}} />
         {card('A', a, C.orange, aAt)}
         {card('B', b, C.teal, bAt)}
-        <div style={{marginTop: 50, fontSize: 80, color: C.yellow, ...strokeText(14), transform: `scale(${pop(f, voteAt, 10)}) translateY(${Math.sin(f / 5) * 8}px)`}}>VOTA NA ENQUETE ↓</div>
+        <div style={{marginTop: 50, fontSize: 80, color: C.yellow, ...strokeText(14), transform: `scale(${pop(f, voteAt, 10)}) translateY(${Math.sin(f / 5) * 8}px)`}}>{cta}</div>
       </AbsoluteFill>
     </AbsoluteFill>
   );

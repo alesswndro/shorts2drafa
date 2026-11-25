@@ -85,3 +85,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   abrir citando a opção vencedora ("Vocês escolheram...") sem perder o recap pros novos. EP05 v5 ≈ 79 s.
 - 2026-11-25 — Feedback: no EP05 a mãe parecia obrigar o Rafa. Regra: ele ajuda por vontade própria; adultos
   protegem, não cobram. EP05 v6 reescrito (conta refeita por ele; "teu futuro não entra nessa conta").
+- 2026-11-25 — Regra do usuário: o voto é nos comentários — final falado "Comenta aí: A ou B." e na tela
+  "COMENTA AÍ: A OU B? ↓". Opções faladas com a letra ("A: ...", "B: ...").
