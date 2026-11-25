@@ -4,7 +4,7 @@ import align from './align.json';
 import {C, FONT, HAND, FPS, strokeText} from '../theme';
 import {bob, blinking, pop, ramp, sec} from '../components/anim';
 import {Rafa, Mae, Kaua, Biel, Duda, Bike} from '../components/Person';
-import {Caption, Hud, Balloon, TitleCard, Poll, Sunburst, ClockPill, CapWord} from '../components/ui';
+import {Caption, Hud, Balloon, TitleCard, Poll, Sunburst, ClockPill, CapWord, MetaPill} from '../components/ui';
 import {KitchenNight, TableFront, WorkKitchen, EvictionDoor, NotebookPage, StreetMorning, Polaroid, DeliveryIcon} from '../components/sets';
 
 const W = align.words as {w: string; start: number; end: number}[];
@@ -26,7 +26,7 @@ const CHUNKS: Chunk[] = [
   [122, 124], [125, 126], [127, 129, 'MAIS 3 MENINOS', {1: Y, 2: Y}], [130, 131], [132, 133], [134, 135, undefined, {1: R}],
 ];
 // posição vertical da legenda por trecho (s)
-const capY = (s: number) => (s < 5 ? 1560 : s < 12 ? 1720 : s < 21 ? 560 : s < 27 ? 1690 : s < 37 ? 560 : s < 41.4 ? 1560 : s < 47 ? 560 : s < 52 ? 330 : 470);
+const capY = (s: number) => (s < 5 ? 1560 : s < 12 ? 1720 : s < 21 ? 560 : s < 27 ? 1690 : s < 37 ? 560 : s < 41.4 ? 1560 : s < 47 ? 560 : s < 52 ? 440 : 450);
 
 const Captions: React.FC = () => {
   const f = useCurrentFrame();
@@ -131,7 +131,7 @@ export const Ep05: React.FC = () => {
         <KitchenNight table={false} />
         <At x={-160} y={700}><Mae width={780} expr="serious" blink={B(6)} look={[0.6, 0]} /></At>
         <At x={480} y={780}><Rafa width={760} expr="surprised" blink={false} look={[-0.7, 0]} /></At>
-        <Balloon text={<>TU ACHOU QUE EU<br />NÃO TINHA VISTO?</>} at={t(63)} x={70} y={300} w={720} tail="left" size={62} />
+        <Balloon text={<>TU ACHOU QUE EU<br />NÃO TINHA VISTO?</>} at={t(63)} x={70} y={450} w={720} tail="left" size={62} />
       </Scene>
 
       {/* 7 — a conta da mãe embaixo */}
@@ -176,22 +176,22 @@ export const Ep05: React.FC = () => {
         <At x={580} y={850 + bob(f, 2, 5)}><Rafa width={440} expr={f >= t(109) ? 'worried' : 'neutral'} blink={B(8)} look={[-0.6, 0]} /></At>
         <TableFront />
         <ClosingNotebook at={sec(41.5)} />
-        {f < t(100) && <Balloon text="TU PODE TRABALHAR." at={t(97)} x={40} y={420} w={640} tail="left" />}
-        {f >= t(100) && f < t(109) && <Balloon text={<>MAS ÀS <span style={{color: C.redPill}}>7 EM PONTO</span>,<br />TU TÁ NA ESCOLA.</>} at={t(100)} x={40} y={380} w={700} tail="left" />}
-        {f >= t(109) && <Balloon text={<>ATRASOU DE NOVO...<br /><span style={{color: f >= t(112) ? C.redPill : 'transparent', fontSize: 90}}>ACABOU.</span></>} at={t(109)} x={40} y={340} w={700} tail="left" />}
+        {f < t(100) && <Balloon text="TU PODE TRABALHAR." at={t(97)} x={40} y={460} w={640} tail="left" />}
+        {f >= t(100) && f < t(109) && <Balloon text={<>MAS ÀS <span style={{color: C.redPill}}>7 EM PONTO</span>,<br />TU TÁ NA ESCOLA.</>} at={t(100)} x={40} y={450} w={700} tail="left" />}
+        {f >= t(109) && <Balloon text={<>ATRASOU DE NOVO...<br /><span style={{color: f >= t(112) ? C.redPill : 'transparent', fontSize: 90}}>ACABOU.</span></>} at={t(109)} x={40} y={450} w={700} tail="left" />}
       </Scene>
 
       {/* 11 — 2 horas, 10 entregas, sozinho não dá */}
       <Scene from={S11} to={S12} zoom={0.03}>
         <Sunburst color="#2E7D87" ray="#3A8F99" spin={0.25} />
-        <ClockPill text={clock(f, t(113), t(116) + 10)} x={300} y={500} size={110} at={S11} red={f >= t(116) + 10} />
-        <div style={{position: 'absolute', top: 760, left: 90, width: 900, display: 'flex', flexWrap: 'wrap', gap: 30, justifyContent: 'center'}}>
+        <ClockPill text={clock(f, t(113), t(116) + 10)} x={300} y={590} size={110} at={S11} red={f >= t(116) + 10} />
+        <div style={{position: 'absolute', top: 840, left: 90, width: 900, display: 'flex', flexWrap: 'wrap', gap: 30, justifyContent: 'center'}}>
           {Array.from({length: 10}, (_, i) => (
             <div key={i} style={{transform: `scale(${pop(f, t(117) + i * 2, 12)})`}}><DeliveryIcon gray={f >= t(120) && i >= 5} /></div>
           ))}
         </div>
-        {f >= t(118) + 6 && <div style={{position: 'absolute', top: 1180, left: 0, right: 0, textAlign: 'center', fontSize: 64, fontWeight: 700, color: C.red, ...strokeText(12), transform: `scale(${pop(f, t(118) + 6)})`}}>1 A CADA 12 MIN</div>}
-        <At x={90} y={1180}><Rafa width={900} expr={f >= t(119) ? 'sad' : 'worried'} blink={B(9)} look={[0, -0.7]} /></At>
+        {f >= t(118) + 6 && <div style={{position: 'absolute', top: 1250, left: 0, right: 0, textAlign: 'center', fontSize: 64, fontWeight: 700, color: C.red, ...strokeText(12), transform: `scale(${pop(f, t(118) + 6)})`}}>1 A CADA 12 MIN</div>}
+        <At x={90} y={1250}><Rafa width={900} expr={f >= t(119) ? 'sad' : 'worried'} blink={B(9)} look={[0, -0.7]} /></At>
       </Scene>
 
       {/* 12 — 3 meninos com bicicleta, sem trabalho */}
@@ -249,20 +249,19 @@ const PaperUnfold: React.FC<{at: number; children: React.ReactNode}> = ({at, chi
 const MetaSwap: React.FC<{at: number; struckAt: number; newAt: number; backAt: number}> = ({struckAt, newAt, backAt}) => {
   const f = useCurrentFrame();
   const back = ramp(f, backAt, backAt + 14);
-  const y = interpolate(back, [0, 1], [720, 150]);
-  const s = interpolate(back, [0, 1], [2.9, 1]) * pop(f, sec(37.1), 12);
+  const y = interpolate(back, [0, 1], [780, 324]);
+  const s = interpolate(back, [0, 1], [1.9, 1]) * pop(f, sec(37.1), 12);
   const strike = ramp(f, struckAt, struckAt + 8);
   return (
-    <div style={{position: 'absolute', top: y, left: 0, right: 0, display: 'flex', justifyContent: 'center', transform: `scale(${s})`, transformOrigin: 'center top'}}>
-      <div style={{background: C.ink, color: C.yellow, border: `4px solid ${f >= newAt ? C.red : C.yellow}`, borderRadius: 30, padding: '4px 24px', fontSize: 30, fontWeight: 700, whiteSpace: 'nowrap'}}>
-        ◎ META: R${' '}
-        <span style={{position: 'relative', display: 'inline-block'}}>
-          60
-          <span style={{position: 'absolute', left: -4, top: '52%', height: 4, width: `${strike * 120}%`, background: C.red}} />
+    <div style={{position: 'absolute', left: 304, top: y, transform: `scale(${s})`, transformOrigin: 'center center'}}>
+      <MetaPill alert={f >= newAt} meta={<>
+        META: R${' '}
+        <span style={{position: 'relative', display: 'inline-block', color: undefined}}>
+          {f >= newAt ? '66' : '60'}
+          {f < newAt && <span style={{position: 'absolute', left: -4, top: '50%', height: 6, width: `${strike * 120}%`, background: C.red}} />}
         </span>
-        {f >= newAt && <span style={{color: C.red, display: 'inline-block', marginLeft: 8, transform: `scale(${pop(f, newAt, 8)})`}}>66</span>}
         /DIA
-      </div>
+      </>} />
     </div>
   );
 };

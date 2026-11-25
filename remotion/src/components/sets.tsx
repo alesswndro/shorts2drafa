@@ -103,7 +103,7 @@ export const EvictionDoor: React.FC<{stampAt: number}> = ({stampAt}) => {
 export const NotebookPage: React.FC<{children?: React.ReactNode; rot?: number}> = ({children, rot = -2}) => (
   <AbsoluteFill style={{background: '#7E5430'}}>
     <Planks color="#8E5E36" seam="#6E4526" vertical={false} />
-    <div style={{position: 'absolute', left: 90, top: 330, width: 900, height: 1300, background: '#FBFBF6', border: `9px solid ${C.ink}`, borderRadius: 12, transform: `rotate(${rot}deg)`, overflow: 'hidden', backgroundImage: 'repeating-linear-gradient(#FBFBF6 0 78px, #9EC0E8 78px 82px)', backgroundPosition: '0 40px'}}>
+    <div style={{position: 'absolute', left: 90, top: 450, width: 900, height: 1220, background: '#FBFBF6', border: `9px solid ${C.ink}`, borderRadius: 12, transform: `rotate(${rot}deg)`, overflow: 'hidden', backgroundImage: 'repeating-linear-gradient(#FBFBF6 0 78px, #9EC0E8 78px 82px)', backgroundPosition: '0 40px'}}>
       <div style={{position: 'absolute', left: 110, top: 0, bottom: 0, width: 5, background: '#F08C8C'}} />
       {Array.from({length: 9}, (_, i) => <div key={i} style={{position: 'absolute', left: 30, top: 80 + i * 140, width: 36, height: 36, borderRadius: 18, background: '#7E5430', border: `5px solid ${C.ink}`}} />)}
       <div style={{position: 'absolute', left: 150, top: 40, right: 40, fontFamily: HAND, color: '#2A3A8C'}}>{children}</div>

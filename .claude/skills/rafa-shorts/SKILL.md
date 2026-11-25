@@ -41,6 +41,8 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 9. Commit + push no branch de trabalho.
 
 ## Regras que não se negociam
+- **Capas: sempre mandar a 9:16 E a 3:4** junto com o vídeo (SendUserFile).
+- **HUD idêntico ao original** — usar o componente `Hud` sem alterar medidas (ver `references/visual.md`).
 - **Recebeu o áudio do usuário → gere o vídeo (sempre).** Não perguntar; escolher o take (justificar),
   alinhar legendas, renderizar e enviar o MP4 no chat.
 - **Duração MÁXIMA 1min10s (70 s), sempre**, contando capa e enquete. Narração ≤ 900 caracteres
@@ -68,3 +70,4 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-24 — Regra do usuário: a escolha do final é OBRIGATÓRIA no roteiro (narrada, não só visual).
   Esquecida no EP05 v2; corrigido na v3 (867 caracteres).
 - 2026-11-24 — Voz: stability 0.40 / similarity 0.75 (do nome do arquivo). Regra: áudio recebido → gerar vídeo.
+- 2026-11-25 — HUD refeito idêntico ao original (medido pixel a pixel). Regra: sempre enviar capa 9:16 + 3:4.

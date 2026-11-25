@@ -3,39 +3,65 @@ import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
 import {C, FONT, strokeText} from '../theme';
 import {pop, ramp, shake} from './anim';
 
-// ---------- HUD ----------
-const HudPill: React.FC<{icon: string; iconBg: string; label: string; value: string; valueColor?: string; alert?: boolean; dx?: number}> = ({
-  icon, iconBg, label, value, valueColor = C.ink, alert, dx = 0,
+// ---------- HUD (medido pixel a pixel do EP04 original) ----------
+// cartões: y 170–309 (140 px, borda 8) · x [32–327] [338–681] [692–1047] · raio 22
+// ícone 96x96 (borda 6, raio 20) a 19 px da borda externa · rótulo cinza cap 22 px · valor cap 36 px
+// meta: pílula x 304–775, y 324–407, anel amarelo 6 px, fundo #1D1B25, ícone ◎ 48 px, texto cap 40 px
+const HUD = {ink: '#1E1B28', card: '#FAF7F0', label: '#8F82A1', teal: '#2F7E8E', green: '#1F9C54', purple: '#7A4EC9', red: '#D93A3F', yellow: '#F5C13A', metaBg: '#1D1B25'};
+
+const HudIcon: React.FC<{kind: 'clock' | 'money' | 'house'}> = ({kind}) => (
+  <svg viewBox="0 0 84 84" width={84} height={84}>
+    {kind === 'clock' && (
+      <g fill="none" stroke="#fff" strokeWidth={5.5} strokeLinecap="round">
+        <circle cx={42} cy={42} r={16} />
+        <path d="M42,26 L42,42 L58,42" />
+      </g>
+    )}
+    {kind === 'money' && <text x={42} y={58} textAnchor="middle" fontFamily="Oswald" fontWeight={700} fontSize={50} fill="#fff">$</text>}
+    {kind === 'house' && <path d="M32,54 L32,41 L42,32 L52,41 L52,54 Z" fill="none" stroke="#fff" strokeWidth={3.5} strokeLinejoin="round" />}
+  </svg>
+);
+
+const HudCard: React.FC<{x: number; w: number; icon: 'clock' | 'money' | 'house'; iconBg: string; label: string; value: string; valueColor?: string; s: number; flash?: string; dx?: number}> = ({
+  x, w, icon, iconBg, label, value, valueColor = HUD.ink, s, flash, dx = 0,
 }) => (
-  <div style={{display: 'flex', alignItems: 'center', gap: 12, background: alert ? '#FFE3E3' : C.cream, border: `5px solid ${C.ink}`, borderRadius: 18, padding: '8px 18px 8px 10px', transform: `translateX(${dx}px)`}}>
-    <div style={{width: 50, height: 50, borderRadius: 12, background: alert ? C.redPill : iconBg, border: `4px solid ${C.ink}`, color: '#fff', fontSize: 30, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>{icon}</div>
-    <div style={{lineHeight: 1}}>
-      <div style={{fontSize: 17, fontWeight: 500, color: '#6B6A75'}}>{label}</div>
-      <div style={{fontSize: 34, fontWeight: 700, color: alert ? C.redPill : valueColor}}>{value}</div>
+  <div style={{position: 'absolute', left: x + dx, top: 170, width: w, height: 140, boxSizing: 'border-box', background: flash ?? HUD.card, border: `8px solid ${HUD.ink}`, borderRadius: 22, transform: `scale(${s})`, opacity: Math.min(1, s * 1.5)}}>
+    <div style={{position: 'absolute', left: 11, top: 14, width: 96, height: 96, boxSizing: 'border-box', background: iconBg, border: `6px solid ${HUD.ink}`, borderRadius: 20, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      <HudIcon kind={icon} />
     </div>
+    <div style={{position: 'absolute', left: 124, top: 27, fontFamily: FONT, fontWeight: 500, fontSize: 27.5, lineHeight: 1, color: HUD.label, whiteSpace: 'nowrap'}}>{label}</div>
+    <div style={{position: 'absolute', left: 122, top: 61, fontFamily: FONT, fontWeight: 700, fontSize: 45, lineHeight: 1, color: valueColor, whiteSpace: 'nowrap'}}>{value}</div>
   </div>
 );
 
 export type HudState = {dia: number; guardado: number; despejo: number; meta: number; metaAlert?: boolean; despejoAlert?: boolean; guardadoShakeAt?: number; hideMeta?: boolean};
 
+export const MetaPill: React.FC<{meta: React.ReactNode; alert?: boolean; style?: React.CSSProperties}> = ({meta, alert, style}) => {
+  const col = alert ? C.red : HUD.yellow;
+  return (
+    <div style={{width: 472, height: 84, boxSizing: 'border-box', background: HUD.metaBg, border: `6px solid ${col}`, borderRadius: 42, display: 'flex', alignItems: 'center', fontFamily: FONT, fontWeight: 700, fontSize: 42, letterSpacing: 1.2, lineHeight: 1, color: col, whiteSpace: 'nowrap', ...style}}>
+      <svg width={45} height={45} viewBox="0 0 48 48" style={{marginLeft: 22, marginRight: 30, flex: 'none'}}>
+        <circle cx={24} cy={24} r={21} fill="none" stroke={col} strokeWidth={5} />
+        <circle cx={24} cy={24} r={8.5} fill={col} />
+      </svg>
+      <span>{meta}</span>
+    </div>
+  );
+};
+
 export const Hud: React.FC<{s: HudState; enterAt: number}> = ({s, enterAt}) => {
   const f = useCurrentFrame();
-  const a = pop(f, enterAt, 14);
-  const m = pop(f, enterAt + 6, 14);
   const blink = s.despejoAlert && Math.floor(f / 8) % 2 === 0;
   const sx = s.guardadoShakeAt != null ? shake(f, s.guardadoShakeAt, 16, 12) : 0;
+  const m = pop(f, enterAt + 12, 14);
   return (
-    <AbsoluteFill style={{fontFamily: FONT, pointerEvents: 'none'}}>
-      <div style={{position: 'absolute', top: 40, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 14, transform: `translateY(${(1 - a) * -160}px)`}}>
-        <HudPill icon="◷" iconBg={C.teal} label="BELÉM" value={`DIA ${s.dia}`} />
-        <HudPill icon="$" iconBg={C.greenDark} label="GUARDADO" value={`R$ ${s.guardado},00`} valueColor={C.greenDark} dx={sx} />
-        <HudPill icon="⌂" iconBg={C.purple} label="DESPEJO" value={`${s.despejo} DIAS`} alert={blink} />
-      </div>
+    <AbsoluteFill style={{pointerEvents: 'none'}}>
+      <HudCard x={32} w={296} icon="clock" iconBg={HUD.teal} label="BELÉM" value={`DIA ${s.dia}`} s={pop(f, enterAt, 14)} />
+      <HudCard x={338} w={344} icon="money" iconBg={HUD.green} label="GUARDADO" value={`R$ ${s.guardado},00`} valueColor={HUD.green} s={pop(f, enterAt + 4, 14)} dx={sx} />
+      <HudCard x={692} w={356} icon="house" iconBg={blink ? HUD.red : HUD.purple} label="DESPEJO" value={`${s.despejo} DIAS`} valueColor={blink ? HUD.red : HUD.ink} s={pop(f, enterAt + 8, 14)} />
       {!s.hideMeta && (
-        <div style={{position: 'absolute', top: 150, left: 0, right: 0, display: 'flex', justifyContent: 'center', transform: `scale(${m})`}}>
-          <div style={{background: C.ink, color: s.metaAlert ? C.red : C.yellow, border: `4px solid ${s.metaAlert ? C.red : C.yellow}`, borderRadius: 30, padding: '4px 24px', fontSize: 30, fontWeight: 700}}>
-            ◎ META: R$ {s.meta}/DIA
-          </div>
+        <div style={{position: 'absolute', left: 304, top: 324, transform: `scale(${m})`}}>
+          <MetaPill meta={`META: R$ ${s.meta}/DIA`} alert={s.metaAlert} />
         </div>
       )}
     </AbsoluteFill>

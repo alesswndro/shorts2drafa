@@ -2,7 +2,8 @@
 
 ## Render
 - Remotion 4.0.543 · 1080x1920 · 30 fps · H.264 + AAC 48 kHz estéreo.
-- Capa extra 1080x1440 (3:4) pro feed.
+- **Capas: SEMPRE entregar as duas** — 9:16 (1080x1920) e 3:4 (1080x1440) — compositions `EPNN-capa-9x16` e
+  `EPNN-capa-3x4` (`src/epNN/Cover.tsx`), still no frame 40. Título em cima, personagem embaixo, sem HUD/legenda.
 - O código original dos EP01–EP04 se perdeu. **A partir do EP05 o projeto está em `remotion/`** (recriado):
   - `src/components/Person.tsx` — personagens em SVG (Rafa, Mãe, Kauã, Biel, Duda, Bike). Corpo genérico `Person`
     com chapéu/cabelo/roupa/expressão/olhar/piscar; cada personagem é um preset.
@@ -30,9 +31,19 @@
   verde #5BE08A (dinheiro/solução). Resto branco.
 - Falas de personagem: balão branco com texto preto, não legenda.
 
-## HUD (do 1º corte em diante)
-`BELÉM · DIA N` | `$ GUARDADO R$ xx,00` (verde) | `⌂ DESPEJO N DIAS` (roxo; pisca vermelho em momentos de tensão)
-+ pill escura `◎ META: R$ xx/DIA` (amarela). Contador de dinheiro anima ao mudar.
+## HUD — IDÊNTICO ao original (medido pixel a pixel no EP04, não mexer)
+Implementado em `remotion/src/components/ui.tsx` (`Hud`, `MetaPill`). Valores em px num frame 1080x1920:
+- 3 cartões, y 170–309 (140 px), borda 8 px `#1E1B28`, raio 22, fundo `#FAF7F0`:
+  BELÉM x 32–327 · GUARDADO x 338–681 · DESPEJO x 692–1047 (vão de 10 px).
+- Ícone 96x96 a 11 px da borda interna (x 51, y 192), borda 6 px, raio 20, glifo branco:
+  relógio teal `#2F7E8E` · "$" verde `#1F9C54` · casa roxo `#7A4EC9` (alerta: `#D93A3F`).
+- Rótulo Oswald 500 27,5 px cinza `#8F82A1` (topo da maiúscula em y 209); valor Oswald 700 45 px
+  (maiúscula y 246–281), x 165. Valor do GUARDADO em verde `#1F9C54`.
+- Meta: pílula x 304–775, y 324–407 (84 px), anel 6 px amarelo `#F5C13A`, fundo `#1D1B25`, ícone ◎ 45 px,
+  texto Oswald 700 42 px letter-spacing 1,2 (x 410–713). Alerta: vermelho `#FF5A5F`.
+- Entrada: cartões aparecem em sequência (DIA → GUARDADO → DESPEJO) e a meta por último.
+- Nada de conteúdo (balão, legenda, caderno) acima de y ≈ 430 enquanto o HUD está na tela.
+- O HUD é escondido na capa e na enquete final.
 
 ## Recursos recorrentes
 Cronômetro grande (15:00) · relógio pill (5:20) · tela verde com sunburst + valor gigante ·

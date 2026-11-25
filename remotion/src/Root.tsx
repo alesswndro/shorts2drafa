@@ -2,9 +2,12 @@ import React from 'react';
 import {Composition} from 'remotion';
 import {CastTest} from './CastTest';
 import {Ep05, EP05_DURATION} from './ep05/Ep05';
+import {CoverEp05} from './ep05/Cover';
 export const Root: React.FC = () => (
   <>
     <Composition id="EP05" component={Ep05} durationInFrames={EP05_DURATION} fps={30} width={1080} height={1920} />
+    <Composition id="EP05-capa-9x16" component={CoverEp05} defaultProps={{h: 1920}} durationInFrames={60} fps={30} width={1080} height={1920} />
+    <Composition id="EP05-capa-3x4" component={CoverEp05} defaultProps={{h: 1440}} durationInFrames={60} fps={30} width={1080} height={1440} />
     <Composition id="CastTest" component={CastTest} durationInFrames={1} fps={30} width={1080} height={1920} />
   </>
 );
