@@ -17,7 +17,8 @@
 | EP03 | O que o Rafa deve fazer? | Levar a caixa pro Ver-o-Peso às 5h | Ficar só nas entregas da farmácia | A |
 | EP04 | O que o Rafa deve fazer? | Contar tudo pra mãe | Esconder da mãe | **A** |
 | EP05 | O que o Rafa deve fazer? (voto nos comentários) | Sozinho, no limite (muito esforço) | Com os meninos, dividindo o lucro | **A** |
-| EP06 | O que o Rafa deve fazer? | Larga as entregas e aposta tudo no geladinho | Continua nas entregas (dinheiro certo) | pendente |
+| EP06 | O que o Rafa deve fazer? | Larga as entregas e aposta tudo no geladinho | Continua nas entregas (dinheiro certo) | **A** |
+| EP07 | O que o Rafa deve fazer? | Outro ponto, longe da escola (vende menos) | Fica e baixa pra R$ 1,50 (briga com a senhora) | pendente |
 
 ## Fios soltos
 - A mãe "fingiu que não viu" o caderno no EP1 → pagar no EP5.

@@ -42,7 +42,9 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   futilidade: cada linha a mais tem que trazer tensão, emoção ou informação nova. Ao passar do alvo,
   dizer quanto passou e por quê. **Nunca cortar a ponto de a história perder o sentido** — nesse caso,
   passar do alvo é o certo (regra do usuário). Estimar: caracteres falados (sem tags) ÷ ~12,6 por segundo.
-- **Abertura com o voto**: linha 1 = gancho; linha 2 = "Vocês escolheram: <opção>." + virada ("Só que...");
+- **Abertura com o voto**: linha 1 = gancho; linha 2 = placar curto ("Dessa vez foi acirrado... mas a opção A ganhou." —
+  só dizer "acirrado" se foi; se foi folgado: "A maioria escolheu A... mas teve muita gente defendendo o B");
+  linha 3 = "Vocês escolheram: <opção>." (+ virada se couber);
   linha 3 = recap pros novos ("Se você chegou agora: ..."). Nunca abrir com "vocês escolheram".
 - **Voto obrigatório e narrado no final de TODOS os episódios, inclusive o último da temporada.** Nunca sair
   desse gancho: é o que gera comentário e foi o que deu visualização (regra do usuário). Nos COMENTÁRIOS (não enquete):
@@ -116,3 +118,4 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   de tempo é ok quando cortar deixaria a história sem sentido.
 - 2026-11-26 — Regra do usuário: movimento de câmera lento e sutil em todas as cenas (nada travado, nada exagerado).
 - 2026-11-26 — Bike redesenhada (a anterior ficou ruim): Rafa sentado de perfil pedalando (`BikeRide.tsx`). EP06 re-renderizado.
+- 2026-11-26 — Voto EP06 = A. Abertura ganha o placar do voto antes do "Vocês escolheram" (pedido do usuário).
