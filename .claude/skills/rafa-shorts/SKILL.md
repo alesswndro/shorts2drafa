@@ -55,6 +55,7 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 
 **Visual e som**
 - **HUD idêntico ao original** — componente `Hud` com as medidas de `references/visual.md`. Não mexer.
+- **Câmera sempre se movendo devagar** (zoom suave, deslize leve, paralaxe) — nada parado, nada exagerado.
 - Efeito/drone tenso **só onde a cena pede** (picos dramáticos curtos); no resto, trilha normal (`references/som.md`).
 - Voz do Sandro nunca é editada nem re-cronometrada; a imagem se ajusta à voz.
 
@@ -113,3 +114,4 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   Reforço do usuário: escolha A/B no final de TODOS os episódios (gera comentário/views).
 - 2026-11-26 — EP06 v2: o voto acontece na tela antes da virada; a ideia nasce do que o Rafa vê. Passar do alvo
   de tempo é ok quando cortar deixaria a história sem sentido.
+- 2026-11-26 — Regra do usuário: movimento de câmera lento e sutil em todas as cenas (nada travado, nada exagerado).

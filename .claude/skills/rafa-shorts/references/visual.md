@@ -68,3 +68,13 @@ Atenção: Dona Socorro e Diretora são parecidas (senhora, cabelo grisalho, óc
 - `PaperUnfold`, `Write` (escrita à mão revelada), polaroids caindo, mãos dadas na mesa, grade de entregas
   que fica cinza, relógio correndo (`clock`).
 - Caderno do Rafa: caneta azul, fonte Caveat. Letra de outra pessoa: cor/rotação diferentes.
+
+## Movimento de câmera (regra do usuário, 2026-11-26)
+- **Nenhum plano totalmente parado.** Toda cena tem movimento lento e contínuo — sutil, nada exagerado:
+  - zoom suave de 3–8% ao longo da cena (in ou out, alternando entre cenas);
+  - deslize lateral/vertical leve (20–60 px ao longo da cena), com easing;
+  - paralaxe: cenário se move um pouco menos que os personagens (sensação de profundidade);
+  - personagens sempre "vivos": respiração/bob, piscar, olhar mudando nas falas.
+- Cortes com micro-pop (escala 1,05 → 1 em 5 frames) — já no componente `Scene`.
+- Evitar: tremida fora de impacto, rotação, zoom rápido, movimento que distraia da legenda.
+- QA: `freezedetect` não pode achar trecho parado ≥ 0,6 s (exceto o voto final segurando, que também tem zoom lento).
