@@ -71,3 +71,8 @@ Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA S
   mudar o tipo de desafio. Arco atual: empreendedorismo (`serie-rafa/arco-empreendedor.md`).
 - Rumo final da série: o Rafa cresce de verdade e termina com **bem mais do que precisa** — mas cada degrau
   é conquistado resolvendo um problema concreto.
+
+## Transições de arco (regra do usuário, 2026-11-26)
+- O voto vencedor tem que ACONTECER na tela antes de qualquer mudança de rumo (EP06: ele faz as entregas sozinho, no limite).
+- Mudança de rumo nunca "do nada": nasce de algo que o Rafa VÊ ou vive dentro da situação atual
+  (EP06: numa entrega, vê a senhora que vende 150 geladinhos por dia). Inspiração → conta → decisão.

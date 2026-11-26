@@ -20,8 +20,9 @@ até que, no final, tenha **bem mais do que precisa**.
 
 ## Esboço de episódios — ENXUTO (pedido do usuário: menos episódios, sem perder público)
 Saltos de tempo resolvem os dias (chip "DIA 6 → DIA 12"). Voto A/B no final de TODOS, inclusive o último.
-- EP06 — A virada: sai das entregas, vira geladinho. 55 feitos, freezer cabe 20. Voto: vender mole e barato vs freezer da vizinha.
-- EP07 — Primeiras vendas: descobre o sabor campeão e o ponto certo; primeiro dia acima da meta. Problema: escala (freezer/produção).
+- EP06 — Sozinho, no limite (voto A): 9 entregas, chega às 7 em ponto, R$ 63 (abaixo da meta). Numa entrega, vê a senhora
+  do geladinho e se inspira. Voto: tudo no geladinho e larga as entregas vs fazer os dois e quase não dormir.
+- EP07 — Primeira produção: 55 feitos, freezer cabe 20 (problema). Primeiras vendas, sabor campeão, primeiro dia acima da meta.
 - EP08 — Escala: os 3 meninos viram revendedores com comissão; crise (apagão, calote ou concorrente). Salto de dias.
 - EP09 — Encomenda grande / quase lá: corrida contra o prazo do aluguel.
 - EP10 — Final de temporada: paga o aluguel antes do prazo e sobra bem mais. Voto pra temporada 2 (ex.: carrinho próprio vs ponto fixo).

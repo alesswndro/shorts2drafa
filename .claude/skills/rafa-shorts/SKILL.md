@@ -40,7 +40,8 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - **Duração-alvo: ~900 caracteres falados ≈ ~70 s. Não é limite — é alvo.** Tentar se aproximar dele;
   pode passar quando for a favor da história (EP05 final: 90 s). O que não pode é tempo tomado por
   futilidade: cada linha a mais tem que trazer tensão, emoção ou informação nova. Ao passar do alvo,
-  dizer quanto passou e por quê. Estimar: caracteres falados (sem tags) ÷ ~12,6 por segundo.
+  dizer quanto passou e por quê. **Nunca cortar a ponto de a história perder o sentido** — nesse caso,
+  passar do alvo é o certo (regra do usuário). Estimar: caracteres falados (sem tags) ÷ ~12,6 por segundo.
 - **Abertura com o voto**: linha 1 = gancho; linha 2 = "Vocês escolheram: <opção>." + virada ("Só que...");
   linha 3 = recap pros novos ("Se você chegou agora: ..."). Nunca abrir com "vocês escolheram".
 - **Voto obrigatório e narrado no final de TODOS os episódios, inclusive o último da temporada.** Nunca sair
@@ -110,3 +111,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-25 — Marca unificada: perfil volta a se chamar "Fora do Roteiro" (= hashtag #foradoroteiro).
 - 2026-11-26 — Voto EP05 = A. Arco 2: o Rafa empreende com geladinho, arco enxuto (EP06–EP10) com saltos de tempo.
   Reforço do usuário: escolha A/B no final de TODOS os episódios (gera comentário/views).
+- 2026-11-26 — EP06 v2: o voto acontece na tela antes da virada; a ideia nasce do que o Rafa vê. Passar do alvo
+  de tempo é ok quando cortar deixaria a história sem sentido.
