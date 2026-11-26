@@ -32,7 +32,7 @@ const CHUNKS: Chunk[] = [
 
 const T = {S1: 0, VOTE: 6.1, S3: 14.1, S4: 21.7, S5: 31.3, S6: 38.2, S7: 43.4, S8: 50.1, S9: 55.3, S10: 61.5, S11: 66.1, POLL: 73.5};
 const capY = (s: number) =>
-  s < T.VOTE ? 1500 : s < T.S3 ? 1700 : s < T.S4 ? 1720 : s < T.S5 ? 520 : s < T.S6 ? 455 : s < T.S7 ? 1100 : s < T.S8 ? 520 : s < T.S9 ? 1600 : s < T.S10 ? 1150 : s < T.S11 ? 520 : 1740;
+  s < T.VOTE ? 1720 : s < T.S3 ? 1700 : s < T.S4 ? 1720 : s < T.S5 ? 520 : s < T.S6 ? 455 : s < T.S7 ? 1100 : s < T.S8 ? 520 : s < T.S9 ? 1600 : s < T.S10 ? 1150 : s < T.S11 ? 520 : 1740;
 const Captions = makeCaptions(W, CHUNKS, capY);
 
 export const Ep06: React.FC = () => {
@@ -53,7 +53,7 @@ export const Ep06: React.FC = () => {
       {/* 1 — 6:52, nona entrega, escola a 3 km (corrida de bicicleta) */}
       <Scene from={F('S1')} to={F('VOTE')} zoom={0.06} pan={[0, -20]}>
         <RoadRush speed={16} />
-        <At x={250} y={760 + Math.sin(f / 4) * 6}><RafaBike width={560} expr="determined" blink={B(1)} sweat /></At>
+        <At x={150} y={500 + Math.sin(f / 4) * 4}><RafaBike width={760} expr="determined" blink={B(1)} sweat speed={1.3} /></At>
         <ClockPill text={`6:${String(52 + Math.floor(ramp(f, 0, F('VOTE'), 0, 2))).padStart(2, '0')}`} x={640} y={470} at={sec(3.4)} size={72} red />
         {f >= sec(3.4) && <div style={{position: 'absolute', left: 60, top: 470, transform: `scale(${pop(f, sec(3.4), 10)})`, background: C.cream, border: `6px solid ${C.ink}`, borderRadius: 22, padding: '6px 26px', fontSize: 56, fontWeight: 700, color: C.ink}}>9ª ENTREGA</div>}
         {f >= t(11) && <div style={{position: 'absolute', left: 300, top: 610, transform: `scale(${pop(f, t(11), 10)})`, background: '#1F8A4C', border: `6px solid ${C.ink}`, borderRadius: 16, padding: '6px 26px', fontSize: 54, fontWeight: 700, color: '#fff'}}>ESCOLA → 3 KM</div>}
@@ -92,12 +92,12 @@ export const Ep06: React.FC = () => {
       <Scene from={F('S5')} to={F('S6')} zoom={0.07} pan={[0, -30]}>
         <Par depth={0.6}><SchoolGate open={ramp(f, t(84), t(84) + 20)} /></Par>
         <ClockPill text={f >= t(73) ? '7:00' : '6:59'} x={330} y={760} at={F('S5')} size={96} red={f < t(84)} />
-        <At x={260 + Math.sin(f * 1.9) * (f >= t(83) && f < t(84) ? 5 : 0)} y={1020}>
-          <div style={{transform: `translateX(${ramp(f, F('S5'), t(78), -700, 0)}px)`}}>
-            <RafaBike width={560} expr={f >= t(84) ? 'determined' : 'worried'} blink={B(4)} sweat={f >= t(82)} />
+        <At x={190 + Math.sin(f * 1.9) * (f >= t(83) && f < t(84) ? 5 : 0)} y={600}>
+          <div style={{transform: `translateX(${ramp(f, F('S5'), t(78), -800, 0)}px)`}}>
+            <RafaBike width={700} speed={f >= t(81) ? 0.15 : 1.2} expr={f >= t(84) ? 'determined' : 'worried'} blink={B(4)} sweat={f >= t(82)} />
           </div>
         </At>
-        {f >= t(84) && <div style={{position: 'absolute', left: 0, right: 0, top: 900, textAlign: 'center', fontSize: 90, fontWeight: 700, color: C.green, ...strokeText(16), transform: `scale(${pop(f, t(84), 9)})`}}>NA HORA!</div>}
+        {f >= t(84) && <div style={{position: 'absolute', left: 0, right: 0, top: 1640, textAlign: 'center', fontSize: 90, fontWeight: 700, color: C.green, ...strokeText(16), transform: `scale(${pop(f, t(84), 9)})`}}>NA HORA!</div>}
       </Scene>
 
       {/* 6 — R$ 63. Faltaram 6. E ele tava morto. */}
@@ -206,8 +206,8 @@ const VoteRecap06: React.FC = () => {
         {f >= t(21) && <div style={{position: 'absolute', right: -30, top: -50, width: 130, height: 130, borderRadius: 65, background: '#2DA44E', border: `8px solid ${C.ink}`, color: '#fff', fontSize: 90, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', transform: `scale(${pop(f, t(21), 8)})`}}>✓</div>}
       </div>
       {f >= t(23) && (
-        <div style={{position: 'absolute', left: 260, top: 720 + (1 - pop(f, t(23), 12)) * 900}}>
-          <RafaBike width={560} expr="determined" blink={blinking(f, 2)} sweat={f >= t(26)} />
+        <div style={{position: 'absolute', left: 190, top: 640 + (1 - pop(f, t(23), 12)) * 900}}>
+          <RafaBike width={700} expr="determined" blink={blinking(f, 2)} sweat={f >= t(26)} />
         </div>
       )}
     </AbsoluteFill>

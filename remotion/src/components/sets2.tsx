@@ -1,8 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, useCurrentFrame} from 'remotion';
 import {C, FONT} from '../theme';
-import {Rafa, Bike} from './Person';
-import {bob} from './anim';
+import {RafaRiding} from './BikeRide';
 
 const ink = {stroke: C.ink, strokeWidth: 8, strokeLinejoin: 'round' as const};
 
@@ -93,25 +92,13 @@ export const RoadRush: React.FC<{speed?: number}> = ({speed = 14}) => {
   );
 };
 
-/** Rafa pedalando: corpo atrás da bike, inclinado pra frente, com a caixa térmica */
-export const RafaBike: React.FC<{width?: number; expr?: any; blink?: boolean; sweat?: boolean}> = ({width = 520, expr = 'determined', blink, sweat}) => {
-  const f = useCurrentFrame();
-  const k = width / 520;
-  return (
-    <div style={{position: 'relative', width, height: 760 * k}}>
-      <div style={{position: 'absolute', left: 130 * k, top: bob(f, 0, 8 * k, 10), transform: 'rotate(8deg)', transformOrigin: 'bottom center'}}>
-        <Rafa width={300 * k} expr={expr} blink={blink} look={[0.8, 0]} />
-      </div>
-      <div style={{position: 'absolute', left: 0, top: 470 * k}}><Bike width={width} /></div>
-      <div style={{position: 'absolute', left: 30 * k, top: 380 * k, width: 150 * k, height: 110 * k, background: '#F4F6FA', border: `${7 * k}px solid ${C.ink}`, borderRadius: 14 * k}}>
-        <div style={{height: 30 * k, background: '#2D6A9A', borderBottom: `${6 * k}px solid ${C.ink}`, borderRadius: `${8 * k}px ${8 * k}px 0 0`}} />
-      </div>
-      {sweat && [0, 1].map((i) => (
-        <div key={i} style={{position: 'absolute', left: (330 + i * 60) * k, top: (40 + ((f * 3 + i * 20) % 50)) * k, width: 18 * k, height: 26 * k, borderRadius: '50% 50% 50% 50% / 60% 60% 40% 40%', background: '#7EC8F0', border: `${4 * k}px solid ${C.ink}`}} />
-      ))}
-    </div>
-  );
-};
+/** Rafa pedalando (sentado, de perfil, pedivela girando) — ver BikeRide.tsx. Mantém a caixa externa antiga
+ *  (largura × 760/520) com a bike alinhada embaixo, pra não mudar posições nas cenas. */
+export const RafaBike: React.FC<{width?: number; expr?: any; blink?: boolean; sweat?: boolean; speed?: number}> = ({width = 520, expr = 'determined', blink, sweat, speed = 1}) => (
+  <div style={{position: 'relative', width, height: (760 * width) / 520}}>
+    <div style={{position: 'absolute', left: 0, bottom: 0}}><RafaRiding width={width} expr={expr} blink={blink} sweat={sweat} speed={speed} /></div>
+  </div>
+);
 
 // ---------- ícones ----------
 export const Fish: React.FC<{w?: number}> = ({w = 200}) => (

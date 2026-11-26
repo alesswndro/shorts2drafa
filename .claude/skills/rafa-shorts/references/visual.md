@@ -87,3 +87,15 @@ Atenção: Dona Socorro e Diretora são parecidas (senhora, cabelo grisalho, óc
 - `Person`: chapéu `straw` e `apron`; preset `SenhoraGeladinho`.
 - `TitleCard` aceita `bigSize` (texto grande longo, ex.: "9 ENTREGAS" = 205).
 - Contador de entregas com "+ R$ X" subindo e HUD somando em tempo real.
+
+## Bicicleta e Rafa pedalando (redesenho pedido pelo usuário, 2026-11-26)
+- `src/components/BikeRide.tsx` — **padrão daqui pra frente**:
+  - `RafaRiding` — Rafa SENTADO de perfil (como nos EP01–04): tronco inclinado, braço no guidão, boné vermelho
+    pra trás, mochila laranja nas costas, pernas por cinemática inversa acompanhando o pedal, rodas girando,
+    linhas de velocidade. Props: `width`, `expr`, `blink`, `sweat`, `cooler` (caixa térmica no bagageiro), `speed`
+    (0 = parado; ~0,15 = chegando/freando; 1–1,3 = pedalando forte).
+  - `BikeFrame` — a bike sozinha (quadro azul `#3C86D6` com contorno escuro, pneus pretos grossos, aro cinza, 8 raios).
+  - `Bike` (em `Person.tsx`) agora usa o `BikeFrame` — bike parada (crianças etc.).
+- `RafaBike` (em `sets2.tsx`) embrulha o `RafaRiding` numa caixa de altura `largura × 760/520`, com a bike embaixo.
+  Tamanho bom: 700–780 px de largura em plano médio; ~420 px atravessando a tela.
+- A bike antiga (Rafa em pé atrás da bike) foi descartada: ficou ruim.

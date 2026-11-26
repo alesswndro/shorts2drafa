@@ -1,5 +1,6 @@
 import React from 'react';
 import {C} from '../theme';
+import {BikeFrame} from './BikeRide';
 
 export type Expr = 'neutral' | 'sad' | 'surprised' | 'happy' | 'worried' | 'serious' | 'determined';
 
@@ -239,15 +240,8 @@ export const Duda: React.FC<Partial<PersonProps>> = (p) => (
 );
 
 export const Bike: React.FC<{width?: number; style?: React.CSSProperties}> = ({width = 420, style}) => (
-  <svg viewBox="0 0 420 260" width={width} height={(width * 260) / 420} style={{overflow: 'visible', ...style}}>
-    <g fill="none" stroke={C.ink} strokeWidth={10} strokeLinecap="round" strokeLinejoin="round">
-      <circle cx={90} cy={170} r={78} fill="none" />
-      <circle cx={330} cy={170} r={78} fill="none" />
-      <path d="M90,170 L170,70 L300,70 L330,170 M170,70 L215,170 L90,170 M215,170 L300,70" stroke="#3C7FD0" strokeWidth={14} />
-      <path d="M90,170 L170,70 L300,70 L330,170 M170,70 L215,170 L90,170 M215,170 L300,70" strokeWidth={4} />
-      <path d="M150,48 L195,48" strokeWidth={14} />
-      <path d="M300,70 L290,30 L322,22" strokeWidth={10} />
-    </g>
+  <svg viewBox="40 140 530 380" width={width} height={(width * 380) / 530} style={{overflow: 'visible', ...style}}>
+    <BikeFrame />
   </svg>
 );
 

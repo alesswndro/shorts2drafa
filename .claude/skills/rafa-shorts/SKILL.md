@@ -115,3 +115,4 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-26 — EP06 v2: o voto acontece na tela antes da virada; a ideia nasce do que o Rafa vê. Passar do alvo
   de tempo é ok quando cortar deixaria a história sem sentido.
 - 2026-11-26 — Regra do usuário: movimento de câmera lento e sutil em todas as cenas (nada travado, nada exagerado).
+- 2026-11-26 — Bike redesenhada (a anterior ficou ruim): Rafa sentado de perfil pedalando (`BikeRide.tsx`). EP06 re-renderizado.
