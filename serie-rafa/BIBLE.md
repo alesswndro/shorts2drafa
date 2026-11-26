@@ -56,6 +56,7 @@ Processo de produção: skill `.claude/skills/rafa-shorts`. Estado atual: `serie
 | 4 "6 entregas antes da escola" | 5 | R$ 85 (+42, 6×R$7) | 26 | Chegou 40 min atrasado; diretora: "Vou ligar pra tua mãe, Rafael." Enquete: A) contar tudo pra mãe / B) esconder da mãe → **venceu A** |
 | 5 "R$ 215 de atraso" | 5 | R$ 85 | 26 (meta → R$ 66) | Mãe já sabia; "a gente faz junto"; escola às 7h. Voto nos comentários: A) sozinho, com muito esforço / B) com os meninos, dividindo o lucro |
 | 6 "Nona entrega" | 6 | R$ 148 (+63) | 25 (meta R$ 69) | Sozinho, 7h em ponto, R$ 6 abaixo da meta; vê a senhora do geladinho. Voto: A) larga as entregas e aposta tudo / B) continua nas entregas (dinheiro certo) |
+| 7 "Gelo com sal" | 7→8 | R$ 218 (−40 +110) | 23 (meta R$ 69, batida) | Gelo com sal na caixa do Bené; vende 55 na saída do colégio; a senhora: "esse ponto aqui é meu". Voto: A) outro ponto, longe da escola / B) fica e vende a R$ 1,50 |
 
 ## Roteiros
 ### EP01 (do flow ElevenLabs)
@@ -190,3 +191,29 @@ Comenta aí: A ou B.
 ```
 Nova personagem: **senhora do geladinho** (chapéu de palha, cabelo branco curto, blusa laranja, avental verde-água,
 caixa térmica azul/branca) — compra polpa no Ver-o-Peso, vende 150/dia na porta do colégio.
+
+### EP07 (final — take `_1`, 90,5 s de voz, vídeo ≈ 93,5 s)
+```
+[nervous] Meia-noite. 55 geladinhos em cima da pia... e o freezer só cabia 20.
+[excited] Dessa vez foi acirrado... mas a opção A ganhou.
+[warmly] Vocês escolheram: o Rafa largou as entregas e apostou tudo no geladinho.
+Se você chegou agora: o Rafa tem 24 dias pra juntar R$ 1.800... ou a família perde a casa.
+Ele gastou R$ 40 no Ver-o-Peso: polpa de cupuaçu, de açaí, leite e saquinho.
+[warmly] A mãe chegou cansada do trabalho... e ajudou a encher um por um.
+[nervous] Aí veio o freezer. 35 geladinhos sem lugar... derretendo.
+[curious] Então ele lembrou dos peixeiros do Ver-o-Peso.
+Gelo com sal. Segura o peixe gelado a manhã inteira.
+[excited] Ele encheu a caixa térmica do Seu Bené: gelo, sal... e geladinho.
+[softly] De manhã, abriu a tampa com o coração na mão...
+[excited] Tava tudo durinho.
+Meio-dia, saída do colégio. Ele abriu a caixa... e formou fila.
+Cupuaçu acabou primeiro. Depois o açaí.
+[dramatically] 55 geladinhos. R$ 110. Primeiro dia acima da meta.
+[softly] Mas quando fechou a caixa vazia... sentiu alguém atrás dele.
+Era a senhora do geladinho.
+[dramatically] "Menino... esse ponto aqui é meu."
+[curious] E agora, você decide:
+A: o Rafa procura outro ponto, longe da escola... e vende menos.
+B: ou fica e baixa pra R$ 1,50... e compra briga com ela?
+Comenta aí: A ou B.
+```

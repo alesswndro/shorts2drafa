@@ -99,3 +99,4 @@ Atenção: Dona Socorro e Diretora são parecidas (senhora, cabelo grisalho, óc
 - `RafaBike` (em `sets2.tsx`) embrulha o `RafaRiding` numa caixa de altura `largura × 760/520`, com a bike embaixo.
   Tamanho bom: 700–780 px de largura em plano médio; ~420 px atravessando a tela.
 - A bike antiga (Rafa em pé atrás da bike) foi descartada: ficou ruim.
+

@@ -1,7 +1,7 @@
 # Estado atual da série
 
 **Último episódio publicado:** EP04 — "6 entregas antes da escola"
-**Publicado:** EP05 · **Pronto pra publicar:** EP06 "Nona entrega" (`remotion/out/rafa-ep06.mp4`, 88 s) — "R$ 215 de atraso": roteiro v7, voz do usuário (take sem sufixo, 87,3 s), vídeo ≈ 90 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
+**Publicado:** EP05 · **Publicado:** EP06 · **Pronto pra publicar:** EP07 "Gelo com sal" (`remotion/out/rafa-ep07.mp4`, 93,5 s) — "R$ 215 de atraso": roteiro v7, voz do usuário (take sem sufixo, 87,3 s), vídeo ≈ 90 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
 
 ## Números (fim do EP04)
 - Dia: 5 de 30 (novembro)
@@ -38,3 +38,7 @@
 ## Números (fim do EP06)
 - Dia 6 · guardado **R$ 148** · despejo 25 dias · meta R$ 69/dia (1.652 ÷ 24 = R$ 69 a partir do dia 7).
 - Personagem nova: senhora do geladinho. Se B ganhar no EP06: honrar ("continuou nas entregas... só que") e levar ao geladinho.
+
+## Números (fim do EP07)
+- Dia 8 · guardado **R$ 218** · despejo 23 dias · meta R$ 69 (1.582 ÷ 23). Primeiro dia acima da meta (lucro R$ 70).
+- Sabores: cupuaçu esgota primeiro, depois açaí. Ponto: saída do colégio (meio-dia). Conflito: a senhora do geladinho.

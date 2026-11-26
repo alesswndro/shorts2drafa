@@ -119,3 +119,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-26 — Regra do usuário: movimento de câmera lento e sutil em todas as cenas (nada travado, nada exagerado).
 - 2026-11-26 — Bike redesenhada (a anterior ficou ruim): Rafa sentado de perfil pedalando (`BikeRide.tsx`). EP06 re-renderizado.
 - 2026-11-26 — Voto EP06 = A. Abertura ganha o placar do voto antes do "Vocês escolheram" (pedido do usuário).
+- 2026-11-26 — EXPERIMENTO no EP07 (ainda NÃO é regra; registrar só se o usuário aprovar): visual mais apelativo —
+  punch-in, flash nas viradas, brilhos/moedas, contadores animados (helpers em `scene.tsx`).

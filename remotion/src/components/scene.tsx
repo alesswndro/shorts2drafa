@@ -63,3 +63,67 @@ export const makeCaptions = (W: Word[], CHUNKS: Chunk[], capY: (s: number) => nu
   }
   return null;
 };
+
+// ---------- recursos de retenção (regra do usuário: visual apelativo, sem fugir da estética) ----------
+
+/** "tranco" de zoom que decai (punch-in) — some 1 + valor ao scale nas palavras/números-chave */
+export const punch = (f: number, at: number, amt = 0.07, dur = 9) => {
+  const t = f - at;
+  if (t < 0 || t > dur) return 0;
+  return amt * Math.sin((t / dur) * Math.PI) * (1 - t / (dur * 1.4));
+};
+
+/** câmera com punch-ins: envolve o conteúdo e soma os trancos nos frames dados */
+export const Punch: React.FC<{at: number[]; amt?: number; children: React.ReactNode}> = ({at, amt = 0.07, children}) => {
+  const f = useCurrentFrame();
+  const s = 1 + at.reduce((a, x) => a + punch(f, x, amt), 0);
+  return <AbsoluteFill style={{transform: `scale(${s})`}}>{children}</AbsoluteFill>;
+};
+
+/** clarão branco curto nas viradas */
+export const Flash: React.FC<{at: number; dur?: number; color?: string; max?: number}> = ({at, dur = 7, color = '#fff', max = 0.85}) => {
+  const f = useCurrentFrame();
+  const t = f - at;
+  if (t < 0 || t > dur) return null;
+  return <AbsoluteFill style={{background: color, opacity: max * (1 - t / dur), pointerEvents: 'none'}} />;
+};
+
+/** explosão de brilhos a partir de um ponto */
+export const Sparkles: React.FC<{at: number; x: number; y: number; n?: number; color?: string; spread?: number}> = ({at, x, y, n = 14, color = '#F5C431', spread = 380}) => {
+  const f = useCurrentFrame();
+  const t = f - at;
+  if (t < 0 || t > 26) return null;
+  return (
+    <>
+      {Array.from({length: n}, (_, i) => {
+        const a = (i / n) * Math.PI * 2 + i;
+        const r = spread * (1 - Math.pow(1 - t / 26, 2)) * (0.6 + ((i * 37) % 10) / 25);
+        const s = (1 - t / 26) * (0.8 + (i % 3) * 0.3);
+        return <div key={i} style={{position: 'absolute', left: x + Math.cos(a) * r - 22, top: y + Math.sin(a) * r - 22, fontSize: 44, color, transform: `scale(${s}) rotate(${t * 12}deg)`, WebkitTextStroke: '3px #1E1B26'}}>✦</div>;
+      })}
+    </>
+  );
+};
+
+/** chuva de moedas (vitória) */
+export const CoinRain: React.FC<{from: number; to: number; n?: number}> = ({from, to, n = 16}) => {
+  const f = useCurrentFrame();
+  if (f < from || f > to + 40) return null;
+  return (
+    <>
+      {Array.from({length: n}, (_, i) => {
+        const start = from + ((i * 7) % 24);
+        const t = f - start;
+        if (t < 0) return null;
+        const y = -120 + t * (22 + (i % 4) * 4);
+        if (y > 2000) return null;
+        const x = ((i * 137) % 1000) + 20;
+        return <div key={i} style={{position: 'absolute', left: x, top: y, width: 70, height: 70, borderRadius: 35, background: '#F5C431', border: '6px solid #1E1B26', fontFamily: 'Oswald', fontWeight: 700, fontSize: 40, lineHeight: '58px', textAlign: 'center', color: '#1E1B26', transform: `rotateY(${t * 18}deg)`}}>$</div>;
+      })}
+    </>
+  );
+};
+
+/** número contando de a até b entre os frames f0 e f1 */
+export const countUp = (f: number, f0: number, f1: number, a: number, b: number) =>
+  Math.round(interpolate(f, [f0, f1], [a, b], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)}));
