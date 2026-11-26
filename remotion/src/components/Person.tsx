@@ -5,7 +5,8 @@ export type Expr = 'neutral' | 'sad' | 'surprised' | 'happy' | 'worried' | 'seri
 
 export type PersonProps = {
   skin?: string;
-  hat?: 'rafaCap' | 'scarf' | 'cap' | 'none';
+  hat?: 'rafaCap' | 'scarf' | 'cap' | 'straw' | 'none';
+  apron?: string;
   hatColor?: string;
   hair?: 'short' | 'puffs' | 'bun' | 'none';
   hairColor?: string;
@@ -88,6 +89,7 @@ export const Person: React.FC<PersonProps> = ({
   blink = false,
   armUp = 'none',
   holdPhone = false,
+  apron,
   width = 400,
   style,
 }) => {
@@ -140,6 +142,12 @@ export const Person: React.FC<PersonProps> = ({
       )}
       {/* tronco */}
       <path d="M124,382 Q124,366 142,366 L258,366 Q276,366 276,382 L282,560 L118,560 Z" fill={shirt} {...ink} />
+      {apron && (
+        <g>
+          <path d="M146,410 L254,410 L268,600 L132,600 Z" fill={apron} stroke={C.ink} strokeWidth={S} strokeLinejoin="round" />
+          <rect x={176} y={470} width={48} height={34} rx={6} fill="rgba(0,0,0,0.12)" />
+        </g>
+      )}
       {suspenders && (
         <g stroke="#3B3A44" strokeWidth={16} strokeLinecap="round">
           <line x1={160} y1={372} x2={160} y2={548} />
@@ -188,6 +196,13 @@ export const Person: React.FC<PersonProps> = ({
           <path d="M40,200 Q130,150 220,176 Q130,214 40,214 Z" fill={hatColor} />
         </g>
       )}
+      {hat === 'straw' && (
+        <g {...ink}>
+          <ellipse cx={200} cy={150} rx={196} ry={44} fill="#E3C27A" />
+          <path d="M92,150 Q100,40 200,36 Q300,40 308,150 Z" fill="#E9CD8C" />
+          <path d="M96,128 Q200,108 304,128" fill="none" stroke="#C0392B" strokeWidth={16} />
+        </g>
+      )}
       {hat === 'scarf' && (
         <g {...ink}>
           <path d="M50,214 Q52,78 200,74 Q348,78 350,214 Q280,170 200,172 Q120,170 50,214 Z" fill={hatColor} />
@@ -234,4 +249,9 @@ export const Bike: React.FC<{width?: number; style?: React.CSSProperties}> = ({w
       <path d="M300,70 L290,30 L322,22" strokeWidth={10} />
     </g>
   </svg>
+);
+
+/** a senhora do geladinho (EP06): chapéu de palha, cabelo branco curto, avental verde-água */
+export const SenhoraGeladinho: React.FC<Partial<PersonProps>> = (p) => (
+  <Person skin="#7A4A2C" hair="short" hairColor="#E8E6E0" hat="straw" shirt="#F0A04B" bottom="skirt" bottomColor="#5B4A8A" apron="#8FD6C8" {...p} />
 );

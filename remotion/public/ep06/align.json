@@ -1,0 +1,1787 @@
+{
+ "duration": 85.2375,
+ "segments": [
+  [
+   0.0,
+   3.01122
+  ],
+  [
+   3.47154,
+   5.75993
+  ],
+  [
+   6.10694,
+   7.17043
+  ],
+  [
+   7.50469,
+   10.5369
+  ],
+  [
+   10.9409,
+   11.7914
+  ],
+  [
+   12.0966,
+   13.7761
+  ],
+  [
+   14.1497,
+   15.3159
+  ],
+  [
+   15.5778,
+   19.5714
+  ],
+  [
+   19.9734,
+   21.4259
+  ],
+  [
+   21.7434,
+   24.3869
+  ],
+  [
+   24.7676,
+   26.8329
+  ],
+  [
+   27.1708,
+   28.9
+  ],
+  [
+   29.1462,
+   30.9947
+  ],
+  [
+   31.3348,
+   31.7082
+  ],
+  [
+   32.1196,
+   34.919
+  ],
+  [
+   35.2026,
+   36.8465
+  ],
+  [
+   37.1388,
+   37.9816
+  ],
+  [
+   38.263,
+   39.8073
+  ],
+  [
+   40.0917,
+   41.5822
+  ],
+  [
+   41.9046,
+   43.1907
+  ],
+  [
+   43.478,
+   45.4397
+  ],
+  [
+   45.7133,
+   49.8933
+  ],
+  [
+   50.2013,
+   55.1068
+  ],
+  [
+   55.3395,
+   57.7679
+  ],
+  [
+   57.9861,
+   61.312
+  ],
+  [
+   61.5425,
+   63.1308
+  ],
+  [
+   63.3888,
+   65.864
+  ],
+  [
+   66.1354,
+   66.985
+  ],
+  [
+   67.2208,
+   69.4742
+  ],
+  [
+   69.7752,
+   71.6978
+  ],
+  [
+   72.1428,
+   73.1981
+  ],
+  [
+   73.5462,
+   75.2423
+  ],
+  [
+   75.5541,
+   75.779
+  ],
+  [
+   76.0277,
+   78.465
+  ],
+  [
+   78.6732,
+   79.7159
+  ],
+  [
+   79.985,
+   80.3251
+  ],
+  [
+   80.5919,
+   83.1513
+  ],
+  [
+   83.4029,
+   83.9711
+  ],
+  [
+   84.2539,
+   85.0176
+  ]
+ ],
+ "words": [
+  {
+   "w": "6",
+   "line": 0,
+   "quote": false,
+   "s": 2,
+   "start": 0.0,
+   "end": 0.522
+  },
+  {
+   "w": "e",
+   "line": 0,
+   "quote": false,
+   "s": 1,
+   "start": 0.522,
+   "end": 0.843
+  },
+  {
+   "w": "52.",
+   "line": 0,
+   "quote": false,
+   "s": 4,
+   "start": 0.843,
+   "end": 1.767
+  },
+  {
+   "w": "Nona",
+   "line": 0,
+   "quote": false,
+   "s": 2,
+   "start": 1.767,
+   "end": 2.289
+  },
+  {
+   "w": "entrega...",
+   "line": 0,
+   "quote": false,
+   "s": 3,
+   "start": 2.289,
+   "end": 3.011
+  },
+  {
+   "w": "e",
+   "line": 0,
+   "quote": false,
+   "s": 1,
+   "start": 3.472,
+   "end": 3.648
+  },
+  {
+   "w": "a",
+   "line": 0,
+   "quote": false,
+   "s": 1,
+   "start": 3.648,
+   "end": 3.824
+  },
+  {
+   "w": "escola",
+   "line": 0,
+   "quote": false,
+   "s": 3,
+   "start": 3.824,
+   "end": 4.22
+  },
+  {
+   "w": "ainda",
+   "line": 0,
+   "quote": false,
+   "s": 2,
+   "start": 4.22,
+   "end": 4.506
+  },
+  {
+   "w": "tava",
+   "line": 0,
+   "quote": false,
+   "s": 2,
+   "start": 4.506,
+   "end": 4.792
+  },
+  {
+   "w": "a",
+   "line": 0,
+   "quote": false,
+   "s": 1,
+   "start": 4.792,
+   "end": 4.968
+  },
+  {
+   "w": "3",
+   "line": 0,
+   "quote": false,
+   "s": 2,
+   "start": 4.968,
+   "end": 5.254
+  },
+  {
+   "w": "quilômetros.",
+   "line": 0,
+   "quote": false,
+   "s": 4,
+   "start": 5.254,
+   "end": 5.76
+  },
+  {
+   "w": "Vocês",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 6.107,
+   "end": 6.491
+  },
+  {
+   "w": "escolheram:",
+   "line": 1,
+   "quote": false,
+   "s": 4,
+   "start": 6.491,
+   "end": 7.17
+  },
+  {
+   "w": "o",
+   "line": 1,
+   "quote": false,
+   "s": 1,
+   "start": 7.505,
+   "end": 7.75
+  },
+  {
+   "w": "Rafa",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 7.75,
+   "end": 8.148
+  },
+  {
+   "w": "ia",
+   "line": 1,
+   "quote": false,
+   "s": 1,
+   "start": 8.148,
+   "end": 8.393
+  },
+  {
+   "w": "fazer",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 8.393,
+   "end": 8.791
+  },
+  {
+   "w": "tudo",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 8.791,
+   "end": 9.189
+  },
+  {
+   "w": "sozinho,",
+   "line": 1,
+   "quote": false,
+   "s": 3,
+   "start": 9.189,
+   "end": 9.741
+  },
+  {
+   "w": "no",
+   "line": 1,
+   "quote": false,
+   "s": 1,
+   "start": 9.741,
+   "end": 9.986
+  },
+  {
+   "w": "limite.",
+   "line": 1,
+   "quote": false,
+   "s": 3,
+   "start": 9.986,
+   "end": 10.537
+  },
+  {
+   "w": "E",
+   "line": 2,
+   "quote": false,
+   "s": 1,
+   "start": 10.941,
+   "end": 11.176
+  },
+  {
+   "w": "ele",
+   "line": 2,
+   "quote": false,
+   "s": 2,
+   "start": 11.176,
+   "end": 11.557
+  },
+  {
+   "w": "fez.",
+   "line": 2,
+   "quote": false,
+   "s": 1,
+   "start": 11.557,
+   "end": 11.791
+  },
+  {
+   "w": "Do",
+   "line": 2,
+   "quote": false,
+   "s": 1,
+   "start": 12.097,
+   "end": 12.382
+  },
+  {
+   "w": "jeito",
+   "line": 2,
+   "quote": false,
+   "s": 2,
+   "start": 12.382,
+   "end": 12.847
+  },
+  {
+   "w": "mais",
+   "line": 2,
+   "quote": false,
+   "s": 1,
+   "start": 12.847,
+   "end": 13.133
+  },
+  {
+   "w": "difícil.",
+   "line": 2,
+   "quote": false,
+   "s": 3,
+   "start": 13.133,
+   "end": 13.776
+  },
+  {
+   "w": "Se",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 14.15,
+   "end": 14.329
+  },
+  {
+   "w": "você",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 14.329,
+   "end": 14.621
+  },
+  {
+   "w": "chegou",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 14.621,
+   "end": 14.912
+  },
+  {
+   "w": "agora:",
+   "line": 3,
+   "quote": false,
+   "s": 3,
+   "start": 14.912,
+   "end": 15.316
+  },
+  {
+   "w": "o",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 15.578,
+   "end": 15.851
+  },
+  {
+   "w": "Rafa",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 15.851,
+   "end": 16.295
+  },
+  {
+   "w": "tem",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 16.295,
+   "end": 16.568
+  },
+  {
+   "w": "25",
+   "line": 3,
+   "quote": false,
+   "s": 4,
+   "start": 16.568,
+   "end": 17.353
+  },
+  {
+   "w": "dias",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 17.353,
+   "end": 17.626
+  },
+  {
+   "w": "pra",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 17.626,
+   "end": 17.899
+  },
+  {
+   "w": "juntar",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 17.899,
+   "end": 18.343
+  },
+  {
+   "w": "R$",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 18.343,
+   "end": 18.786
+  },
+  {
+   "w": "1.800...",
+   "line": 3,
+   "quote": false,
+   "s": 4,
+   "start": 18.786,
+   "end": 19.571
+  },
+  {
+   "w": "ou",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 19.973,
+   "end": 20.144
+  },
+  {
+   "w": "a",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 20.144,
+   "end": 20.315
+  },
+  {
+   "w": "família",
+   "line": 3,
+   "quote": false,
+   "s": 3,
+   "start": 20.315,
+   "end": 20.7
+  },
+  {
+   "w": "perde",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 20.7,
+   "end": 20.977
+  },
+  {
+   "w": "a",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 20.977,
+   "end": 21.148
+  },
+  {
+   "w": "casa.",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 21.148,
+   "end": 21.426
+  },
+  {
+   "w": "Às",
+   "line": 4,
+   "quote": false,
+   "s": 1,
+   "start": 21.743,
+   "end": 21.941
+  },
+  {
+   "w": "5",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 21.941,
+   "end": 22.262
+  },
+  {
+   "w": "da",
+   "line": 4,
+   "quote": false,
+   "s": 1,
+   "start": 22.262,
+   "end": 22.46
+  },
+  {
+   "w": "manhã",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 22.46,
+   "end": 22.781
+  },
+  {
+   "w": "ele",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 22.781,
+   "end": 23.102
+  },
+  {
+   "w": "já",
+   "line": 4,
+   "quote": false,
+   "s": 1,
+   "start": 23.102,
+   "end": 23.3
+  },
+  {
+   "w": "tava",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 23.3,
+   "end": 23.621
+  },
+  {
+   "w": "no",
+   "line": 4,
+   "quote": false,
+   "s": 1,
+   "start": 23.621,
+   "end": 23.819
+  },
+  {
+   "w": "Ver-o-Peso.",
+   "line": 4,
+   "quote": false,
+   "s": 4,
+   "start": 23.819,
+   "end": 24.387
+  },
+  {
+   "w": "Peixe,",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 24.768,
+   "end": 25.456
+  },
+  {
+   "w": "gelo,",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 25.456,
+   "end": 26.144
+  },
+  {
+   "w": "açaí...",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 26.144,
+   "end": 26.833
+  },
+  {
+   "w": "Uma",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 27.171,
+   "end": 27.517
+  },
+  {
+   "w": "entrega",
+   "line": 5,
+   "quote": false,
+   "s": 3,
+   "start": 27.517,
+   "end": 27.995
+  },
+  {
+   "w": "atrás",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 27.995,
+   "end": 28.341
+  },
+  {
+   "w": "da",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 28.341,
+   "end": 28.554
+  },
+  {
+   "w": "outra.",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 28.554,
+   "end": 28.9
+  },
+  {
+   "w": "Sem",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 29.146,
+   "end": 29.381
+  },
+  {
+   "w": "parar",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 29.381,
+   "end": 29.762
+  },
+  {
+   "w": "nem",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 29.762,
+   "end": 29.997
+  },
+  {
+   "w": "pra",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 29.997,
+   "end": 30.232
+  },
+  {
+   "w": "beber",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 30.232,
+   "end": 30.613
+  },
+  {
+   "w": "água.",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 30.613,
+   "end": 30.995
+  },
+  {
+   "w": "Às",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 31.335,
+   "end": 31.584
+  },
+  {
+   "w": "7",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 31.584,
+   "end": 31.989
+  },
+  {
+   "w": "em",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 31.989,
+   "end": 32.239
+  },
+  {
+   "w": "ponto,",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 32.239,
+   "end": 32.644
+  },
+  {
+   "w": "ele",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 32.644,
+   "end": 33.049
+  },
+  {
+   "w": "cruzou",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 33.049,
+   "end": 33.454
+  },
+  {
+   "w": "o",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 33.454,
+   "end": 33.704
+  },
+  {
+   "w": "portão",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 33.704,
+   "end": 34.109
+  },
+  {
+   "w": "da",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 34.109,
+   "end": 34.358
+  },
+  {
+   "w": "escola.",
+   "line": 6,
+   "quote": false,
+   "s": 3,
+   "start": 34.358,
+   "end": 34.919
+  },
+  {
+   "w": "Suado,",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 35.203,
+   "end": 35.892
+  },
+  {
+   "w": "tremendo...",
+   "line": 6,
+   "quote": false,
+   "s": 3,
+   "start": 35.892,
+   "end": 36.846
+  },
+  {
+   "w": "mas",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 37.139,
+   "end": 37.371
+  },
+  {
+   "w": "na",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 37.371,
+   "end": 37.604
+  },
+  {
+   "w": "hora.",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 37.604,
+   "end": 37.982
+  },
+  {
+   "w": "R$",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 38.263,
+   "end": 38.821
+  },
+  {
+   "w": "63.",
+   "line": 7,
+   "quote": false,
+   "s": 4,
+   "start": 38.821,
+   "end": 39.807
+  },
+  {
+   "w": "Faltaram",
+   "line": 7,
+   "quote": false,
+   "s": 3,
+   "start": 40.092,
+   "end": 40.608
+  },
+  {
+   "w": "6",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 40.608,
+   "end": 40.98
+  },
+  {
+   "w": "pra",
+   "line": 7,
+   "quote": false,
+   "s": 1,
+   "start": 40.98,
+   "end": 41.21
+  },
+  {
+   "w": "meta.",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 41.21,
+   "end": 41.582
+  },
+  {
+   "w": "E",
+   "line": 7,
+   "quote": false,
+   "s": 1,
+   "start": 41.905,
+   "end": 42.124
+  },
+  {
+   "w": "ele",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 42.124,
+   "end": 42.479
+  },
+  {
+   "w": "tava",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 42.479,
+   "end": 42.835
+  },
+  {
+   "w": "morto.",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 42.835,
+   "end": 43.191
+  },
+  {
+   "w": "Mas",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 43.478,
+   "end": 43.654
+  },
+  {
+   "w": "foi",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 43.654,
+   "end": 43.831
+  },
+  {
+   "w": "na",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 43.831,
+   "end": 44.007
+  },
+  {
+   "w": "última",
+   "line": 8,
+   "quote": false,
+   "s": 3,
+   "start": 44.007,
+   "end": 44.404
+  },
+  {
+   "w": "entrega",
+   "line": 8,
+   "quote": false,
+   "s": 3,
+   "start": 44.404,
+   "end": 44.8
+  },
+  {
+   "w": "que",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 44.8,
+   "end": 44.977
+  },
+  {
+   "w": "ele",
+   "line": 8,
+   "quote": false,
+   "s": 2,
+   "start": 44.977,
+   "end": 45.263
+  },
+  {
+   "w": "viu.",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 45.263,
+   "end": 45.44
+  },
+  {
+   "w": "Uma",
+   "line": 9,
+   "quote": false,
+   "s": 2,
+   "start": 45.713,
+   "end": 46.047
+  },
+  {
+   "w": "senhora",
+   "line": 9,
+   "quote": false,
+   "s": 3,
+   "start": 46.047,
+   "end": 46.508
+  },
+  {
+   "w": "no",
+   "line": 9,
+   "quote": false,
+   "s": 1,
+   "start": 46.508,
+   "end": 46.713
+  },
+  {
+   "w": "Ver-o-Peso,",
+   "line": 9,
+   "quote": false,
+   "s": 4,
+   "start": 46.713,
+   "end": 47.303
+  },
+  {
+   "w": "comprando",
+   "line": 9,
+   "quote": false,
+   "s": 3,
+   "start": 47.303,
+   "end": 47.765
+  },
+  {
+   "w": "10",
+   "line": 9,
+   "quote": false,
+   "s": 4,
+   "start": 47.765,
+   "end": 48.355
+  },
+  {
+   "w": "quilos",
+   "line": 9,
+   "quote": false,
+   "s": 2,
+   "start": 48.355,
+   "end": 48.688
+  },
+  {
+   "w": "de",
+   "line": 9,
+   "quote": false,
+   "s": 1,
+   "start": 48.688,
+   "end": 48.893
+  },
+  {
+   "w": "polpa",
+   "line": 9,
+   "quote": false,
+   "s": 2,
+   "start": 48.893,
+   "end": 49.227
+  },
+  {
+   "w": "de",
+   "line": 9,
+   "quote": false,
+   "s": 1,
+   "start": 49.227,
+   "end": 49.432
+  },
+  {
+   "w": "cupuaçu.",
+   "line": 9,
+   "quote": false,
+   "s": 3,
+   "start": 49.432,
+   "end": 49.893
+  },
+  {
+   "w": "\"É",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 50.201,
+   "end": 50.427
+  },
+  {
+   "w": "pros",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 50.427,
+   "end": 50.652
+  },
+  {
+   "w": "meus",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 50.652,
+   "end": 50.878
+  },
+  {
+   "w": "geladinhos,",
+   "line": 10,
+   "quote": true,
+   "s": 4,
+   "start": 50.878,
+   "end": 51.526
+  },
+  {
+   "w": "menino.",
+   "line": 10,
+   "quote": true,
+   "s": 3,
+   "start": 51.526,
+   "end": 52.034
+  },
+  {
+   "w": "Vendo",
+   "line": 10,
+   "quote": true,
+   "s": 2,
+   "start": 52.034,
+   "end": 52.4
+  },
+  {
+   "w": "150",
+   "line": 10,
+   "quote": true,
+   "s": 6,
+   "start": 52.4,
+   "end": 53.331
+  },
+  {
+   "w": "por",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 53.331,
+   "end": 53.556
+  },
+  {
+   "w": "dia",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 53.556,
+   "end": 53.782
+  },
+  {
+   "w": "na",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 53.782,
+   "end": 54.007
+  },
+  {
+   "w": "porta",
+   "line": 10,
+   "quote": true,
+   "s": 2,
+   "start": 54.007,
+   "end": 54.374
+  },
+  {
+   "w": "do",
+   "line": 10,
+   "quote": true,
+   "s": 1,
+   "start": 54.374,
+   "end": 54.599
+  },
+  {
+   "w": "colégio.\"",
+   "line": 10,
+   "quote": true,
+   "s": 3,
+   "start": 54.599,
+   "end": 55.107
+  },
+  {
+   "w": "O",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 55.34,
+   "end": 55.53
+  },
+  {
+   "w": "Rafa",
+   "line": 11,
+   "quote": false,
+   "s": 2,
+   "start": 55.53,
+   "end": 55.839
+  },
+  {
+   "w": "fez",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 55.839,
+   "end": 56.03
+  },
+  {
+   "w": "a",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 56.03,
+   "end": 56.22
+  },
+  {
+   "w": "conta",
+   "line": 11,
+   "quote": false,
+   "s": 2,
+   "start": 56.22,
+   "end": 56.53
+  },
+  {
+   "w": "ali",
+   "line": 11,
+   "quote": false,
+   "s": 2,
+   "start": 56.53,
+   "end": 56.839
+  },
+  {
+   "w": "mesmo,",
+   "line": 11,
+   "quote": false,
+   "s": 2,
+   "start": 56.839,
+   "end": 57.149
+  },
+  {
+   "w": "de",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 57.149,
+   "end": 57.339
+  },
+  {
+   "w": "cabeça.",
+   "line": 11,
+   "quote": false,
+   "s": 3,
+   "start": 57.339,
+   "end": 57.768
+  },
+  {
+   "w": "70",
+   "line": 12,
+   "quote": false,
+   "s": 4,
+   "start": 57.986,
+   "end": 58.688
+  },
+  {
+   "w": "centavos",
+   "line": 12,
+   "quote": false,
+   "s": 3,
+   "start": 58.688,
+   "end": 59.237
+  },
+  {
+   "w": "pra",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 59.237,
+   "end": 59.481
+  },
+  {
+   "w": "fazer.",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 59.481,
+   "end": 59.878
+  },
+  {
+   "w": "R$",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 59.878,
+   "end": 60.275
+  },
+  {
+   "w": "2",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 60.275,
+   "end": 60.671
+  },
+  {
+   "w": "pra",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 60.671,
+   "end": 60.915
+  },
+  {
+   "w": "vender.",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 60.915,
+   "end": 61.312
+  },
+  {
+   "w": "Ela",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 61.542,
+   "end": 61.825
+  },
+  {
+   "w": "não",
+   "line": 13,
+   "quote": false,
+   "s": 1,
+   "start": 61.825,
+   "end": 61.999
+  },
+  {
+   "w": "corria",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 61.999,
+   "end": 62.282
+  },
+  {
+   "w": "atrás",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 62.282,
+   "end": 62.565
+  },
+  {
+   "w": "do",
+   "line": 13,
+   "quote": false,
+   "s": 1,
+   "start": 62.565,
+   "end": 62.739
+  },
+  {
+   "w": "dinheiro...",
+   "line": 13,
+   "quote": false,
+   "s": 3,
+   "start": 62.739,
+   "end": 63.131
+  },
+  {
+   "w": "o",
+   "line": 13,
+   "quote": false,
+   "s": 1,
+   "start": 63.389,
+   "end": 63.619
+  },
+  {
+   "w": "dinheiro",
+   "line": 13,
+   "quote": false,
+   "s": 3,
+   "start": 63.619,
+   "end": 64.137
+  },
+  {
+   "w": "fazia",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 64.137,
+   "end": 64.511
+  },
+  {
+   "w": "fila",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 64.511,
+   "end": 64.885
+  },
+  {
+   "w": "na",
+   "line": 13,
+   "quote": false,
+   "s": 1,
+   "start": 64.885,
+   "end": 65.116
+  },
+  {
+   "w": "porta",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 65.116,
+   "end": 65.49
+  },
+  {
+   "w": "dela.",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 65.49,
+   "end": 65.864
+  },
+  {
+   "w": "Naquela",
+   "line": 14,
+   "quote": false,
+   "s": 3,
+   "start": 66.135,
+   "end": 66.629
+  },
+  {
+   "w": "noite,",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 66.629,
+   "end": 66.985
+  },
+  {
+   "w": "ele",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 67.221,
+   "end": 67.526
+  },
+  {
+   "w": "abriu",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 67.526,
+   "end": 67.831
+  },
+  {
+   "w": "o",
+   "line": 14,
+   "quote": false,
+   "s": 1,
+   "start": 67.831,
+   "end": 68.019
+  },
+  {
+   "w": "caderno",
+   "line": 14,
+   "quote": false,
+   "s": 3,
+   "start": 68.019,
+   "end": 68.441
+  },
+  {
+   "w": "numa",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 68.441,
+   "end": 68.747
+  },
+  {
+   "w": "página",
+   "line": 14,
+   "quote": false,
+   "s": 3,
+   "start": 68.747,
+   "end": 69.169
+  },
+  {
+   "w": "nova.",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 69.169,
+   "end": 69.474
+  },
+  {
+   "w": "E",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 69.775,
+   "end": 70.012
+  },
+  {
+   "w": "escreveu",
+   "line": 15,
+   "quote": false,
+   "s": 3,
+   "start": 70.012,
+   "end": 70.544
+  },
+  {
+   "w": "uma",
+   "line": 15,
+   "quote": false,
+   "s": 2,
+   "start": 70.544,
+   "end": 70.929
+  },
+  {
+   "w": "palavra",
+   "line": 15,
+   "quote": false,
+   "s": 3,
+   "start": 70.929,
+   "end": 71.461
+  },
+  {
+   "w": "só:",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 71.461,
+   "end": 71.698
+  },
+  {
+   "w": "GELADINHO.",
+   "line": 15,
+   "quote": false,
+   "s": 4,
+   "start": 72.143,
+   "end": 73.198
+  },
+  {
+   "w": "E",
+   "line": 16,
+   "quote": false,
+   "s": 1,
+   "start": 73.546,
+   "end": 73.784
+  },
+  {
+   "w": "agora,",
+   "line": 16,
+   "quote": false,
+   "s": 3,
+   "start": 73.784,
+   "end": 74.32
+  },
+  {
+   "w": "você",
+   "line": 16,
+   "quote": false,
+   "s": 2,
+   "start": 74.32,
+   "end": 74.707
+  },
+  {
+   "w": "decide:",
+   "line": 16,
+   "quote": false,
+   "s": 3,
+   "start": 74.707,
+   "end": 75.242
+  },
+  {
+   "w": "A:",
+   "line": 17,
+   "quote": false,
+   "s": 1,
+   "start": 75.554,
+   "end": 75.779
+  },
+  {
+   "w": "o",
+   "line": 17,
+   "quote": false,
+   "s": 1,
+   "start": 76.028,
+   "end": 76.353
+  },
+  {
+   "w": "Rafa",
+   "line": 17,
+   "quote": false,
+   "s": 2,
+   "start": 76.353,
+   "end": 76.881
+  },
+  {
+   "w": "larga",
+   "line": 17,
+   "quote": false,
+   "s": 2,
+   "start": 76.881,
+   "end": 77.409
+  },
+  {
+   "w": "as",
+   "line": 17,
+   "quote": false,
+   "s": 1,
+   "start": 77.409,
+   "end": 77.734
+  },
+  {
+   "w": "entregas...",
+   "line": 17,
+   "quote": false,
+   "s": 3,
+   "start": 77.734,
+   "end": 78.465
+  },
+  {
+   "w": "e",
+   "line": 17,
+   "quote": false,
+   "s": 1,
+   "start": 78.673,
+   "end": 78.792
+  },
+  {
+   "w": "aposta",
+   "line": 17,
+   "quote": false,
+   "s": 3,
+   "start": 78.792,
+   "end": 79.06
+  },
+  {
+   "w": "tudo",
+   "line": 17,
+   "quote": false,
+   "s": 2,
+   "start": 79.06,
+   "end": 79.254
+  },
+  {
+   "w": "no",
+   "line": 17,
+   "quote": false,
+   "s": 1,
+   "start": 79.254,
+   "end": 79.373
+  },
+  {
+   "w": "geladinho.",
+   "line": 17,
+   "quote": false,
+   "s": 4,
+   "start": 79.373,
+   "end": 79.716
+  },
+  {
+   "w": "B:",
+   "line": 18,
+   "quote": false,
+   "s": 1,
+   "start": 79.985,
+   "end": 80.325
+  },
+  {
+   "w": "ou",
+   "line": 18,
+   "quote": false,
+   "s": 1,
+   "start": 80.592,
+   "end": 80.799
+  },
+  {
+   "w": "continua",
+   "line": 18,
+   "quote": false,
+   "s": 3,
+   "start": 80.799,
+   "end": 81.264
+  },
+  {
+   "w": "nas",
+   "line": 18,
+   "quote": false,
+   "s": 1,
+   "start": 81.264,
+   "end": 81.471
+  },
+  {
+   "w": "entregas,",
+   "line": 18,
+   "quote": false,
+   "s": 3,
+   "start": 81.471,
+   "end": 81.936
+  },
+  {
+   "w": "que",
+   "line": 18,
+   "quote": false,
+   "s": 1,
+   "start": 81.936,
+   "end": 82.143
+  },
+  {
+   "w": "é",
+   "line": 18,
+   "quote": false,
+   "s": 1,
+   "start": 82.143,
+   "end": 82.35
+  },
+  {
+   "w": "dinheiro",
+   "line": 18,
+   "quote": false,
+   "s": 3,
+   "start": 82.35,
+   "end": 82.815
+  },
+  {
+   "w": "certo?",
+   "line": 18,
+   "quote": false,
+   "s": 2,
+   "start": 82.815,
+   "end": 83.151
+  },
+  {
+   "w": "Comenta",
+   "line": 19,
+   "quote": false,
+   "s": 3,
+   "start": 83.403,
+   "end": 83.796
+  },
+  {
+   "w": "aí:",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 83.796,
+   "end": 83.971
+  },
+  {
+   "w": "A",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 84.254,
+   "end": 84.508
+  },
+  {
+   "w": "ou",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 84.508,
+   "end": 84.763
+  },
+  {
+   "w": "B.",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 84.763,
+   "end": 85.018
+  }
+ ]
+}

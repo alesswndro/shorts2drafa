@@ -55,6 +55,7 @@ Processo de produção: skill `.claude/skills/rafa-shorts`. Estado atual: `serie
 | 3 "R$ 35 que ele não tinha" | 3→4 | R$ 43 (+18, 3 entregas) | 27 | Enquete: A) caixa pro Ver-o-Peso às 5h / B) só farmácia |
 | 4 "6 entregas antes da escola" | 5 | R$ 85 (+42, 6×R$7) | 26 | Chegou 40 min atrasado; diretora: "Vou ligar pra tua mãe, Rafael." Enquete: A) contar tudo pra mãe / B) esconder da mãe → **venceu A** |
 | 5 "R$ 215 de atraso" | 5 | R$ 85 | 26 (meta → R$ 66) | Mãe já sabia; "a gente faz junto"; escola às 7h. Voto nos comentários: A) sozinho, com muito esforço / B) com os meninos, dividindo o lucro |
+| 6 "Nona entrega" | 6 | R$ 148 (+63) | 25 (meta R$ 69) | Sozinho, 7h em ponto, R$ 6 abaixo da meta; vê a senhora do geladinho. Voto: A) larga as entregas e aposta tudo / B) continua nas entregas (dinheiro certo) |
 
 ## Roteiros
 ### EP01 (do flow ElevenLabs)
@@ -163,3 +164,29 @@ B: ou chama os meninos e divide o lucro?
 Comenta aí: A ou B.
 ```
 Novos personagens: Kauã (camiseta verde), Duda (puffs, camiseta rosa), Biel (boné amarelo) — crianças da rua com bicicleta.
+
+### EP06 (final — take sem sufixo, 85,2 s de voz, vídeo ≈ 88 s)
+```
+[nervous] 6 e 52. Nona entrega... e a escola ainda tava a 3 quilômetros.
+[warmly] Vocês escolheram: o Rafa ia fazer tudo sozinho, no limite.
+[short pause] E ele fez. Do jeito mais difícil.
+Se você chegou agora: o Rafa tem 25 dias pra juntar R$ 1.800... ou a família perde a casa.
+Às 5 da manhã ele já tava no Ver-o-Peso. Peixe, gelo, açaí...
+Uma entrega atrás da outra. Sem parar nem pra beber água.
+[sighs] Às 7 em ponto, ele cruzou o portão da escola. Suado, tremendo... mas na hora.
+R$ 63. Faltaram 6 pra meta. E ele tava morto.
+[curious] Mas foi na última entrega que ele viu.
+Uma senhora no Ver-o-Peso, comprando 10 quilos de polpa de cupuaçu.
+"É pros meus geladinhos, menino. Vendo 150 por dia na porta do colégio."
+[excited] O Rafa fez a conta ali mesmo, de cabeça.
+70 centavos pra fazer. R$ 2 pra vender.
+Ela não corria atrás do dinheiro... o dinheiro fazia fila na porta dela.
+[softly] Naquela noite, ele abriu o caderno numa página nova.
+E escreveu uma palavra só: GELADINHO.
+[curious] E agora, você decide:
+A: o Rafa larga as entregas... e aposta tudo no geladinho.
+B: ou continua nas entregas, que é dinheiro certo?
+Comenta aí: A ou B.
+```
+Nova personagem: **senhora do geladinho** (chapéu de palha, cabelo branco curto, blusa laranja, avental verde-água,
+caixa térmica azul/branca) — compra polpa no Ver-o-Peso, vende 150/dia na porta do colégio.

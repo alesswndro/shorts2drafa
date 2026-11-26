@@ -78,3 +78,12 @@ Atenção: Dona Socorro e Diretora são parecidas (senhora, cabelo grisalho, óc
 - Cortes com micro-pop (escala 1,05 → 1 em 5 frames) — já no componente `Scene`.
 - Evitar: tremida fora de impacto, rotação, zoom rápido, movimento que distraia da legenda.
 - QA: `freezedetect` não pode achar trecho parado ≥ 0,6 s (exceto o voto final segurando, que também tem zoom lento).
+
+## Recursos criados no EP06
+- `src/components/scene.tsx` — **use em todo episódio novo**: `Scene` (zoom lento + deslize `pan` + micro-pop),
+  `Par` (paralaxe por profundidade), `At`, `Write`, `makeCaptions(W, CHUNKS, capY)`.
+- `src/components/sets2.tsx` — `VerOPeso` (madrugada/dia), `SchoolGate` (portão abre), `RoadRush` (rua passando),
+  `RafaBike` (Rafa pedalando com caixa térmica, suor), ícones `Fish`, `Ice`, `Acai`, `Geladinho`, `PolpaSack`.
+- `Person`: chapéu `straw` e `apron`; preset `SenhoraGeladinho`.
+- `TitleCard` aceita `bigSize` (texto grande longo, ex.: "9 ENTREGAS" = 205).
+- Contador de entregas com "+ R$ X" subindo e HUD somando em tempo real.

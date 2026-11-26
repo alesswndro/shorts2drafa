@@ -100,7 +100,7 @@ export const Balloon: React.FC<{text: React.ReactNode; at: number; x: number; y:
 };
 
 // ---------- capa / título ----------
-export const TitleCard: React.FC<{parte: number; big: string; bigColor: string; l2: string; l3: string; l3Color: string; out: number}> = ({parte, big, bigColor, l2, l3, l3Color, out}) => {
+export const TitleCard: React.FC<{parte: number; big: string; bigColor: string; l2: string; l3: string; l3Color: string; out: number; bigSize?: number}> = ({parte, big, bigColor, l2, l3, l3Color, out, bigSize = 290}) => {
   const f = useCurrentFrame();
   const o = 1 - ramp(f, out - 6, out);
   if (o <= 0) return null;
@@ -108,7 +108,7 @@ export const TitleCard: React.FC<{parte: number; big: string; bigColor: string; 
   return (
     <AbsoluteFill style={{fontFamily: FONT, fontWeight: 700, alignItems: 'center', opacity: o}}>
       <div style={{marginTop: 120, background: C.redPill, color: '#fff', border: `7px solid ${C.ink}`, borderRadius: 60, padding: '6px 54px', fontSize: 84, transform: `scale(${a})`}}>PARTE {parte}</div>
-      <div style={{fontSize: 290, lineHeight: 0.95, color: bigColor, marginTop: 6, ...strokeText(26), transform: `scale(${pop(f, 3, 10)})`}}>{big}</div>
+      <div style={{fontSize: bigSize, lineHeight: 0.95, color: bigColor, whiteSpace: 'nowrap', marginTop: 6, ...strokeText(26), transform: `scale(${pop(f, 3, 10)})`}}>{big}</div>
       <div style={{fontSize: 150, lineHeight: 0.95, color: '#fff', ...strokeText(22), transform: `scale(${pop(f, 6, 12)})`}}>{l2}</div>
       <div style={{fontSize: 130, lineHeight: 1, color: l3Color, ...strokeText(22), transform: `scale(${pop(f, 9, 12)})`}}>{l3}</div>
     </AbsoluteFill>
