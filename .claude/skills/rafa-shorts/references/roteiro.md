@@ -65,3 +65,9 @@ Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA S
   - EP02: "15 minutos. Uma entrega que não pode atrasar ⏰🚲 Parte 2" (3,4 mil)
   - EP03: "A corrente estourou. E ele não tinha R$ 35 🚲 Parte 3 👇 No final, comenta A ou B!" (2,9 mil)
   - EP04: "Ganhou R$ 42 antes das 7h... mas a diretora vai ligar pra mãe dele 😬 Parte 4 👇 No final, comenta A ou B!" (2,8 mil)
+
+## Variedade (regra do usuário, 2026-11-26)
+- Não repetir a mesma mecânica por vários episódios (ex.: "entrega, entrega, entrega"). A cada 3–4 partes,
+  mudar o tipo de desafio. Arco atual: empreendedorismo (`serie-rafa/arco-empreendedor.md`).
+- Rumo final da série: o Rafa cresce de verdade e termina com **bem mais do que precisa** — mas cada degrau
+  é conquistado resolvendo um problema concreto.

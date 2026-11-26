@@ -1,7 +1,7 @@
 # Estado atual da série
 
 **Último episódio publicado:** EP04 — "6 entregas antes da escola"
-**Pronto pra publicar:** EP05 — "R$ 215 de atraso": roteiro v7, voz do usuário (take sem sufixo, 87,3 s), vídeo ≈ 90 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
+**Publicado:** EP05 — "R$ 215 de atraso": roteiro v7, voz do usuário (take sem sufixo, 87,3 s), vídeo ≈ 90 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
 
 ## Números (fim do EP04)
 - Dia: 5 de 30 (novembro)
@@ -16,7 +16,7 @@
 |---|---|---|---|---|
 | EP03 | O que o Rafa deve fazer? | Levar a caixa pro Ver-o-Peso às 5h | Ficar só nas entregas da farmácia | A |
 | EP04 | O que o Rafa deve fazer? | Contar tudo pra mãe | Esconder da mãe | **A** |
-| EP05 | O que o Rafa deve fazer? (voto nos comentários) | Sozinho, no limite (muito esforço) | Com os meninos, dividindo o lucro | pendente |
+| EP05 | O que o Rafa deve fazer? (voto nos comentários) | Sozinho, no limite (muito esforço) | Com os meninos, dividindo o lucro | **A** |
 
 ## Fios soltos
 - A mãe "fingiu que não viu" o caderno no EP1 → pagar no EP5.
@@ -28,3 +28,7 @@
 - Novos (EP05): Kauã, Duda, Biel — 3 crianças da rua com bicicleta, sem trabalho.
 - Mãe (EP05): "essa conta nunca foi pra ser tua" / "então a gente faz junto"; condição: às 7h em ponto na escola ("teu futuro não entra nessa conta"). O Rafa prometeu.
 - Meta na tela agora R$ 66/dia (vermelha).
+
+## Direção a partir do EP06
+- Arco 2: o Rafa empreende (geladinho caseiro → cresce até ter bem mais do que precisa). Ver `arco-empreendedor.md`.
+- Números no início do EP06: dia 6 · R$ 85 · 25 dias · meta ceil(1715/25) = **R$ 69/dia**.
