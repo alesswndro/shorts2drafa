@@ -43,7 +43,8 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   dizer quanto passou e por quê. Estimar: caracteres falados (sem tags) ÷ ~12,6 por segundo.
 - **Abertura com o voto**: linha 1 = gancho; linha 2 = "Vocês escolheram: <opção>." + virada ("Só que...");
   linha 3 = recap pros novos ("Se você chegou agora: ..."). Nunca abrir com "vocês escolheram".
-- **Voto obrigatório e narrado no final, nos COMENTÁRIOS** (não enquete):
+- **Voto obrigatório e narrado no final de TODOS os episódios, inclusive o último da temporada.** Nunca sair
+  desse gancho: é o que gera comentário e foi o que deu visualização (regra do usuário). Nos COMENTÁRIOS (não enquete):
   `E agora, você decide:` / `A: ...` / `B: ...` / `Comenta aí: A ou B.` — na tela "COMENTA AÍ: A OU B? ↓".
 - **Opções nada óbvias, cada uma com o próprio custo explícito** (modelo do usuário:
   "faz tudo sozinho com muito esforço" vs "faz com os meninos e divide o lucro").
@@ -107,3 +108,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
   só a favor da história, nunca com futilidades.
 - 2026-11-25 — Padrão de descrição do post definido a partir dos prints do EP01–04 (EP03/04 = modelo).
 - 2026-11-25 — Marca unificada: perfil volta a se chamar "Fora do Roteiro" (= hashtag #foradoroteiro).
+- 2026-11-26 — Voto EP05 = A. Arco 2: o Rafa empreende com geladinho, arco enxuto (EP06–EP10) com saltos de tempo.
+  Reforço do usuário: escolha A/B no final de TODOS os episódios (gera comentário/views).

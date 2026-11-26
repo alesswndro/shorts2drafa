@@ -18,12 +18,10 @@ até que, no final, tenha **bem mais do que precisa**.
 - Custo por geladinho: ~R$ 0,60–0,80. Venda: R$ 2. Lucro: ~R$ 1,20–1,40 por unidade.
 - Pra fazer R$ 69/dia de lucro: ~50–55 geladinhos/dia. O freezer de casa não comporta isso → primeiro problema.
 
-## Esboço de episódios (ajustável pelos votos)
-- EP06 — A virada: a conta das entregas não fecha; ele troca "vender o tempo" por "vender um produto".
-  Primeira produção com os R$ 85. Problema: freezer pequeno / geladinho que não congela.
-- EP07 — Primeiro ponto de venda e primeiro prejuízo (ex.: o sol, o preço errado, ninguém compra o sabor X).
-- EP08 — Descobre o que vende (cupuaçu?), ajusta preço, tem o primeiro dia acima da meta.
-- EP09 — Escala: freezer emprestado/usado (Seu Bené? Dona Socorro?) e os 3 meninos como revendedores.
-- EP10 — Concorrência ou encomenda grande (festa, igreja, escola).
-- EP11 — Crise (apagão estraga o estoque / alguém dá calote).
-- EP12 — Paga o aluguel antes do prazo e sobra muito mais — gancho pra temporada 2 (carrinho, ponto próprio).
+## Esboço de episódios — ENXUTO (pedido do usuário: menos episódios, sem perder público)
+Saltos de tempo resolvem os dias (chip "DIA 6 → DIA 12"). Voto A/B no final de TODOS, inclusive o último.
+- EP06 — A virada: sai das entregas, vira geladinho. 55 feitos, freezer cabe 20. Voto: vender mole e barato vs freezer da vizinha.
+- EP07 — Primeiras vendas: descobre o sabor campeão e o ponto certo; primeiro dia acima da meta. Problema: escala (freezer/produção).
+- EP08 — Escala: os 3 meninos viram revendedores com comissão; crise (apagão, calote ou concorrente). Salto de dias.
+- EP09 — Encomenda grande / quase lá: corrida contra o prazo do aluguel.
+- EP10 — Final de temporada: paga o aluguel antes do prazo e sobra bem mais. Voto pra temporada 2 (ex.: carrinho próprio vs ponto fixo).
