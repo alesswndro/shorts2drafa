@@ -14,7 +14,7 @@ Se você chegou agora: o Rafa tem 24 dias pra juntar R$ 1.800... ou a família p
 Ele gastou R$ 40 no Ver-o-Peso: polpa de cupuaçu, de açaí, leite e saquinho.
 [warmly] A mãe chegou cansada do trabalho... e ajudou a encher um por um.
 [nervous] Aí veio o freezer. 35 geladinhos sem lugar... derretendo.
-[curious] Aí ele lembrou dos peixeiros do Ver-o-Peso.
+[curious] Então ele lembrou dos peixeiros do Ver-o-Peso.
 Gelo com sal. Segura o peixe gelado a manhã inteira.
 [excited] Ele encheu a caixa térmica do Seu Bené: gelo, sal... e geladinho.
 [softly] De manhã, abriu a tampa com o coração na mão...
