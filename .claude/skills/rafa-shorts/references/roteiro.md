@@ -80,5 +80,7 @@ Pill "PARTE N" + número gigante colorido + 2 linhas curtas. Ex.: "R$ 12 / PRA S
 ## Voto com caminho já traçado (regra do usuário, 2026-11-26)
 - Às vezes o voto existe só pra gerar comentário e o rumo já está decidido (EP06: muda pro geladinho ou não → sim).
 - Mesmo assim, dar a cada opção um motivo real (A: aposta tudo / B: dinheiro certo) — gera mais debate.
+- Nunca "sim ou não" seco: o voto é sempre concreto. Modelo aprovado pelo usuário (EP06):
+  "A: o Rafa larga as entregas... e aposta tudo no geladinho." / "B: ou continua nas entregas, que é dinheiro certo?"
 - Nunca ignorar o voto: se a opção "contrária" ganhar, o próximo episódio abre honrando ("Vocês escolheram X.
   E ele fez X. Só que...") e um acontecimento leva ao rumo planejado.
