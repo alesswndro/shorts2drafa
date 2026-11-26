@@ -1,4 +1,4 @@
-# EP06 — "Nona entrega" (v2 — a ideia nasce durante as entregas)
+# EP06 — "Nona entrega" (v3 — voto: muda pro geladinho ou não)
 
 Voto EP05 vencedor: **A — sozinho, no limite, com muito esforço**.
 Voz: Sandro Dutra `qPfM2laM0pRL4rrZtBGl` · `eleven_v4` · stability 0.40 · similarity 0.75 · `mp3_44100_128`
@@ -24,8 +24,8 @@ Ela não corria atrás do dinheiro... o dinheiro fazia fila na porta dela.
 [softly] Naquela noite, ele abriu o caderno numa página nova.
 E escreveu uma palavra só: GELADINHO.
 [curious] E agora, você decide:
-A: o Rafa coloca tudo que juntou no geladinho... e larga as entregas.
-B: ou faz os dois: entrega de manhã, geladinho de madrugada... e quase não dorme.
+A: o Rafa larga as entregas... e aposta tudo no geladinho.
+B: ou continua nas entregas, que é dinheiro certo?
 Comenta aí: A ou B.
 ```
 
@@ -39,5 +39,7 @@ Comenta aí: A ou B.
   exausto, abaixo da meta) e a ideia nasce de algo que ele VÊ numa entrega.
 - O problema do freezer (55 feitos, cabe 20) fica pro EP07.
 - Nova personagem: **a senhora do geladinho** (Ver-o-Peso / porta do colégio) — inspiração; pode virar mentora ou concorrente.
-- Voto: A) põe tudo que juntou (R$ 148) no geladinho e larga as entregas (risco total) ·
-  B) faz os dois, entrega de manhã + geladinho de madrugada (quase não dorme; escola às 7 em risco).
+- Voto (v3, pedido do usuário): **muda pro geladinho ou não**. A) larga as entregas e aposta tudo (R$ 148) no geladinho ·
+  B) continua nas entregas, dinheiro certo (mas abaixo da meta). O caminho é geladinho de qualquer jeito:
+  se B ganhar, o EP07 abre "Vocês escolheram: continuar nas entregas. E ele continuou. Só que no segundo dia..."
+  e um acontecimento empurra ele pro geladinho — sem desrespeitar o voto.
