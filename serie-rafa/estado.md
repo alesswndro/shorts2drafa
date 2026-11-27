@@ -19,7 +19,8 @@
 | EP05 | O que o Rafa deve fazer? (voto nos comentários) | Sozinho, no limite (muito esforço) | Com os meninos, dividindo o lucro | **A** |
 | EP06 | O que o Rafa deve fazer? | Larga as entregas e aposta tudo no geladinho | Continua nas entregas (dinheiro certo) | **A** |
 | EP07 | O que o Rafa deve fazer? | Outro ponto, longe da escola (vende menos) | Fica e baixa pra R$ 1,50 (briga com a senhora) | **B** |
-| EP08 | O que o Rafa deve fazer? | Vira sócio da senhora (divide o lucro) | Recusa e segue sozinho na guerra de preço | pendente |
+| EP08 | O que o Rafa deve fazer? | Vira sócio da senhora (divide o lucro) | Recusa e segue sozinho na guerra de preço | **A** (acirrado) |
+| EP09 | O que o Rafa deve fazer? | Perdoa, Biel paga aos poucos | Tira o Biel do time | pendente |
 
 ## Fios soltos
 - A mãe "fingiu que não viu" o caderno no EP1 → pagar no EP5.
