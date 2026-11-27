@@ -57,6 +57,7 @@ Processo de produção: skill `.claude/skills/rafa-shorts`. Estado atual: `serie
 | 5 "R$ 215 de atraso" | 5 | R$ 85 | 26 (meta → R$ 66) | Mãe já sabia; "a gente faz junto"; escola às 7h. Voto nos comentários: A) sozinho, com muito esforço / B) com os meninos, dividindo o lucro |
 | 6 "Nona entrega" | 6 | R$ 148 (+63) | 25 (meta R$ 69) | Sozinho, 7h em ponto, R$ 6 abaixo da meta; vê a senhora do geladinho. Voto: A) larga as entregas e aposta tudo / B) continua nas entregas (dinheiro certo) |
 | 7 "Gelo com sal" | 7→8 | R$ 218 (−40 +110) | 23 (meta R$ 69, batida) | Gelo com sal na caixa do Bené; vende 55 na saída do colégio; a senhora: "esse ponto aqui é meu". Voto: A) outro ponto, longe da escola / B) fica e vende a R$ 1,50 |
+| 8 "Guerra de preço" | 9→10 | R$ 244 (282 no dia 9) | 21 (meta R$ 73) | R$ 1,50: vende 80 e ganha R$ 64; a senhora baixa pra R$ 1 (custo dela R$ 0,50); proposta: "eu tenho freezer e faço barato, tu tem perna e tem freguês". Voto: A) sócio dela, divide o lucro / B) recusa, segue na guerra de preço |
 
 ## Roteiros
 ### EP01 (do flow ElevenLabs)
@@ -217,3 +218,31 @@ A: o Rafa procura outro ponto, longe da escola... e vende menos.
 B: ou fica e baixa pra R$ 1,50... e compra briga com ela?
 Comenta aí: A ou B.
 ```
+
+### EP08 (final — take `_1`, 89,6 s de voz, vídeo ≈ 92,6 s)
+```
+[excited] R$ 1,50. E a fila inteira trocou de lado.
+[warmly] A maioria escolheu B: o Rafa ficou... e baixou o preço.
+Se você chegou agora: o Rafa tem 22 dias pra juntar R$ 1.800... ou a família perde a casa.
+Na saída do colégio, as crianças olharam as duas caixas... e correram pra dele.
+[excited] 20, 40, 60... 80 geladinhos. Recorde.
+Ele voltou pra casa rindo. Aí abriu o caderno.
+[curious] A R$ 1,50, tirando o custo... sobravam 80 centavos por geladinho.
+80 vezes 80 centavos... R$ 64.
+[sighs] Faltaram 8 pra meta. Ele vendeu mais... e ganhou menos.
+[nervous] No outro dia, a senhora chegou primeiro. Com uma plaquinha nova:
+[dramatically] R$ 1.
+Ela compra polpa no atacado. O geladinho dela custa 50 centavos.
+Ela podia baixar. Ele não.
+[softly] No fim da tarde, quase ninguém tinha comprado de nenhum dos dois.
+E o Rafa viu a senhora sentada na calçada... contando moeda por moeda.
+Sozinha. Igual a mãe dele, no fim do mês.
+[pause] Aí ela levantou... e veio na direção dele.
+"Menino... eu tenho freezer e faço barato. Tu tem perna e tem freguês."
+[curious] E agora, você decide:
+A: o Rafa vira sócio dela... e divide o lucro.
+B: ou recusa e continua sozinho... na guerra de preço?
+Comenta aí: A ou B.
+```
+Experimento (não é regra): gag do "aaah" (som do Roblox Work at a Pizza Place, arquivo do usuário) depois do carimbo do despejo —
+Rafa com `expr="scream"` e `armUp="both"`.

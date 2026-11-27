@@ -121,6 +121,13 @@ sfx *= vr * 10 ** (SFX_DB / 20) / max(grms(sfx), 1e-9)
 cap = 0.7 * np.abs(voice).max()
 if np.abs(sfx).max() > cap: sfx *= cap / np.abs(sfx).max()
 mix = voice + music + sfx
+# efeitos gravados (arquivo): [[t, caminho, pico_relativo_à_voz]] — ex. o "aaah" do EP08
+import os
+for t0, path, ratio in cues.get("samples", []):
+    smp = load(os.path.join(os.path.dirname(cues_path), path) if not os.path.isabs(path) else path)
+    smp *= ratio * np.abs(voice).max() / max(np.abs(smp).max(), 1e-9)
+    i = int(t0 * SR); smp = smp[: max(0, N - i)]
+    mix[i : i + len(smp)] += smp
 # ganho global pra média ≈ -19 dB (igual EP01–04) + limitador suave
 mean_db = 20 * np.log10(np.sqrt((mix ** 2).mean()))
 mix *= 10 ** ((cues.get("target_mean_db", -19) - mean_db) / 20)

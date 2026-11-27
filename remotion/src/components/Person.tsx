@@ -2,7 +2,7 @@ import React from 'react';
 import {C} from '../theme';
 import {BikeFrame} from './BikeRide';
 
-export type Expr = 'neutral' | 'sad' | 'surprised' | 'happy' | 'worried' | 'serious' | 'determined';
+export type Expr = 'neutral' | 'sad' | 'surprised' | 'happy' | 'worried' | 'serious' | 'determined' | 'scream';
 
 export type PersonProps = {
   skin?: string;
@@ -20,7 +20,7 @@ export type PersonProps = {
   expr?: Expr;
   look?: [number, number]; // -1..1
   blink?: boolean;
-  armUp?: 'none' | 'left' | 'right'; // braço levantado (direita da tela = 'right')
+  armUp?: 'none' | 'left' | 'right' | 'both'; // braço levantado (direita da tela = 'right')
   holdPhone?: boolean;
   width?: number;
   style?: React.CSSProperties;
@@ -38,6 +38,7 @@ const Brows: React.FC<{expr: Expr}> = ({expr}) => {
     worried: [-16, 4],
     serious: [8, -2],
     determined: [12, -4],
+    scream: [-26, -18],
   };
   const [i, o] = m[expr];
   return (
@@ -60,6 +61,13 @@ const Mouth: React.FC<{expr: Expr}> = ({expr}) => {
       );
     case 'surprised':
       return <ellipse cx={200} cy={338} rx={18} ry={24} fill="#2A1A1A" {...p} />;
+    case 'scream':
+      return (
+        <g>
+          <ellipse cx={200} cy={340} rx={40} ry={52} fill="#2A1A1A" {...p} />
+          <ellipse cx={200} cy={370} rx={24} ry={14} fill="#D9545A" />
+        </g>
+      );
     case 'sad':
       return <path d="M170,342 Q200,318 230,342" fill="none" {...p} />;
     case 'worried':
@@ -102,8 +110,8 @@ export const Person: React.FC<PersonProps> = ({
       <path d={`M${cx - 30},252 Q${cx},266 ${cx + 30},252`} fill="none" stroke={C.ink} strokeWidth={10} strokeLinecap="round" />
     ) : (
       <g>
-        <circle cx={cx} cy={252} r={38} fill="#fff" {...ink} />
-        <circle cx={cx + px} cy={254 + py} r={19} fill={C.ink} />
+        <circle cx={cx} cy={252} r={expr === 'scream' ? 48 : 38} fill="#fff" {...ink} />
+        <circle cx={cx + px} cy={254 + py} r={expr === 'scream' ? 13 : 19} fill={C.ink} />
         <circle cx={cx + px - 7} cy={246 + py} r={6.5} fill="#fff" />
       </g>
     );
@@ -129,12 +137,12 @@ export const Person: React.FC<PersonProps> = ({
         <path d="M130,520 L270,520 L312,700 L88,700 Z" fill={bottomColor} {...ink} />
       )}
       {/* braços */}
-      {armUp === 'left' ? (
+      {armUp === 'left' || armUp === 'both' ? (
         <rect x={60} y={150} width={50} height={250} rx={25} fill={skin} {...ink} transform="rotate(-12 85 390)" />
       ) : (
         <rect x={84} y={380} width={50} height={230} rx={25} fill={skin} {...ink} transform="rotate(8 109 390)" />
       )}
-      {armUp === 'right' ? (
+      {armUp === 'right' || armUp === 'both' ? (
         <rect x={290} y={150} width={50} height={250} rx={25} fill={skin} {...ink} transform="rotate(12 315 390)" />
       ) : holdPhone ? (
         <rect x={268} y={300} width={50} height={130} rx={25} fill={skin} {...ink} transform="rotate(-25 293 420)" />

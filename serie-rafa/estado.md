@@ -1,7 +1,7 @@
 # Estado atual da série
 
 **Último episódio publicado:** EP04 — "6 entregas antes da escola"
-**Publicado:** EP05 · **Publicado:** EP06 · **Pronto pra publicar:** EP07 "Gelo com sal" (`remotion/out/rafa-ep07.mp4`, 93,5 s) — "R$ 215 de atraso": roteiro v7, voz do usuário (take sem sufixo, 87,3 s), vídeo ≈ 90 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
+**Publicado:** EP05 · **Publicado:** EP07 · **Pronto pra publicar:** EP08 "Guerra de preço" (`remotion/out/rafa-ep08.mp4`, 92,6 s) — "R$ 215 de atraso": roteiro v7, voz do usuário (take sem sufixo, 87,3 s), vídeo ≈ 90 s, vídeo em `remotion/` → `remotion/out/rafa-ep05.mp4` (não versionado)
 
 ## Números (fim do EP04)
 - Dia: 5 de 30 (novembro)
@@ -43,3 +43,7 @@
 ## Números (fim do EP07)
 - Dia 8 · guardado **R$ 218** · despejo 23 dias · meta R$ 69 (1.582 ÷ 23). Primeiro dia acima da meta (lucro R$ 70).
 - Sabores: cupuaçu esgota primeiro, depois açaí. Ponto: saída do colégio (meio-dia). Conflito: a senhora do geladinho.
+
+## Números (fim do EP08)
+- Dia 10 · guardado **R$ 244** · despejo 21 dias · meta R$ 73. Custo dele R$ 0,70; custo dela R$ 0,50 (atacado).
+- Proposta da senhora: sociedade (freezer + custo baixo dela × perna + freguês dele). Voto EP08 pendente.

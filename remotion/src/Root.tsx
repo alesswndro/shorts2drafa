@@ -8,6 +8,8 @@ import {Ep06, EP06_DURATION} from './ep06/Ep06';
 import {CoverEp06} from './ep06/Cover';
 import {Ep07, EP07_DURATION} from './ep07/Ep07';
 import {CoverEp07} from './ep07/Cover';
+import {Ep08, EP08_DURATION} from './ep08/Ep08';
+import {CoverEp08} from './ep08/Cover';
 export const Root: React.FC = () => (
   <>
     <Composition id="EP05" component={Ep05} durationInFrames={EP05_DURATION} fps={30} width={1080} height={1920} />
@@ -19,6 +21,9 @@ export const Root: React.FC = () => (
     <Composition id="EP07" component={Ep07} durationInFrames={EP07_DURATION} fps={30} width={1080} height={1920} />
     <Composition id="EP07-capa-9x16" component={CoverEp07} defaultProps={{h: 1920}} durationInFrames={60} fps={30} width={1080} height={1920} />
     <Composition id="EP07-capa-3x4" component={CoverEp07} defaultProps={{h: 1440}} durationInFrames={60} fps={30} width={1080} height={1440} />
+    <Composition id="EP08" component={Ep08} durationInFrames={EP08_DURATION} fps={30} width={1080} height={1920} />
+    <Composition id="EP08-capa-9x16" component={CoverEp08} defaultProps={{h: 1920}} durationInFrames={60} fps={30} width={1080} height={1920} />
+    <Composition id="EP08-capa-3x4" component={CoverEp08} defaultProps={{h: 1440}} durationInFrames={60} fps={30} width={1080} height={1440} />
     <Composition id="BikeTest" component={BikeTest} durationInFrames={60} fps={30} width={1080} height={1920} />
     <Composition id="CastTest" component={CastTest} durationInFrames={1} fps={30} width={1080} height={1920} />
   </>

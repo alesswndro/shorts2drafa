@@ -121,3 +121,5 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-26 — Voto EP06 = A. Abertura ganha o placar do voto antes do "Vocês escolheram" (pedido do usuário).
 - 2026-11-26 — EXPERIMENTO no EP07 (ainda NÃO é regra; registrar só se o usuário aprovar): visual mais apelativo —
   punch-in, flash nas viradas, brilhos/moedas, contadores animados (helpers em `scene.tsx`).
+- 2026-11-27 — EXPERIMENTO no EP08 (NÃO é regra; registrar só se o usuário aprovar): som "aaah" (Roblox) depois do
+  carimbo do despejo, Rafa gritando bem cartoon (`expr="scream"`, `armUp="both"`); `sound.py` aceita `samples` de arquivo.
