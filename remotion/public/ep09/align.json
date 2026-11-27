@@ -1,0 +1,1939 @@
+{
+ "duration": 84.42775,
+ "segments": [
+  [
+   0.0,
+   2.36272
+  ],
+  [
+   2.70964,
+   4.59683
+  ],
+  [
+   4.86721,
+   6.70522
+  ],
+  [
+   6.94823,
+   8.36483
+  ],
+  [
+   8.60846,
+   9.64855
+  ],
+  [
+   9.97837,
+   12.0508
+  ],
+  [
+   12.4421,
+   13.5801
+  ],
+  [
+   13.8532,
+   17.498
+  ],
+  [
+   17.7795,
+   19.4725
+  ],
+  [
+   19.8693,
+   21.6729
+  ],
+  [
+   21.9396,
+   23.1879
+  ],
+  [
+   23.4409,
+   26.5933
+  ],
+  [
+   26.967,
+   27.739
+  ],
+  [
+   28.0134,
+   29.9188
+  ],
+  [
+   30.1377,
+   33.8527
+  ],
+  [
+   34.1577,
+   36.7194
+  ],
+  [
+   36.9559,
+   38.7371
+  ],
+  [
+   38.9958,
+   40.7144
+  ],
+  [
+   40.9894,
+   43.6883
+  ],
+  [
+   43.9348,
+   45.8791
+  ],
+  [
+   46.1076,
+   47.9163
+  ],
+  [
+   48.1584,
+   49.1102
+  ],
+  [
+   49.3111,
+   50.8347
+  ],
+  [
+   51.0397,
+   56.3919
+  ],
+  [
+   56.6391,
+   58.0995
+  ],
+  [
+   58.3301,
+   60.8629
+  ],
+  [
+   61.1212,
+   62.578
+  ],
+  [
+   62.8276,
+   64.5912
+  ],
+  [
+   64.9568,
+   65.4831
+  ],
+  [
+   65.7415,
+   67.4071
+  ],
+  [
+   67.695,
+   68.6408
+  ],
+  [
+   68.9053,
+   70.0462
+  ],
+  [
+   70.3274,
+   72.1036
+  ],
+  [
+   72.4046,
+   73.4815
+  ],
+  [
+   73.7771,
+   75.417
+  ],
+  [
+   75.6884,
+   75.9133
+  ],
+  [
+   76.172,
+   79.0526
+  ],
+  [
+   79.275,
+   79.577
+  ],
+  [
+   79.8414,
+   82.4676
+  ],
+  [
+   82.6842,
+   83.25
+  ],
+  [
+   83.4959,
+   84.42775
+  ]
+ ],
+ "words": [
+  {
+   "w": "200",
+   "line": 0,
+   "quote": false,
+   "s": 6,
+   "start": 0.0,
+   "end": 1.083
+  },
+  {
+   "w": "geladinhos",
+   "line": 0,
+   "quote": false,
+   "s": 4,
+   "start": 1.083,
+   "end": 1.838
+  },
+  {
+   "w": "por",
+   "line": 0,
+   "quote": false,
+   "s": 1,
+   "start": 1.838,
+   "end": 2.1
+  },
+  {
+   "w": "dia.",
+   "line": 0,
+   "quote": false,
+   "s": 1,
+   "start": 2.1,
+   "end": 2.363
+  },
+  {
+   "w": "Foi",
+   "line": 0,
+   "quote": false,
+   "s": 1,
+   "start": 2.71,
+   "end": 2.903
+  },
+  {
+   "w": "assim",
+   "line": 0,
+   "quote": false,
+   "s": 2,
+   "start": 2.903,
+   "end": 3.218
+  },
+  {
+   "w": "que",
+   "line": 0,
+   "quote": false,
+   "s": 1,
+   "start": 3.218,
+   "end": 3.411
+  },
+  {
+   "w": "começou",
+   "line": 0,
+   "quote": false,
+   "s": 3,
+   "start": 3.411,
+   "end": 3.847
+  },
+  {
+   "w": "a",
+   "line": 0,
+   "quote": false,
+   "s": 1,
+   "start": 3.847,
+   "end": 4.04
+  },
+  {
+   "w": "sociedade.",
+   "line": 0,
+   "quote": false,
+   "s": 4,
+   "start": 4.04,
+   "end": 4.597
+  },
+  {
+   "w": "Dessa",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 4.867,
+   "end": 5.327
+  },
+  {
+   "w": "vez",
+   "line": 1,
+   "quote": false,
+   "s": 1,
+   "start": 5.327,
+   "end": 5.609
+  },
+  {
+   "w": "foi",
+   "line": 1,
+   "quote": false,
+   "s": 1,
+   "start": 5.609,
+   "end": 5.892
+  },
+  {
+   "w": "acirrado...",
+   "line": 1,
+   "quote": false,
+   "s": 4,
+   "start": 5.892,
+   "end": 6.705
+  },
+  {
+   "w": "mas",
+   "line": 1,
+   "quote": false,
+   "s": 1,
+   "start": 6.948,
+   "end": 7.175
+  },
+  {
+   "w": "a",
+   "line": 1,
+   "quote": false,
+   "s": 1,
+   "start": 7.175,
+   "end": 7.402
+  },
+  {
+   "w": "opção",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 7.402,
+   "end": 7.77
+  },
+  {
+   "w": "A",
+   "line": 1,
+   "quote": false,
+   "s": 1,
+   "start": 7.77,
+   "end": 7.997
+  },
+  {
+   "w": "ganhou.",
+   "line": 1,
+   "quote": false,
+   "s": 2,
+   "start": 7.997,
+   "end": 8.365
+  },
+  {
+   "w": "Vocês",
+   "line": 2,
+   "quote": false,
+   "s": 2,
+   "start": 8.608,
+   "end": 8.984
+  },
+  {
+   "w": "escolheram:",
+   "line": 2,
+   "quote": false,
+   "s": 4,
+   "start": 8.984,
+   "end": 9.649
+  },
+  {
+   "w": "o",
+   "line": 2,
+   "quote": false,
+   "s": 1,
+   "start": 9.978,
+   "end": 10.205
+  },
+  {
+   "w": "Rafa",
+   "line": 2,
+   "quote": false,
+   "s": 2,
+   "start": 10.205,
+   "end": 10.575
+  },
+  {
+   "w": "virou",
+   "line": 2,
+   "quote": false,
+   "s": 2,
+   "start": 10.575,
+   "end": 10.944
+  },
+  {
+   "w": "sócio",
+   "line": 2,
+   "quote": false,
+   "s": 2,
+   "start": 10.944,
+   "end": 11.313
+  },
+  {
+   "w": "da",
+   "line": 2,
+   "quote": false,
+   "s": 1,
+   "start": 11.313,
+   "end": 11.54
+  },
+  {
+   "w": "senhora.",
+   "line": 2,
+   "quote": false,
+   "s": 3,
+   "start": 11.54,
+   "end": 12.051
+  },
+  {
+   "w": "Se",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 12.442,
+   "end": 12.617
+  },
+  {
+   "w": "você",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 12.617,
+   "end": 12.902
+  },
+  {
+   "w": "chegou",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 12.902,
+   "end": 13.186
+  },
+  {
+   "w": "agora:",
+   "line": 3,
+   "quote": false,
+   "s": 3,
+   "start": 13.186,
+   "end": 13.58
+  },
+  {
+   "w": "o",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 13.853,
+   "end": 14.102
+  },
+  {
+   "w": "Rafa",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 14.102,
+   "end": 14.507
+  },
+  {
+   "w": "tem",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 14.507,
+   "end": 14.757
+  },
+  {
+   "w": "20",
+   "line": 3,
+   "quote": false,
+   "s": 4,
+   "start": 14.757,
+   "end": 15.473
+  },
+  {
+   "w": "dias",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 15.473,
+   "end": 15.722
+  },
+  {
+   "w": "pra",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 15.722,
+   "end": 15.972
+  },
+  {
+   "w": "juntar",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 15.972,
+   "end": 16.377
+  },
+  {
+   "w": "R$",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 16.377,
+   "end": 16.782
+  },
+  {
+   "w": "1.800...",
+   "line": 3,
+   "quote": false,
+   "s": 4,
+   "start": 16.782,
+   "end": 17.498
+  },
+  {
+   "w": "ou",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 17.779,
+   "end": 17.979
+  },
+  {
+   "w": "a",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 17.979,
+   "end": 18.178
+  },
+  {
+   "w": "família",
+   "line": 3,
+   "quote": false,
+   "s": 3,
+   "start": 18.178,
+   "end": 18.626
+  },
+  {
+   "w": "perde",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 18.626,
+   "end": 18.95
+  },
+  {
+   "w": "a",
+   "line": 3,
+   "quote": false,
+   "s": 1,
+   "start": 18.95,
+   "end": 19.149
+  },
+  {
+   "w": "casa.",
+   "line": 3,
+   "quote": false,
+   "s": 2,
+   "start": 19.149,
+   "end": 19.472
+  },
+  {
+   "w": "O",
+   "line": 4,
+   "quote": false,
+   "s": 1,
+   "start": 19.869,
+   "end": 20.067
+  },
+  {
+   "w": "nome",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 20.067,
+   "end": 20.388
+  },
+  {
+   "w": "dela",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 20.388,
+   "end": 20.709
+  },
+  {
+   "w": "era",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 20.709,
+   "end": 21.031
+  },
+  {
+   "w": "Dona",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 21.031,
+   "end": 21.352
+  },
+  {
+   "w": "Graça.",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 21.352,
+   "end": 21.673
+  },
+  {
+   "w": "E",
+   "line": 4,
+   "quote": false,
+   "s": 1,
+   "start": 21.94,
+   "end": 22.106
+  },
+  {
+   "w": "o",
+   "line": 4,
+   "quote": false,
+   "s": 1,
+   "start": 22.106,
+   "end": 22.272
+  },
+  {
+   "w": "acordo",
+   "line": 4,
+   "quote": false,
+   "s": 3,
+   "start": 22.272,
+   "end": 22.647
+  },
+  {
+   "w": "era",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 22.647,
+   "end": 22.917
+  },
+  {
+   "w": "simples:",
+   "line": 4,
+   "quote": false,
+   "s": 2,
+   "start": 22.917,
+   "end": 23.188
+  },
+  {
+   "w": "ela",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 23.441,
+   "end": 23.761
+  },
+  {
+   "w": "fazia,",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 23.761,
+   "end": 24.081
+  },
+  {
+   "w": "com",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 24.081,
+   "end": 24.278
+  },
+  {
+   "w": "o",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 24.278,
+   "end": 24.475
+  },
+  {
+   "w": "freezer",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 24.475,
+   "end": 24.795
+  },
+  {
+   "w": "dela",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 24.795,
+   "end": 25.116
+  },
+  {
+   "w": "e",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 25.116,
+   "end": 25.313
+  },
+  {
+   "w": "a",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 25.313,
+   "end": 25.51
+  },
+  {
+   "w": "polpa",
+   "line": 5,
+   "quote": false,
+   "s": 2,
+   "start": 25.51,
+   "end": 25.83
+  },
+  {
+   "w": "do",
+   "line": 5,
+   "quote": false,
+   "s": 1,
+   "start": 25.83,
+   "end": 26.027
+  },
+  {
+   "w": "atacado.",
+   "line": 5,
+   "quote": false,
+   "s": 4,
+   "start": 26.027,
+   "end": 26.593
+  },
+  {
+   "w": "Ele",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 26.967,
+   "end": 27.353
+  },
+  {
+   "w": "vendia.",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 27.353,
+   "end": 27.739
+  },
+  {
+   "w": "E",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 28.013,
+   "end": 28.214
+  },
+  {
+   "w": "o",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 28.214,
+   "end": 28.415
+  },
+  {
+   "w": "preço",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 28.415,
+   "end": 28.74
+  },
+  {
+   "w": "voltou",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 28.74,
+   "end": 29.066
+  },
+  {
+   "w": "pra",
+   "line": 6,
+   "quote": false,
+   "s": 1,
+   "start": 29.066,
+   "end": 29.267
+  },
+  {
+   "w": "R$",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 29.267,
+   "end": 29.593
+  },
+  {
+   "w": "2.",
+   "line": 6,
+   "quote": false,
+   "s": 2,
+   "start": 29.593,
+   "end": 29.919
+  },
+  {
+   "w": "Só",
+   "line": 7,
+   "quote": false,
+   "s": 1,
+   "start": 30.138,
+   "end": 30.377
+  },
+  {
+   "w": "que",
+   "line": 7,
+   "quote": false,
+   "s": 1,
+   "start": 30.377,
+   "end": 30.617
+  },
+  {
+   "w": "200",
+   "line": 7,
+   "quote": false,
+   "s": 6,
+   "start": 30.617,
+   "end": 31.606
+  },
+  {
+   "w": "geladinhos...",
+   "line": 7,
+   "quote": false,
+   "s": 4,
+   "start": 31.606,
+   "end": 32.295
+  },
+  {
+   "w": "ele",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 32.295,
+   "end": 32.684
+  },
+  {
+   "w": "não",
+   "line": 7,
+   "quote": false,
+   "s": 1,
+   "start": 32.684,
+   "end": 32.924
+  },
+  {
+   "w": "vendia",
+   "line": 7,
+   "quote": false,
+   "s": 2,
+   "start": 32.924,
+   "end": 33.313
+  },
+  {
+   "w": "sozinho.",
+   "line": 7,
+   "quote": false,
+   "s": 3,
+   "start": 33.313,
+   "end": 33.853
+  },
+  {
+   "w": "Aí",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 34.158,
+   "end": 34.369
+  },
+  {
+   "w": "ele",
+   "line": 8,
+   "quote": false,
+   "s": 2,
+   "start": 34.369,
+   "end": 34.712
+  },
+  {
+   "w": "lembrou",
+   "line": 8,
+   "quote": false,
+   "s": 2,
+   "start": 34.712,
+   "end": 35.056
+  },
+  {
+   "w": "dos",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 35.056,
+   "end": 35.267
+  },
+  {
+   "w": "três",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 35.267,
+   "end": 35.478
+  },
+  {
+   "w": "meninos",
+   "line": 8,
+   "quote": false,
+   "s": 3,
+   "start": 35.478,
+   "end": 35.954
+  },
+  {
+   "w": "da",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 35.954,
+   "end": 36.165
+  },
+  {
+   "w": "rua",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 36.165,
+   "end": 36.376
+  },
+  {
+   "w": "dele.",
+   "line": 8,
+   "quote": false,
+   "s": 2,
+   "start": 36.376,
+   "end": 36.719
+  },
+  {
+   "w": "Com",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 36.956,
+   "end": 37.175
+  },
+  {
+   "w": "bicicleta...",
+   "line": 8,
+   "quote": false,
+   "s": 4,
+   "start": 37.175,
+   "end": 37.805
+  },
+  {
+   "w": "e",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 37.805,
+   "end": 38.025
+  },
+  {
+   "w": "sem",
+   "line": 8,
+   "quote": false,
+   "s": 1,
+   "start": 38.025,
+   "end": 38.244
+  },
+  {
+   "w": "trabalho.",
+   "line": 8,
+   "quote": false,
+   "s": 3,
+   "start": 38.244,
+   "end": 38.737
+  },
+  {
+   "w": "Kauã,",
+   "line": 9,
+   "quote": false,
+   "s": 1,
+   "start": 38.996,
+   "end": 39.367
+  },
+  {
+   "w": "Duda",
+   "line": 9,
+   "quote": false,
+   "s": 2,
+   "start": 39.367,
+   "end": 39.971
+  },
+  {
+   "w": "e",
+   "line": 9,
+   "quote": false,
+   "s": 1,
+   "start": 39.971,
+   "end": 40.343
+  },
+  {
+   "w": "Biel.",
+   "line": 9,
+   "quote": false,
+   "s": 1,
+   "start": 40.343,
+   "end": 40.714
+  },
+  {
+   "w": "30",
+   "line": 9,
+   "quote": false,
+   "s": 4,
+   "start": 40.989,
+   "end": 41.592
+  },
+  {
+   "w": "centavos",
+   "line": 9,
+   "quote": false,
+   "s": 3,
+   "start": 41.592,
+   "end": 42.064
+  },
+  {
+   "w": "pra",
+   "line": 9,
+   "quote": false,
+   "s": 1,
+   "start": 42.064,
+   "end": 42.273
+  },
+  {
+   "w": "cada",
+   "line": 9,
+   "quote": false,
+   "s": 2,
+   "start": 42.273,
+   "end": 42.614
+  },
+  {
+   "w": "geladinho",
+   "line": 9,
+   "quote": false,
+   "s": 4,
+   "start": 42.614,
+   "end": 43.217
+  },
+  {
+   "w": "vendido.",
+   "line": 9,
+   "quote": false,
+   "s": 3,
+   "start": 43.217,
+   "end": 43.688
+  },
+  {
+   "w": "O",
+   "line": 10,
+   "quote": false,
+   "s": 1,
+   "start": 43.935,
+   "end": 44.127
+  },
+  {
+   "w": "Rafa",
+   "line": 10,
+   "quote": false,
+   "s": 2,
+   "start": 44.127,
+   "end": 44.439
+  },
+  {
+   "w": "ficou",
+   "line": 10,
+   "quote": false,
+   "s": 2,
+   "start": 44.439,
+   "end": 44.751
+  },
+  {
+   "w": "na",
+   "line": 10,
+   "quote": false,
+   "s": 1,
+   "start": 44.751,
+   "end": 44.943
+  },
+  {
+   "w": "porta",
+   "line": 10,
+   "quote": false,
+   "s": 2,
+   "start": 44.943,
+   "end": 45.255
+  },
+  {
+   "w": "do",
+   "line": 10,
+   "quote": false,
+   "s": 1,
+   "start": 45.255,
+   "end": 45.447
+  },
+  {
+   "w": "colégio.",
+   "line": 10,
+   "quote": false,
+   "s": 3,
+   "start": 45.447,
+   "end": 45.879
+  },
+  {
+   "w": "Os",
+   "line": 10,
+   "quote": false,
+   "s": 1,
+   "start": 46.108,
+   "end": 46.282
+  },
+  {
+   "w": "meninos",
+   "line": 10,
+   "quote": false,
+   "s": 3,
+   "start": 46.282,
+   "end": 46.674
+  },
+  {
+   "w": "se",
+   "line": 10,
+   "quote": false,
+   "s": 1,
+   "start": 46.674,
+   "end": 46.849
+  },
+  {
+   "w": "espalharam",
+   "line": 10,
+   "quote": false,
+   "s": 4,
+   "start": 46.849,
+   "end": 47.35
+  },
+  {
+   "w": "pelo",
+   "line": 10,
+   "quote": false,
+   "s": 2,
+   "start": 47.35,
+   "end": 47.633
+  },
+  {
+   "w": "bairro.",
+   "line": 10,
+   "quote": false,
+   "s": 2,
+   "start": 47.633,
+   "end": 47.916
+  },
+  {
+   "w": "No",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 48.158,
+   "end": 48.396
+  },
+  {
+   "w": "fim",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 48.396,
+   "end": 48.634
+  },
+  {
+   "w": "do",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 48.634,
+   "end": 48.872
+  },
+  {
+   "w": "dia:",
+   "line": 11,
+   "quote": false,
+   "s": 1,
+   "start": 48.872,
+   "end": 49.11
+  },
+  {
+   "w": "200",
+   "line": 11,
+   "quote": false,
+   "s": 6,
+   "start": 49.311,
+   "end": 50.297
+  },
+  {
+   "w": "vendidos.",
+   "line": 11,
+   "quote": false,
+   "s": 3,
+   "start": 50.297,
+   "end": 50.835
+  },
+  {
+   "w": "Tirando",
+   "line": 12,
+   "quote": false,
+   "s": 3,
+   "start": 51.04,
+   "end": 51.534
+  },
+  {
+   "w": "o",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 51.534,
+   "end": 51.753
+  },
+  {
+   "w": "custo,",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 51.753,
+   "end": 52.11
+  },
+  {
+   "w": "a",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 52.11,
+   "end": 52.33
+  },
+  {
+   "w": "comissão",
+   "line": 12,
+   "quote": false,
+   "s": 3,
+   "start": 52.33,
+   "end": 52.824
+  },
+  {
+   "w": "e",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 52.824,
+   "end": 53.043
+  },
+  {
+   "w": "a",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 53.043,
+   "end": 53.263
+  },
+  {
+   "w": "parte",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 53.263,
+   "end": 53.62
+  },
+  {
+   "w": "da",
+   "line": 12,
+   "quote": false,
+   "s": 1,
+   "start": 53.62,
+   "end": 53.839
+  },
+  {
+   "w": "Dona",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 53.839,
+   "end": 54.196
+  },
+  {
+   "w": "Graça...",
+   "line": 12,
+   "quote": false,
+   "s": 2,
+   "start": 54.196,
+   "end": 54.553
+  },
+  {
+   "w": "R$",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 54.553,
+   "end": 54.91
+  },
+  {
+   "w": "132",
+   "line": 13,
+   "quote": false,
+   "s": 6,
+   "start": 54.91,
+   "end": 55.816
+  },
+  {
+   "w": "pro",
+   "line": 13,
+   "quote": false,
+   "s": 1,
+   "start": 55.816,
+   "end": 56.035
+  },
+  {
+   "w": "Rafa.",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 56.035,
+   "end": 56.392
+  },
+  {
+   "w": "Quase",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 56.639,
+   "end": 56.984
+  },
+  {
+   "w": "o",
+   "line": 13,
+   "quote": false,
+   "s": 1,
+   "start": 56.984,
+   "end": 57.197
+  },
+  {
+   "w": "dobro",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 57.197,
+   "end": 57.542
+  },
+  {
+   "w": "da",
+   "line": 13,
+   "quote": false,
+   "s": 1,
+   "start": 57.542,
+   "end": 57.754
+  },
+  {
+   "w": "meta.",
+   "line": 13,
+   "quote": false,
+   "s": 2,
+   "start": 57.754,
+   "end": 58.1
+  },
+  {
+   "w": "Naquela",
+   "line": 14,
+   "quote": false,
+   "s": 3,
+   "start": 58.33,
+   "end": 58.791
+  },
+  {
+   "w": "noite,",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 58.791,
+   "end": 59.123
+  },
+  {
+   "w": "ele",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 59.123,
+   "end": 59.456
+  },
+  {
+   "w": "mostrou",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 59.456,
+   "end": 59.788
+  },
+  {
+   "w": "o",
+   "line": 14,
+   "quote": false,
+   "s": 1,
+   "start": 59.788,
+   "end": 59.993
+  },
+  {
+   "w": "caderno",
+   "line": 14,
+   "quote": false,
+   "s": 3,
+   "start": 59.993,
+   "end": 60.454
+  },
+  {
+   "w": "pra",
+   "line": 14,
+   "quote": false,
+   "s": 1,
+   "start": 60.454,
+   "end": 60.658
+  },
+  {
+   "w": "mãe.",
+   "line": 14,
+   "quote": false,
+   "s": 1,
+   "start": 60.658,
+   "end": 60.863
+  },
+  {
+   "w": "Ela",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 61.121,
+   "end": 61.572
+  },
+  {
+   "w": "leu",
+   "line": 14,
+   "quote": false,
+   "s": 1,
+   "start": 61.572,
+   "end": 61.85
+  },
+  {
+   "w": "duas",
+   "line": 14,
+   "quote": false,
+   "s": 1,
+   "start": 61.85,
+   "end": 62.127
+  },
+  {
+   "w": "vezes.",
+   "line": 14,
+   "quote": false,
+   "s": 2,
+   "start": 62.127,
+   "end": 62.578
+  },
+  {
+   "w": "Mas",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 62.828,
+   "end": 63.013
+  },
+  {
+   "w": "na",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 63.013,
+   "end": 63.199
+  },
+  {
+   "w": "hora",
+   "line": 15,
+   "quote": false,
+   "s": 2,
+   "start": 63.199,
+   "end": 63.501
+  },
+  {
+   "w": "de",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 63.501,
+   "end": 63.686
+  },
+  {
+   "w": "acertar",
+   "line": 15,
+   "quote": false,
+   "s": 3,
+   "start": 63.686,
+   "end": 64.104
+  },
+  {
+   "w": "as",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 64.104,
+   "end": 64.29
+  },
+  {
+   "w": "contas...",
+   "line": 15,
+   "quote": false,
+   "s": 2,
+   "start": 64.29,
+   "end": 64.591
+  },
+  {
+   "w": "faltou",
+   "line": 15,
+   "quote": false,
+   "s": 2,
+   "start": 64.957,
+   "end": 65.283
+  },
+  {
+   "w": "um.",
+   "line": 15,
+   "quote": false,
+   "s": 1,
+   "start": 65.283,
+   "end": 65.483
+  },
+  {
+   "w": "Biel",
+   "line": 16,
+   "quote": false,
+   "s": 1,
+   "start": 65.742,
+   "end": 65.984
+  },
+  {
+   "w": "voltou",
+   "line": 16,
+   "quote": false,
+   "s": 2,
+   "start": 65.984,
+   "end": 66.377
+  },
+  {
+   "w": "sem",
+   "line": 16,
+   "quote": false,
+   "s": 1,
+   "start": 66.377,
+   "end": 66.62
+  },
+  {
+   "w": "o",
+   "line": 16,
+   "quote": false,
+   "s": 1,
+   "start": 66.62,
+   "end": 66.862
+  },
+  {
+   "w": "dinheiro.",
+   "line": 16,
+   "quote": false,
+   "s": 3,
+   "start": 66.862,
+   "end": 67.407
+  },
+  {
+   "w": "R$",
+   "line": 16,
+   "quote": false,
+   "s": 2,
+   "start": 67.695,
+   "end": 68.092
+  },
+  {
+   "w": "40.",
+   "line": 16,
+   "quote": false,
+   "s": 3,
+   "start": 68.092,
+   "end": 68.641
+  },
+  {
+   "w": "E",
+   "line": 17,
+   "quote": false,
+   "s": 1,
+   "start": 68.905,
+   "end": 69.071
+  },
+  {
+   "w": "com",
+   "line": 17,
+   "quote": false,
+   "s": 1,
+   "start": 69.071,
+   "end": 69.237
+  },
+  {
+   "w": "o",
+   "line": 17,
+   "quote": false,
+   "s": 1,
+   "start": 69.237,
+   "end": 69.403
+  },
+  {
+   "w": "olho",
+   "line": 17,
+   "quote": false,
+   "s": 2,
+   "start": 69.403,
+   "end": 69.673
+  },
+  {
+   "w": "vermelho.",
+   "line": 17,
+   "quote": false,
+   "s": 3,
+   "start": 69.673,
+   "end": 70.046
+  },
+  {
+   "w": "\"Minha",
+   "line": 18,
+   "quote": true,
+   "s": 2,
+   "start": 70.327,
+   "end": 70.644
+  },
+  {
+   "w": "irmã",
+   "line": 18,
+   "quote": true,
+   "s": 2,
+   "start": 70.644,
+   "end": 70.96
+  },
+  {
+   "w": "tava",
+   "line": 18,
+   "quote": true,
+   "s": 2,
+   "start": 70.96,
+   "end": 71.276
+  },
+  {
+   "w": "com",
+   "line": 18,
+   "quote": true,
+   "s": 1,
+   "start": 71.276,
+   "end": 71.471
+  },
+  {
+   "w": "febre,",
+   "line": 18,
+   "quote": true,
+   "s": 2,
+   "start": 71.471,
+   "end": 71.787
+  },
+  {
+   "w": "Rafa...",
+   "line": 18,
+   "quote": true,
+   "s": 2,
+   "start": 71.787,
+   "end": 72.104
+  },
+  {
+   "w": "eu",
+   "line": 18,
+   "quote": true,
+   "s": 1,
+   "start": 72.405,
+   "end": 72.588
+  },
+  {
+   "w": "comprei",
+   "line": 18,
+   "quote": true,
+   "s": 2,
+   "start": 72.588,
+   "end": 72.886
+  },
+  {
+   "w": "o",
+   "line": 18,
+   "quote": true,
+   "s": 1,
+   "start": 72.886,
+   "end": 73.069
+  },
+  {
+   "w": "remédio.\"",
+   "line": 18,
+   "quote": true,
+   "s": 3,
+   "start": 73.069,
+   "end": 73.481
+  },
+  {
+   "w": "E",
+   "line": 19,
+   "quote": false,
+   "s": 1,
+   "start": 73.777,
+   "end": 74.007
+  },
+  {
+   "w": "agora,",
+   "line": 19,
+   "quote": false,
+   "s": 3,
+   "start": 74.007,
+   "end": 74.525
+  },
+  {
+   "w": "você",
+   "line": 19,
+   "quote": false,
+   "s": 2,
+   "start": 74.525,
+   "end": 74.899
+  },
+  {
+   "w": "decide:",
+   "line": 19,
+   "quote": false,
+   "s": 3,
+   "start": 74.899,
+   "end": 75.417
+  },
+  {
+   "w": "A:",
+   "line": 20,
+   "quote": false,
+   "s": 1,
+   "start": 75.688,
+   "end": 75.913
+  },
+  {
+   "w": "o",
+   "line": 20,
+   "quote": false,
+   "s": 1,
+   "start": 76.172,
+   "end": 76.422
+  },
+  {
+   "w": "Rafa",
+   "line": 20,
+   "quote": false,
+   "s": 2,
+   "start": 76.422,
+   "end": 76.83
+  },
+  {
+   "w": "perdoa...",
+   "line": 20,
+   "quote": false,
+   "s": 2,
+   "start": 76.83,
+   "end": 77.237
+  },
+  {
+   "w": "e",
+   "line": 20,
+   "quote": false,
+   "s": 1,
+   "start": 77.237,
+   "end": 77.487
+  },
+  {
+   "w": "o",
+   "line": 20,
+   "quote": false,
+   "s": 1,
+   "start": 77.487,
+   "end": 77.738
+  },
+  {
+   "w": "Biel",
+   "line": 20,
+   "quote": false,
+   "s": 1,
+   "start": 77.738,
+   "end": 77.988
+  },
+  {
+   "w": "paga",
+   "line": 20,
+   "quote": false,
+   "s": 2,
+   "start": 77.988,
+   "end": 78.395
+  },
+  {
+   "w": "aos",
+   "line": 20,
+   "quote": false,
+   "s": 1,
+   "start": 78.395,
+   "end": 78.646
+  },
+  {
+   "w": "poucos.",
+   "line": 20,
+   "quote": false,
+   "s": 2,
+   "start": 78.646,
+   "end": 79.053
+  },
+  {
+   "w": "B:",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 79.275,
+   "end": 79.577
+  },
+  {
+   "w": "ou",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 79.841,
+   "end": 80.063
+  },
+  {
+   "w": "tira",
+   "line": 21,
+   "quote": false,
+   "s": 2,
+   "start": 80.063,
+   "end": 80.422
+  },
+  {
+   "w": "o",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 80.422,
+   "end": 80.643
+  },
+  {
+   "w": "Biel",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 80.643,
+   "end": 80.864
+  },
+  {
+   "w": "do",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 80.864,
+   "end": 81.085
+  },
+  {
+   "w": "time...",
+   "line": 21,
+   "quote": false,
+   "s": 2,
+   "start": 81.085,
+   "end": 81.445
+  },
+  {
+   "w": "pra",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 81.445,
+   "end": 81.666
+  },
+  {
+   "w": "não",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 81.666,
+   "end": 81.887
+  },
+  {
+   "w": "perder",
+   "line": 21,
+   "quote": false,
+   "s": 2,
+   "start": 81.887,
+   "end": 82.246
+  },
+  {
+   "w": "mais?",
+   "line": 21,
+   "quote": false,
+   "s": 1,
+   "start": 82.246,
+   "end": 82.468
+  },
+  {
+   "w": "Comenta",
+   "line": 22,
+   "quote": false,
+   "s": 3,
+   "start": 82.684,
+   "end": 83.076
+  },
+  {
+   "w": "aí:",
+   "line": 22,
+   "quote": false,
+   "s": 1,
+   "start": 83.076,
+   "end": 83.25
+  },
+  {
+   "w": "A",
+   "line": 22,
+   "quote": false,
+   "s": 1,
+   "start": 83.496,
+   "end": 83.807
+  },
+  {
+   "w": "ou",
+   "line": 22,
+   "quote": false,
+   "s": 1,
+   "start": 83.807,
+   "end": 84.117
+  },
+  {
+   "w": "B.",
+   "line": 22,
+   "quote": false,
+   "s": 1,
+   "start": 84.117,
+   "end": 84.428
+  }
+ ]
+}

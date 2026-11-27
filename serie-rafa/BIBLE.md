@@ -58,6 +58,7 @@ Processo de produção: skill `.claude/skills/rafa-shorts`. Estado atual: `serie
 | 6 "Nona entrega" | 6 | R$ 148 (+63) | 25 (meta R$ 69) | Sozinho, 7h em ponto, R$ 6 abaixo da meta; vê a senhora do geladinho. Voto: A) larga as entregas e aposta tudo / B) continua nas entregas (dinheiro certo) |
 | 7 "Gelo com sal" | 7→8 | R$ 218 (−40 +110) | 23 (meta R$ 69, batida) | Gelo com sal na caixa do Bené; vende 55 na saída do colégio; a senhora: "esse ponto aqui é meu". Voto: A) outro ponto, longe da escola / B) fica e vende a R$ 1,50 |
 | 8 "Guerra de preço" | 9→10 | R$ 244 (282 no dia 9) | 21 (meta R$ 73) | R$ 1,50: vende 80 e ganha R$ 64; a senhora baixa pra R$ 1 (custo dela R$ 0,50); proposta: "eu tenho freezer e faço barato, tu tem perna e tem freguês". Voto: A) sócio dela, divide o lucro / B) recusa, segue na guerra de preço |
+| 9 "A sociedade" | 11 | R$ 336 (376 − 40) | 20 (meta R$ 78) | Sócio da Dona Graça; Kauã, Duda e Biel revendem (R$ 0,30/un); 200 vendidos, R$ 132 pro Rafa; Biel volta sem R$ 40 (remédio da irmã). Voto: A) perdoa, paga aos poucos / B) tira o Biel do time |
 
 ## Roteiros
 ### EP01 (do flow ElevenLabs)
@@ -246,3 +247,31 @@ Comenta aí: A ou B.
 ```
 Experimento (não é regra): gag do "aaah" (som do Roblox Work at a Pizza Place, arquivo do usuário) depois do carimbo do despejo —
 Rafa com `expr="scream"` e `armUp="both"`.
+
+### EP09 (final — take `_1`, 84,4 s de voz, vídeo ≈ 87,4 s)
+```
+[excited] 200 geladinhos por dia. Foi assim que começou a sociedade.
+[warmly] Dessa vez foi acirrado... mas a opção A ganhou.
+Vocês escolheram: o Rafa virou sócio da senhora.
+Se você chegou agora: o Rafa tem 20 dias pra juntar R$ 1.800... ou a família perde a casa.
+O nome dela era Dona Graça. E o acordo era simples:
+ela fazia, com o freezer dela e a polpa do atacado.
+Ele vendia. E o preço voltou pra R$ 2.
+[curious] Só que 200 geladinhos... ele não vendia sozinho.
+Aí ele lembrou dos três meninos da rua dele. Com bicicleta... e sem trabalho.
+[excited] Kauã, Duda e Biel. 30 centavos pra cada geladinho vendido.
+O Rafa ficou na porta do colégio. Os meninos se espalharam pelo bairro.
+[dramatically] No fim do dia: 200 vendidos.
+Tirando o custo, a comissão e a parte da Dona Graça...
+R$ 132 pro Rafa. Quase o dobro da meta.
+[warmly] Naquela noite, ele mostrou o caderno pra mãe. Ela leu duas vezes.
+[softly] Mas na hora de acertar as contas... faltou um.
+Biel voltou sem o dinheiro. R$ 40.
+[pause] E com o olho vermelho.
+"Minha irmã tava com febre, Rafa... eu comprei o remédio."
+[curious] E agora, você decide:
+A: o Rafa perdoa... e o Biel paga aos poucos.
+B: ou tira o Biel do time... pra não perder mais?
+Comenta aí: A ou B.
+```
+A senhora agora tem nome: **Dona Graça**. Biel tem uma irmã (estava com febre).
