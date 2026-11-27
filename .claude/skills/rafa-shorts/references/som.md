@@ -27,3 +27,12 @@ Ferramenta: `remotion/tools/sound.py voz.mp3 cues.json mix.wav` (sintetiza trilh
 - Trilha −9 dB e SFX −8 dB abaixo da voz (RMS com gate). Pico de SFX limitado a 0,7× o pico da voz.
 - Ganho global pra média ≈ −19 dB e limitador em −1,5 dB (mesmo nível dos EP01–04).
 - Conferir no MP4 final: `ffmpeg -i out.mp4 -af volumedetect -f null -` → média ≈ −19 dB, pico ≤ −1,5 dB.
+
+## "Aaah" do Pizza Place (aprovado pelo usuário, 2026-11-27)
+- Arquivo: `remotion/public/ep08/aaah.mp3` (som do jogo Roblox "Work at a Pizza Place", ~1,1 s). Puxa comentário de quem joga Roblox.
+- **De vez em quando** (não em todo episódio — piada repetida perde a graça). Sugestão: ~1 a cada 3 episódios.
+- Onde: no recap, no MEIO da palavra "casa" ("...ou a família perde a **ca**sa"). NUNCA depois do carimbo (ficou ruim).
+- Como: `"samples": [[meio_de_casa, "../ep08/aaah.mp3", 0.55]]` no `cues.json` (pico ~55% da voz) + visual:
+  Rafa centralizado com `expr="scream"`, `armUp="both"`, "AAAH!" amarelo inclinado, tranco de zoom e tremor;
+  em seguida **corte seco** (`<Scene hardCut>`, sem whoosh) pra próxima cena.
+- Risco: é áudio de jogo; se alguma plataforma silenciar, trocar por grito sintetizado.

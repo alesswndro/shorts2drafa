@@ -58,6 +58,8 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 **Visual e som**
 - **HUD idêntico ao original** — componente `Hud` com as medidas de `references/visual.md`. Não mexer.
 - **Câmera sempre se movendo devagar** (zoom suave, deslize leve, paralaxe) — nada parado, nada exagerado.
+- **"Aaah" do Pizza Place de vez em quando** (~1 a cada 3 eps): no meio de "casa" do recap, Rafa gritando + corte seco
+  (`references/som.md`).
 - Efeito/drone tenso **só onde a cena pede** (picos dramáticos curtos); no resto, trilha normal (`references/som.md`).
 - Voz do Sandro nunca é editada nem re-cronometrada; a imagem se ajusta à voz.
 
@@ -121,7 +123,7 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-26 — Voto EP06 = A. Abertura ganha o placar do voto antes do "Vocês escolheram" (pedido do usuário).
 - 2026-11-26 — EXPERIMENTO no EP07 (ainda NÃO é regra; registrar só se o usuário aprovar): visual mais apelativo —
   punch-in, flash nas viradas, brilhos/moedas, contadores animados (helpers em `scene.tsx`).
-- 2026-11-27 — EXPERIMENTO no EP08 (NÃO é regra ainda): som "aaah" (Roblox Pizza Place). Feedback do usuário: gostou do som,
+- 2026-11-27 — APROVADO (de vez em quando): som "aaah" (Roblox Pizza Place). Feedback do usuário: gostou do som,
   mas depois do carimbo ficou ruim → v2: no MEIO da palavra "casa" ("...ou a família perde a casa"), Rafa grita
   (`expr="scream"`, `armUp="both"`, "AAAH!") e CORTE SECO pra próxima cena. `sound.py` aceita `samples` de arquivo.
 - 2026-11-27 — Correção do usuário: profundidade — personagens do fundo atrás e menores (ver `references/visual.md`).
