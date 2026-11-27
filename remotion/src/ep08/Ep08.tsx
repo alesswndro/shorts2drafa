@@ -29,7 +29,7 @@ const CHUNKS: Chunk[] = [
   [158, 160], [161, 163], [164, 165],
 ];
 
-const T = {S1: 0, VOTE: 4.5, S3: 9.1, S4: 16.8, S5: 22.0, S6: 27.0, S7: 30.6, S7b: 40.9, S8: 45.9, S9: 50.9, S10: 57.5, S11: 61.7, S12: 69.7, POLL: 77.8};
+const T = {S1: 0, VOTE: 4.5, S3: 9.1, S4: 17.5, S5: 22.0, S6: 27.0, S7: 30.6, S7b: 40.9, S8: 45.9, S9: 50.9, S10: 57.5, S11: 61.7, S12: 69.7, POLL: 77.8};
 const capY = (s: number) =>
   s < T.S4 ? 1720 : s < T.S5 ? 470 : s < T.S6 ? 1720 : s < T.S7 ? 470 : s < T.S7b ? 1740 : s < T.S8 ? 1720 : s < T.S9 ? 470 : s < T.S10 ? 1720 : 470;
 const Captions = makeCaptions(W, CHUNKS, capY);
@@ -73,25 +73,27 @@ export const Ep08: React.FC = () => {
   const day10 = f >= F('S8');
   const guardado = f < t(128) ? countUp(f, t(56), t(56) + 30, 218, 282) : countUp(f, t(128), t(128) + 30, 282, 244);
   const hud = {dia: day10 ? 10 : 9, guardado, despejo: day10 ? 21 : 22, meta: day10 ? 73 : 72, metaAlert: true, despejoAlert: f >= t(27) && f < t(33), guardadoShakeAt: t(128)};
-  const stamp = t(31); // carimbo do R$ 1.800 → gag do "aaah"
+  const stamp = t(31); // carimbo do R$ 1.800 (só o som do carimbo)
+  const aaah = sec((W[38].start + W[38].end) / 2); // meio da palavra "casa" → grito + corte seco
 
   return (
     <AbsoluteFill style={{background: C.ink, fontFamily: FONT}}>
       <Audio src={staticFile('ep08/mix.wav')} />
 
-      {/* 1 — R$ 1,50: a fila inteira troca de lado */}
+      {/* 1 — R$ 1,50: a fila inteira troca de lado (crianças ATRÁS do Rafa: profundidade) */}
       <Scene from={F('S1')} to={F('VOTE')} zoom={0.06} pan={[0, -24]}>
         <Par depth={0.5}><SchoolGate open={1} /></Par>
+        {[3, 2, 1, 0].map((i) => {
+          const run = ramp(f, t(4) + i * 3, t(4) + i * 3 + 18, 0, 1);
+          const P: any = [Kaua, Duda, Biel, Kaua][i];
+          const x0 = 660 - i * 40, x1 = 250 + i * 115;
+          return <At key={i} x={x0 + (x1 - x0) * run} y={1080 + Math.abs(Math.sin((f + i * 7) / 3.5)) * -14 * run}><P width={165} expr="happy" blink={B(3 + i)} look={[run > 0 && run < 1 ? -1 : -0.6, 0]} /></At>;
+        })}
+        <At x={700} y={940}><SenhoraGeladinho width={360} expr={f >= t(4) ? 'worried' : 'happy'} blink={B(2)} look={[-0.8, 0]} /></At>
+        <At x={760} y={790} r={5}><PriceSign price="R$ 2" w={220} /></At>
         <At x={20} y={1000}><Rafa width={380} expr="happy" blink={B(1)} look={[0.8, 0]} /></At>
         <At x={50} y={1460}><CoolerOpen w={300} /></At>
         <At x={70} y={860} r={-6}><PriceSign price="R$ 1,50" color={C.greenDark} /></At>
-        <At x={700} y={940}><SenhoraGeladinho width={360} expr={f >= t(4) ? 'worried' : 'happy'} blink={B(2)} look={[-0.8, 0]} /></At>
-        <At x={760} y={790} r={5}><PriceSign price="R$ 2" w={220} /></At>
-        {[0, 1, 2, 3].map((i) => {
-          const run = ramp(f, t(4) + i * 3, t(4) + i * 3 + 18, 0, 1);
-          const P: any = [Kaua, Duda, Biel, Kaua][i];
-          return <At key={i} x={640 - i * 40 - run * 360} y={1150 + (i % 2) * 30 + Math.abs(Math.sin((f + i * 7) / 3.5)) * -16 * run}><P width={190} expr="happy" blink={B(3 + i)} look={[run > 0 ? -1 : 0.6, 0]} /></At>;
-        })}
       </Scene>
 
       {/* 2 — "A maioria escolheu B" */}
@@ -116,25 +118,23 @@ export const Ep08: React.FC = () => {
         </Punch>
       </Scene>
 
-      {/* 3 — recap: despejo + gag do "aaah" depois do carimbo */}
+      {/* 3 — recap: despejo · no meio de "casa": "aaah" + Rafa gritando, corte seco pra próxima cena */}
       <Scene from={F('S3')} to={F('S4')} zoom={0.05} pan={[-30, 0]}>
-        <Punch at={[stamp + 8]} amt={0.05}>
+        <Punch at={[aaah]} amt={0.08}>
           <Par depth={0.6}><EvictionDoor stampAt={stamp} /></Par>
-          {f < stamp + 8 ? (
+          {f < aaah ? (
             <At x={640} y={1180}><Rafa width={460} expr="worried" blink={B(6)} look={[-0.6, -0.4]} /></At>
           ) : (
-            <At x={330 + shake(f, stamp + 8, 30, 8)} y={1060 - pop(f, stamp + 8, 8) * 40}>
-              <Rafa width={540} expr={f < stamp + 50 ? 'scream' : 'worried'} armUp={f < stamp + 50 ? 'both' : 'none'} blink={false} look={[-0.2, -0.6]} />
+            <At x={330 + shake(f, aaah, 30, 8)} y={1060 - pop(f, aaah, 8) * 40}>
+              <Rafa width={540} expr="scream" armUp="both" blink={false} look={[-0.2, -0.6]} />
             </At>
           )}
-          {f >= stamp + 8 && f < stamp + 46 && (
-            <div style={{position: 'absolute', left: 40, top: 1150, fontSize: 130, fontWeight: 700, color: C.yellow, ...strokeText(14), transform: `rotate(-12deg) scale(${pop(f, stamp + 8, 7)})`}}>AAAH!</div>
-          )}
+          {f >= aaah && <div style={{position: 'absolute', left: 40, top: 1150, fontSize: 130, fontWeight: 700, color: C.yellow, ...strokeText(14), transform: `rotate(-12deg) scale(${pop(f, aaah, 7)})`}}>AAAH!</div>}
         </Punch>
       </Scene>
 
       {/* 4 — as crianças olham as duas caixas... e correm pra dele */}
-      <Scene from={F('S4')} to={F('S5')} zoom={0.06} pan={[30, -10]}>
+      <Scene from={F('S4')} to={F('S5')} zoom={0.06} pan={[30, -10]} hardCut>
         <Par depth={0.5}><SchoolGate open={1} /></Par>
         <At x={30} y={1460}><CoolerOpen w={300} /></At>
         <At x={50} y={1300} r={-6}><PriceSign price="R$ 1,50" color={C.greenDark} w={240} /></At>

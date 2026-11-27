@@ -12,13 +12,13 @@ import {FPS} from '../theme';
 type Ctx = {k: number; pan: [number, number]};
 const SceneCtx = createContext<Ctx>({k: 0, pan: [0, 0]});
 
-export const Scene: React.FC<{from: number; to: number; children: React.ReactNode; zoom?: number; pan?: [number, number]}> = ({
-  from, to, children, zoom = 0.05, pan = [0, -30],
+export const Scene: React.FC<{from: number; to: number; children: React.ReactNode; zoom?: number; pan?: [number, number]; hardCut?: boolean}> = ({
+  from, to, children, zoom = 0.05, pan = [0, -30], hardCut = false,
 }) => {
   const f = useCurrentFrame();
   if (f < from || f >= to) return null;
   const k = interpolate(f, [from, to], [0, 1], {easing: Easing.inOut(Easing.sin)});
-  const intro = interpolate(f - from, [0, 5], [1.05, 1], {extrapolateRight: 'clamp'});
+  const intro = hardCut ? 1 : interpolate(f - from, [0, 5], [1.05, 1], {extrapolateRight: 'clamp'});
   const s = (zoom >= 0 ? 1 + zoom * k : 1 - zoom + zoom * k) * intro;
   return (
     <SceneCtx.Provider value={{k, pan}}>

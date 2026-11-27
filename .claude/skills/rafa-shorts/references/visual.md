@@ -100,3 +100,9 @@ Atenção: Dona Socorro e Diretora são parecidas (senhora, cabelo grisalho, óc
   Tamanho bom: 700–780 px de largura em plano médio; ~420 px atravessando a tela.
 - A bike antiga (Rafa em pé atrás da bike) foi descartada: ficou ruim.
 
+
+## Profundidade (correção do usuário, 2026-11-27)
+- Quem está mais longe é desenhado ANTES (fica atrás) e menor (~15–25% menor) e um pouco mais alto na tela.
+  Ex.: fila de crianças atrás do Rafa — elas passam por trás dele, nunca na frente.
+- Ordem de camadas numa cena: fundo → personagens do fundo → objetos do fundo → personagens da frente → objetos da frente.
+- Corte seco (`Scene hardCut`): sem micro-pop de entrada e sem whoosh — usar depois de um som de impacto/piada.

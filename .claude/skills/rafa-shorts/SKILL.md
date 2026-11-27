@@ -121,5 +121,7 @@ Fonte da verdade (LEIA ANTES de escrever qualquer coisa):
 - 2026-11-26 — Voto EP06 = A. Abertura ganha o placar do voto antes do "Vocês escolheram" (pedido do usuário).
 - 2026-11-26 — EXPERIMENTO no EP07 (ainda NÃO é regra; registrar só se o usuário aprovar): visual mais apelativo —
   punch-in, flash nas viradas, brilhos/moedas, contadores animados (helpers em `scene.tsx`).
-- 2026-11-27 — EXPERIMENTO no EP08 (NÃO é regra; registrar só se o usuário aprovar): som "aaah" (Roblox) depois do
-  carimbo do despejo, Rafa gritando bem cartoon (`expr="scream"`, `armUp="both"`); `sound.py` aceita `samples` de arquivo.
+- 2026-11-27 — EXPERIMENTO no EP08 (NÃO é regra ainda): som "aaah" (Roblox Pizza Place). Feedback do usuário: gostou do som,
+  mas depois do carimbo ficou ruim → v2: no MEIO da palavra "casa" ("...ou a família perde a casa"), Rafa grita
+  (`expr="scream"`, `armUp="both"`, "AAAH!") e CORTE SECO pra próxima cena. `sound.py` aceita `samples` de arquivo.
+- 2026-11-27 — Correção do usuário: profundidade — personagens do fundo atrás e menores (ver `references/visual.md`).
